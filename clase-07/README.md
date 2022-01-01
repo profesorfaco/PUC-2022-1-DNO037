@@ -18,6 +18,7 @@ Nos queda por explorar:
 
 - [Leaflet.js](https://leafletjs.com/) – *The leading open-source JavaScript library for mobile-friendly interactive maps*.
 
+- - - - - - - - 
 
 En la clase de hoy nos referiremos a [jQuery](https://jquery.com/).
 

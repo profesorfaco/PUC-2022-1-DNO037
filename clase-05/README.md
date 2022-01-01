@@ -99,7 +99,7 @@ Para cerrar, recordemos que existen servicios que ofrecen datos en línea. Mucho
 - indicadores económicos diarios en Chile: https://mindicador.cl/api
 - etcétera: https://github.com/juanbrujo/listado-apis-publicas-en-chile
 
-Ustedes pueden practicar la consulta a tales servicios con el [editor de p5.js](https://editor.p5js.org/profesorfaco/sketches/611nBVIY2).
+Ustedes pueden hacer pruebas rápidas de consulta a tales servicios con el [editor de p5.js](https://editor.p5js.org/profesorfaco/sketches/611nBVIY2).
 
 - - - - - - - - - 
 

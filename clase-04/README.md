@@ -29,4 +29,4 @@ En el criterio **E**, conviene considerar la consistencia en el paso de una pág
 
 - - - - - - - 
 
-###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2022/tree/main/clase-02) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2022/tree/main/clase-04)
+###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2022/tree/main/clase-03) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2022/tree/main/clase-05)

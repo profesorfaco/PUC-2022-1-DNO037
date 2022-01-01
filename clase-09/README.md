@@ -4,7 +4,9 @@
 
 ### Evaluación Nº2
 
-Cada estudiante cuenta con el horario de clases para publicar, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión del sitio web que está contenido en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2022/clase-08/).
+Cada estudiante cuenta con el horario de clases para publicar, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión del sitio web que está contenido en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2022/clase-09/).
+
+Para poder resolver esta evaluación, corresponde buscar información sobre una saga de películas hollywoodenses, con tantas partes como Harry Potter, Rápido y Furioso… o StarWars.
 
 Cada versión debe ajustarse a la siguiente pauta de cotejo:
 

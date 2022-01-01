@@ -78,59 +78,9 @@ Las opciones de selectores y acciones son descritas detalladamente en https://ap
 
 ### Práctica
 
-La exploración estará enfocada en jQuery, por lo que conviene tener a la manos las opciones de selectores y acciones que son descritas detalladamente en https://api.jquery.com/, y de manera muy abreviada en https://htmlcheatsheet.com/jquery/
+La práctica estará enfocada en jQuery, por lo que conviene tener a la manos las opciones de selectores y acciones que son descritas detalladamente en https://api.jquery.com/, y de manera muy abreviada en https://htmlcheatsheet.com/jquery/
 
-Además, es necesario contar con un editor de código fuente; allí vamos a crear un documento nuevo, pegar el código que sigue y guardarlo con el nombre ejemplo.html:
-
-```
-<!DOCTYPE html>
-<html lang="es">
-    <head>
-        <meta charset="utf-8">
-        <title>Esto es un ejemplo</title>
-        <style>
-            select { margin: 1%; }
-            main { display: flex; flex-flow: row wrap; }
-            article { width: calc(16% - 2px); padding: 1%; margin: 1%; border: 1px solid black; }
-        </style>
-    </head>
-    <body>
-        <select>
-            <option selected>Todos</option>
-            <option>Pares</option>
-            <option>Impares</option>
-        </select>
-        <main></main>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
-        <script>
-            $(document).ready(function () {
-                for (var n = 1; n < 11; n++) {
-                    if (n % 2 == 0) {
-                        $("main").append('<article class="par">' + n + "</article>");
-                    } else {
-                        $("main").append('<article class="impar">' + n + "</article>");
-                    }
-                }
-                var v;
-                $("select").on("change", function () {
-                    v = this.value;
-                    if (v == "Pares") {
-                        $(".par").fadeTo("slow", 1);
-                        $(".impar").fadeTo("slow", 0.1);
-                    } else if (v == "Impares") {
-                        $(".par").fadeTo("slow", 0.1);
-                        $(".impar").fadeTo("slow", 1);
-                    } else {
-                        $(".par, .impar").fadeTo("slow", 1);
-                    }
-                });
-            }); //cierro ready(function(){})
-        </script>
-    </body>
-</html>
-```
-
-Podemos abrir este ejemplo.html en Chrome o Firefox. 
+Usaremos datos reales de movimientos telúricos registrados por la USGS: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php, porque existe la posibilidad de que tengamos información precisa sobre un temblor que pueda darse durante el horario de clase.
 
 El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión ajustada del sitio web contenido en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2022/clase-07/).
 

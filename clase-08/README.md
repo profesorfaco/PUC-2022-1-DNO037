@@ -57,9 +57,27 @@ Cada línea de valores separado por coma pasa a ser un elemento en un arreglo al
 
 Esto resulta útil cuando no todos los datos serán encontrados en línea en JSON. Algunos podrían estar en CSV, y para ir por ellos, podemos usar PapaParse. Luego, si contamos con datos con información georeferenciada, podríamos ponerlos en un mapa, por ejemplo:
 
+```
+region,lat,lon,boric,kast
+"Arica y Parinacota",-18.475,-70.314444,50.58,49.42
+"Tarapacá",-20.283333,-69.333333,48.68,51.32
+"Antofagasta",-23.644167,-70.410833,59.78,40.22
+"Atacama",-27.366667,-70.332222,65.43,34.57
+"Coquimbo",-29.907778,-71.254167,63.29,36.71
+"Valparaíso",-33.063056,-71.639444,59.30,40.70
+"Metropolitana",-33.437778,-70.650278,60.33,39.67
+"O'Higgins",-34.371944,-71.124528,57.33,42.67
+"Maule",-35.426667,-71.671667,48.96,51.04
+"Ñuble",-36.616667,-71.95,41.45,58.55
+"Biobío",-36.772778,-73.063056,48.17,51.83
+"Araucanía",-38.9,-72.666667,39.86,60.14
+"Los Ríos",-39.808333,-73.241667,50.47,49.53
+"Los Lagos",-41.471667,-72.936667,50.05,49.95
+"Aysén",-45.57,-72.066111,56.26,43.74
+"Magallanes",-53.1625,-70.9225,61.29,38.71
+```
 
-
-**Con tales datos podemos pasar a [Leaflet.js](https://leafletjs.com/), una biblioteca de JavasScript que ofrece una alternativa ligera para trabajar con mapas interactivos**. Para usarla necesitamos conocer las coordenadas geográficas de lo que se quiera apuntar para, primero, establecer un centro del mapa y luego hacer las marcas correspondientes. También corresponde decidir por un tipo de mapa a usar: 
+**Con tales, tomados desde un [CSV en línea](https://raw.githubusercontent.com/profesorfaco/dno037-2022/main/clase-08/segunda-vuelta-presidencial.csv) y ya dentro dentro una variable de JavaScript, datos podemos pasar a [Leaflet.js](https://leafletjs.com/): Una biblioteca de JavasScript que ofrece una alternativa ligera para trabajar con mapas interactivos**. Para usarla necesitamos conocer las coordenadas geográficas de lo que se quiera apuntar para, primero, establecer un centro del mapa y luego hacer las marcas correspondientes. También corresponde decidir por un tipo de mapa a usar: 
 
 - [mapbox/light-v10](https://api.mapbox.com/styles/v1/mapbox/light-v10.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#10/-33.47/-70.64); 
 - [mapbox/dark-v10](https://api.mapbox.com/styles/v1/mapbox/dark-v10.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#10/-33.47/-70.64); 

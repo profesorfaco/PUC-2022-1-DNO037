@@ -34,7 +34,7 @@ A estos dos tipos de datos, podemos agregar:
 
 - **"ALGUNAS PALABRAS"** como una cadena de caracteres (en inglés: *string*)
 
-Notemos que en el tipo de dato numérico y booleano no se usan comillas, pero cuando se involucran los caracteres aislados o en cadena, sí. 
+¡En el tipo de dato numérico y booleano no se usan comillas, pero cuando se involucran los caracteres aislados o en cadena, sí!
 
 Mencionamos `int`, `float`, `bool`, `char` y `string`, porque son palabras que en lenguajes de programación más clásicos se reservan para **declarar que tal variable almacenará tal tipo de dato. Pero en JavaScript podemos crear toda variables con una única palabra reservada,`var`**. También podemos usar `let` y `const`. Para entender la diferencia, nos conviene consultar el artículo [Var, let y const. ¿Donde, cuando y por qué?](https://medium.com/@tatymolys/var-let-y-const-donde-cuando-y-por-qu%C3%A9-d4a0ee66883b).
 

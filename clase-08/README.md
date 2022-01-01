@@ -18,6 +18,8 @@ Nos queda por explorar:
 
 - [Leaflet.js](https://leafletjs.com/) – *The leading open-source JavaScript library for mobile-friendly interactive maps*.
 
+- - - - - - - - 
+
 En la clase de hoy revisaremos las que quedan pendientes.
 
 **[Papa Parse](https://www.papaparse.com/) nos permite hacer un análisis sintáctico de una estructura de datos contenidos en un archivo [CSV](https://es.wikipedia.org/wiki/Valores_separados_por_comas) para asignarla a una variable en JavaScript. En inglés, y más breve: CSV parsing.**

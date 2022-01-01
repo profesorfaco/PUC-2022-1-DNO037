@@ -95,8 +95,8 @@ Esas dos estructuras son las que encontramos en la notación original de objetos
 Para cerrar, recordemos que existen servicios que ofrecen datos en línea. Mucho más útiles que los datos de personajes de [StarWars](https://swapi.dev/api/people/?format=json), pueden ser los datos sobre:
 
 - tiempo atmosférico: https://openweathermap.org/current#current_JSON
-- movimientos telúricos: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
 - indicadores económicos diarios en Chile: https://mindicador.cl/api
+- movimientos telúricos: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
 - etcétera: https://github.com/juanbrujo/listado-apis-publicas-en-chile
 
 Ustedes pueden hacer pruebas rápidas de consulta a tales servicios con el [editor de p5.js](https://editor.p5js.org/profesorfaco/sketches/611nBVIY2).

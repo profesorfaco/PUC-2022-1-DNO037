@@ -91,7 +91,7 @@ Las variables `f`, `g` y `h` pueden verse como algo que ya hemos usado para inte
 
 - **Una lista ordenada de valores**. En la mayoría de los lenguajes, esto se implementa como arreglos, vectores, listas o sequencias.
 
-Esas dos estructuras son las que encontramos en la notación de objetos de JavaScript; **lo que diferencia a JSON de la redacción de un pedazo de Javascript es un par de comillas: en `var h`, los nombres `mom`, `dad` y `children` no llevan comillas. Pero [en JSON sí deben llevarlos](https://myjson.dit.upm.es/api/bins/1wo6). 
+Esas dos estructuras son las que encontramos en la notación de objetos de JavaScript; **lo que diferencia a JSON de la redacción de un pedazo de Javascript es un par de comillas: en `var h`, los nombres `mom`, `dad` y `children` no llevan comillas. Pero [en JSON sí deben llevarlos](https://myjson.dit.upm.es/api/bins/1wo6). Y si está bien redactado, podemos usarlo: https://editor.p5js.org/profesorfaco/sketches/611nBVIY2
 
 - - - - - - - - - 
 

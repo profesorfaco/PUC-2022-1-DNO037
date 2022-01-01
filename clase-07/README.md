@@ -2,7 +2,7 @@
 
 # HTML5 + CSS3 + otras bibliotecas de JavaScript
 
-### Lectura
+### Teoría
 
 Las [bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript_libraries) que hemos explorado, son:
 
@@ -76,10 +76,9 @@ Las opciones de selectores y acciones son descritas detalladamente en https://ap
 - - - - - - -
 
 
-### Exploración
+### Práctica
 
 La exploración estará enfocada en jQuery, por lo que conviene tener a la manos las opciones de selectores y acciones que son descritas detalladamente en https://api.jquery.com/, y de manera muy abreviada en https://htmlcheatsheet.com/jquery/
-
 
 Además, es necesario contar con un editor de código fuente; allí vamos a crear un documento nuevo, pegar el código que sigue y guardarlo con el nombre ejemplo.html:
 
@@ -132,10 +131,6 @@ Además, es necesario contar con un editor de código fuente; allí vamos a crea
 ```
 
 Podemos abrir este ejemplo.html en Chrome o Firefox. 
-
-- - - - - - -
-
-### Práctica
 
 El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión ajustada del sitio web contenido en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2022/clase-06/).
 

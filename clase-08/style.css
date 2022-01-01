@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #3d3d3d;
+    background: linear-gradient(#f4f4f2, #cad2d3);
+    font-weight: 400;
+}
+
+h1,
+h2 {
+    font-weight: 300;
+}
+
+a {
+    color: #3d3d3d;
+    text-decoration: none;
+}
+
+div.container {
+    margin: 5vh 10vw;
+    width: 80vw;
+    height: 90vh;
+}
+
+header {
+    width: 100%;
+    min-height: 15vh;
+    height: auto;
+}
+
+main {
+    width: 100%;
+    height: 65vh;
+    box-shadow: 0 0 0.25rem #cad2d3;
+    border-radius: 0.5rem;
+}
+
+main #mapa {
+    width: 100%;
+    height: 60vh;
+    border-radius: 0.5rem;
+}
+
+footer {
+    padding-top: 5vh;
+    height: 5vh;
+    width: 100%;
+    font-size: 80%;
+    letter-spacing: 0.05rem;
+}
+
+footer p{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+}

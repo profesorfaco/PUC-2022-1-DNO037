@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Diseño y nuevos medios, segunda versión remota" />
+        <link href="style.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+        <title>DNO037</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Elección Presidencial 2.0</h1>
+                <h2>Total de Votación en Chile</h2>
+            </header>
+            <main>
+                <div id="mapa"></div>
+            </main>
+            <footer>
+                <p><a href="https://www.servelelecciones.cl/">Datos de Servel Elecciones</a> <a href="#">Nombre Apellido</a> <a href="#">DNO037</a></p>
+            </footer>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js" integrity="sha512-rKFvwjvE4liWPlFnvH4ZhRDfNZ9FOpdkD/BU5gAIA3VS3vOQrQ5BjKgbO3kxebKhHdHcNUHLqxQYSoxee9UwgA==" crossorigin="anonymous"></script>
+
+        <script>
+            Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2022/main/clase-08/segunda-vuelta-presidencial.csv", {
+                download: true,
+                header: true,
+                dynamicTyping: true,
+                complete: function (respuesta) {
+                    var datos = respuesta.data;
+                    console.log(datos);
+
+                    var miMapa = L.map("mapa").setView([-33.4188131, -70.61521], 6);
+
+                    L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw", {
+                        maxZoom: 18,
+                        id: "mapbox/light-v10",
+                        tileSize: 512,
+                        zoomOffset: -1,
+                    }).addTo(miMapa);
+
+                    var texto;
+                    var region;
+
+                    datos.forEach((d) => {
+                        if (d.region != "Metropolitana") {
+                            region = "En la Región de ";
+                        } else {
+                            region = "En la Región ";
+                        }
+
+                        if (d.boric > d.kast) {
+                            texto = region + d.region + ", <strong>Boric</strong> venció a Kast con el " + d.boric + "% de los votos.";
+                        } else {
+                            texto = region + d.region + ", <strong>Kast</strong> venció a Boric con el " + d.kast + "% de los votos.";
+                        }
+
+                        L.marker([d.lat, d.lon]).addTo(miMapa).bindPopup(texto);
+                    });
+                },
+            });
+        </script>
+    </body>
+</html>

@@ -73,7 +73,6 @@ var h = [
         children: ["Poonam", "Sashi", "Pria", "Uma", "Anoop", "Sandeep", "Nabendu", "Gheet"]
     }
 ];
-
 ```
 **Lo que cambia viene después del signo igual `=`, que en este caso está asignando contenido a cada variable.** 
 

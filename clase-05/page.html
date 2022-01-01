@@ -10,66 +10,65 @@
     <body>
         <div class="container">
             <nav>
-                <p><a href="index.html">Portada</a> <a href="page.html?ej=1">Taylor</a> <a href="page.html?ej=2">Quotes</a> <a href="page.html?ej=3">NASA</a></p>
+                <p><a href="index.html">Portada</a> <a href="page.html?x=1">Talca</a> <a href="page.html?x=2">Paris</a> <a href="page.html?x=3">Londres</a></p>
             </nav>
             <main>
-                <div></div>
-                <div></div>
+                <div><h1>Weather App</h1></div>
+                <div><img /></div>
             </main>
             <footer>
                 <p><a href="#">Nombre Apellido</a> <a href="#">DNO037</a></p>
             </footer>
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js" integrity="sha512-N4kV7GkNv7QR7RX9YF/olywyIgIwNvfEe2nZtfyj73HdjCUkAfOBDbcuJ/cTaN04JKRnw1YG1wnUyNKMsNgg3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script>
             var url = new URLSearchParams(window.location.search);
-            var seleccionado = url.get("ej");
+            
+            var seleccionada = url.get("x");
+            
             var data;
 
             var texto = document.querySelector("main").getElementsByTagName("div")[0];
-            var imagen = document.querySelector("main").getElementsByTagName("div")[1];
 
-            if (seleccionado == 1) {
+            var imagen = document.querySelector("main").getElementsByTagName("div")[1].getElementsByTagName("img")[0];
+
+            if (seleccionada == 1) {
                 function preload() {
-                    data = loadJSON("https://api.taylor.rest/");
+                    data = loadJSON("https://api.openweathermap.org/data/2.5/weather?q=Talca,cl&units=metric&appid=PongaAquiSuAPIKey");
                 }
-            } else if (seleccionado == 2) {
+            } else if (seleccionada == 2) {
                 function preload() {
-                    data = loadJSON("https://gist.githubusercontent.com/natebass/b0a548425a73bdf8ea5c618149fe1fce/raw/f4231cd5961f026264bb6bb3a6c41671b044f1f4/quotes.json");
+                    data = loadJSON("https://api.openweathermap.org/data/2.5/weather?q=Paris,fr&units=metric&appid=PongaAquiSuAPIKey");
                 }
-            } else if (seleccionado == 3) {
+            } else if (seleccionada == 3) {
                 function preload() {
-                    // Genera tu propia API Key en https://api.nasa.gov/
-                    // Cambia "DEMO_KEY" por la API Key generada
-                    // Cambia la fecha de la consulta, puedes partir en 1995-6-16 y llegar hasta hoy mismo
-                    // Nota que la api ofrece un texto de "explanation" y la "url" de una imagen
-                    data = loadJSON("https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=2000-1-1");
+                    data = loadJSON("https://api.openweathermap.org/data/2.5/weather?q=London,uk&units=metric&appid=PongaAquiSuAPIKey");
                 }
             } else {
                 data = "Algo salió mal";
             }
+
             function setup() {
                 noCanvas();
-                if (seleccionado == 1) {
-                    createElement("blockquote", data.quote).parent(texto).id("cita");
-                    createElement("cite", " TAYLOR SWIFT").parent("cita");
-                    createImg("images/isometriclove-2.png", "Piano").parent(imagen);
-                    selectAll("nav a")[1].addClass("active");
-                } else if (seleccionado == 2) {
-                    let r = floor(random(0, 101));
-                    createElement("blockquote", data[r].quote + " ").parent(texto).id("cita");
-                    createElement("cite", data[r].author).parent("cita");
-                    createImg("images/isometriclove-3.png", "Notebook").parent(imagen);
-                    selectAll("nav a")[2].addClass("active");
-                } else if (seleccionado == 3) {
-                    // Antes del createP, suma un createImg()
-                    // Revisa como hacerlo en https://p5js.org/es/reference/
-                    createP(data.explanation).parent(texto);
-                    selectAll("nav a")[3].addClass("active");
+
+                if (data != "Algo salió mal") {
+                    createElement("p", "La temperatura en " + data.name + " es de " + Math.round(data.main.temp) + "ºC, con <i>" + data.weather[0].description + "</i>.").parent(texto);
+                    console.log(data);
+                    //vamos a buscar un ícono provisorio en https://openweathermap.org/weather-conditions
+                    imagen.setAttribute("src", "http://openweathermap.org/img/wn/" + data.weather[0].icon + "@4x.png");
+
+                    if (seleccionada == 1) {
+                        selectAll("nav a")[1].addClass("active");
+                    } else if (seleccionada == 2) {
+                        selectAll("nav a")[2].addClass("active");
+                    } else {
+                        selectAll("nav a")[3].addClass("active");
+                    }
+
                 } else {
-                    createP(data).parent(texto);
-                    w;
+                    createElement("p", data).parent(texto);
                 }
+
             }
         </script>
     </body>

@@ -2,7 +2,7 @@
 
 # HTML5 + CSS3 + otras bibliotecas de JavaScript
 
-### Lectura
+### Teoría
 
 Las [bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript_libraries) que exploraremos, además de [p5.js](https://p5js.org/es/), son:
 
@@ -51,8 +51,6 @@ meta: {	... }     // extra parse info
 
 Cada línea de valores separado por coma pasa a ser un elemento en un arreglo al que nos podemos referir con un `respuesta.data`
 
-
-
 En la *parsed data* podríamos encontrar valores numéricos para visualizar con gráficos de [línea](https://www.chartjs.org/docs/latest/charts/line.html), [barra](https://www.chartjs.org/docs/latest/charts/bar.html), [radar](https://www.chartjs.org/docs/latest/charts/radar.html), [torta](https://www.chartjs.org/docs/latest/charts/doughnut.html), [área polar](https://www.chartjs.org/docs/latest/charts/polar.html), [burbujas](https://www.chartjs.org/docs/latest/charts/bubble.html) y [dispersión](https://www.chartjs.org/docs/latest/charts/scatter.html), que son los tipos de gráficos disponibles en otra biblioteca de JavaScript:
 
 **[Chart.js](https://www.chartjs.org/docs/latest/charts/?h=type) nos permite implementar gráficos desde valores numéricos. Su promesa, en inglés, es *Simple yet flexible JavaScript charting for designers & developers*. Al ubicarse en ese lugar intermedio puede provocar dolores de cabeza en los extremos caricaturizados: muy complejo para *designers* o muy simple para *developers*.** 
@@ -76,10 +74,6 @@ new Chart(document.getElementById('nombre').getContext('2d'), {type: '…', data
 ```
 
 Más arriba mostramos unas líneas de código para resolver algo con [Papa Parse](https://www.papaparse.com/), y tales líneas son todas las que se necesitan. Pero las recién presentadas muestran el inicio del trabajo con [Chart.js](https://www.chartjs.org/docs/latest/charts/?h=type); para aprender más sobre la configuración corresponde hacer algo de exploración.
-
-- - - - - - - - - - - 
-
-### Exploración
 
 Antes de partir la exploración necesaria para hacer la configuración de [Chart.js](https://www.chartjs.org/docs/latest/charts/?h=type), corresponde:
 
@@ -156,39 +150,6 @@ El ejercicio completo puede ser evaluado con:
 
 El ejercicio incompleto es evaluado con 0 punto.
 
-| Nº   | Estudiante      | GitHub    | Ejercicio clase-05 |
-|:----:|:----------------|:----------|:-------------------|
-| 1    | DIEGO BARRIENTOS | — | — |
-| 2    | MARTÍN BENNETT | https://github.com/bennett-martin/ | https://bennett-martin.github.io/dno-clase3-04-14/ |
-| 3    | RODRIGO CAMPUSANO | https://github.com/rodrigocampusano | https://rodrigocampusano.github.io/Clase5/ |
-| 4    | PALOMA CARRASCO | https://github.com/palomacarrasco | https://palomacarrasco.github.io/dno037-clase-5/ |
-| 5    | SOFIA CAVALLINI | https://github.com/sofiacavallinii | — |
-| 6    | VICENTE ESPINOSA | https://github.com/vtespinosa | https://vtespinosa.github.io/diseno/clase-05/ |
-| 7    | FELIPE FUENTEALBA | https://github.com/leocto | https://leocto.github.io/Nuevos_Medios_5/ |
-| 8    | VERÓNICA GATICA | https://github.com/verogatica | https://verogatica.github.io/5clase_dno037/ |
-| 9    | MIRKO GONZÁLEZ | https://github.com/mirkogonzalez | https://mirkogonzalez.github.io/clase-5/ |
-| 10   | RODRIGO GUZMÁN | https://github.com/rodrigo-bot | https://rodrigo-bot.github.io/dno037-clase05/ |
-| 11   | VALENTINA HERRERA | https://github.com/vale-herrera | https://vale-herrera.github.io/dno037-clase-5/ |
-| 12   | BETINA HIP | https://github.com/bbhip | https://bbhip.github.io/dno-nuevos-medios-05/ |
-| 13   | MARÍA HONORATO | https://github.com/elisahonorato | https://elisahonorato.github.io/clase_05/ |
-| 14   | MARÍA IBÁÑEZ | https://github.com/franibanezm | https://franibanezm.github.io/clase_05/ |
-| 15   | NICOLE LUNA | — | — |
-| 16   | MARGARITA MATTE | https://github.com/mar-garita1 | https://mar-garita1.github.io/clase-05/ |
-| 17   | CONSTANZA MONTERO | https://github.com/cpmontero | https://cpmontero.github.io/dno_nuevosmedios_clase5/ |
-| 18   | VALENTINA MORALES | https://github.com/lunalaffx | https://lunalaffx.github.io/DNO037-clase5/ |
-| 19   | DANIELA ORELLANA | https://github.com/dacorellana | https://dacorellana.github.io/dno-medios-clase-05/ |
-| 20   | FRANCISCA PARRA | https://github.com/frnparr | — |
-| 21   | YAHAIRA PEREZ | https://github.com/yahairaperez | https://yahairaperez.github.io/clase0005/index.html |
-| 22   | JAVIER RAMÍREZ | https://github.com/rama2432 | https://rama2432.github.io/DNO-clase5/ |
-| 23   | MARIO REINIKE | https://github.com/marioreinike | https://marioreinike.github.io/dno037/clase-05/ |
-| 24   | VALENTINA REY | https://github.com/valentinarey | https://valentinarey.github.io/clase_5/ |
-| 25   | JAVIERA ROBLES | — | — |
-| 26   | MIRANDA SEPULVEDA | https://github.com/mirandasepulveda-la | — |
-| 27   | JOSEFINA TORO | https://github.com/josefinatoro | https://josefinatoro.github.io/dno_nuevos_medios_clase14-04/ |
-| 28   | ROSARIO TORRES | https://github.com/rosipilipi | — |
-| 29   | MARGARITA VIAL | https://github.com/margaraitavialm | https://margaraitavialm.github.io/dno037_clase05/ |
-| 30   | IGNACIA VIZCAYA | https://github.com/ignaviz | — |
-
 - - - - - - - - - - - -
 
-###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2022/tree/main/clase-04) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2022/tree/main/clase-06)
+###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2022/tree/main/clase-05) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2022/tree/main/clase-07)

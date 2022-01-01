@@ -40,7 +40,7 @@ Dentro de la cabeza (`<head></head>`), podemos ver un vínculo a un [style.css](
 <link href="style.css" rel="stylesheet" />
 ```
 
-En las líneas finales del `index.html`, dentro de unas etiquetas de script (`<script></script>`), podemos ver una variable de JavaScript; esta variable se llama `palabras` y contiene un arreglo con 8 cadenas de caracteres entre comillas. 
+En las líneas finales del `index.html`, dentro de unas etiquetas de script (`<script></script>`), podemos ver una [variable de JavaScript](https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/Variables#%C2%BFqu%C3%A9_es_una_variable); esta variable se llama `palabras` y contiene un arreglo con 8 cadenas de caracteres entre comillas. 
 
 ```
 var palabras = ["siguiente", "repüyen", "seguente", "suivant", "next", "Nächster", "次の", "다음의"];

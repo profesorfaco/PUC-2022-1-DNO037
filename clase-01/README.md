@@ -52,7 +52,7 @@ El contenido de la variable se aprovecha para programar algo sencillo, a través
 
 Para continuar reconociendo los lenguajes mencionados más arriba, y seguir aprovechando los documentos contenidos en esta carpeta, pasemos a [page.html](https://github.com/profesorfaco/dno037-2022/blob/main/clase-01/page.html), donde hay mucho más líneas de código contenidas entre etiquetas de script (`<script></script>`).
 
-**Llegado a este punto, es necesario que descarguen lo contenido en la carpeta de esta clase, y hagan algunos cambios para cumplir con la primera parte del ejercicio; el ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión ajustada del sitio web.**
+**Llegado a este punto, es necesario que descarguen lo contenido en la carpeta de esta clase, y hagan algunos cambios para cumplir con la primera parte del ejercicio; el ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), [su versión ajustada de un sitio web](https://profesorfaco.github.io/dno037-2022/clase-01).**
 
 El ejercicio completo puede ser evaluado con:
 

@@ -6,7 +6,7 @@
 
 Cada estudiante cuenta con el horario de clases para publicar, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión del sitio web que está contenido en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2022/clase-09/).
 
-Para poder resolver esta evaluación, corresponde buscar información sobre una saga de películas hollywoodenses o una saga de videojuegos, con un mínimo de 6 películas y un máximo de 10 entregas.
+Para preparar su propia versión, cada estudiante debe **buscar información sobre una saga** de películas hollywoodenses o una saga de videojuegos, **con un mínimo de 6 películas y un máximo de 10 entregas**.
 
 Cada versión debe ajustarse a la siguiente pauta de cotejo:
 

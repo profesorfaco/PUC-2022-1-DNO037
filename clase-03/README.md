@@ -124,5 +124,5 @@ El ejercicio incompleto es evaluado con 0 punto.
 
 - - - - - - - 
 
-###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2022/tree/main/clase-01) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2022/tree/main/clase-03)
+###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2022/tree/main/clase-02) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2022/tree/main/clase-04)
 

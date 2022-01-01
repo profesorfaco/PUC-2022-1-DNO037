@@ -76,25 +76,25 @@ Considerando los días miércoles entre 9 de marzo y 6 de julio, se plantea el s
 
 Esta modalidad NO aplica en:
 
-- [Clase 01 → 31/03/2021](https://github.com/profesorfaco/dno037-2022/tree/main/clase-03) → Por tratarse de primera clase
+- [Clase 01](https://github.com/profesorfaco/dno037-2022/tree/main/clase-03) → Por tratarse de primera clase
 
-- [Clase 03 → 31/03/2021](https://github.com/profesorfaco/dno037-2022/tree/main/clase-03) → Evaluación Nº1
+- [Clase 04](https://github.com/profesorfaco/dno037-2022/tree/main/clase-04) → Evaluación Nº1
 
-- [Clase 08 → 05/05/2021](https://github.com/profesorfaco/dno037-2022/tree/main/clase-08) → Evaluación Nº2
+- [Clase 09](https://github.com/profesorfaco/dno037-2022/tree/main/clase-09) → Evaluación Nº2
 
-- [Clase 13 → 09/06/2021](https://github.com/profesorfaco/dno037-2022/tree/main/clase-13) → Evaluación Nº3
+- [Clase 13](https://github.com/profesorfaco/dno037-2022/tree/main/clase-13) → Evaluación Nº3
 
-- [Clase 17 → 07/07/2021](https://github.com/profesorfaco/dno037-2022/tree/main/clase-17) → Pre-evaluación final
+- [Clase 17](https://github.com/profesorfaco/dno037-2022/tree/main/clase-17) → Pre-evaluación final
 
-- [Clase 18 → 14/07/2021](https://github.com/profesorfaco/dno037-2022/tree/main/clase-18) → Evaluación final
+- [Clase 18](https://github.com/profesorfaco/dno037-2022/tree/main/clase-18) → Evaluación final
 
 - - - - - - - -
 
 ### Nota final
 
-**25%** → puntos acumulados entre clases 1 y 2 + puntaje obtenido en evaluación Nº1 (clase 3)
+**25%** → puntos acumulados entre clases 1 y 3 + puntaje obtenido en evaluación Nº1 (clase 4)
 
-**25%** → puntos acumulados entre clases 5 y 7 + puntaje obtenido en evaluación Nº2 (clase 8)
+**25%** → puntos acumulados entre clases 5 y 8 + puntaje obtenido en evaluación Nº2 (clase 9)
 
 **25%** → puntos acumulados entre clases 10 y 12 + puntaje obtenido en evaluación Nº3 (clase 13)
 

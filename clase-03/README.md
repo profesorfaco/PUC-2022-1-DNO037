@@ -36,7 +36,7 @@ En [las referencias de p5.js](https://p5js.org/es/reference/#/p5/preload), esta 
 > La función `preload()` es ejecutada antes de `setup()`, es usada para manejar la carga asíncrona de archivos externos. Si se define una función `preload()`, `setup()` esperará hasta que las llamadas a funciones load hayan terminado. Solo se deben incluir instrucciones de carga dentro de `preload()` (`loadImage`, `loadJSON`, `loadFont`, `loadStrings`, etc).
 
 
-En la clase pasada y en esta también aprovecharmos la instrucción de [`loadJSON()`](https://p5js.org/es/reference/#/p5/loadJSON), y el JSON que aprovechamos tiene la siguiente estructura 
+En la clase pasada y en esta también vamos a aprovecharnos de la instrucción de [`loadJSON()`](https://p5js.org/es/reference/#/p5/loadJSON), para obtener [datos de un JSON](https://swapi.dev/api/people/?format=json) que tiene la siguiente estructura:
 
 ```
 {
@@ -47,7 +47,7 @@ En la clase pasada y en esta también aprovecharmos la instrucción de [`loadJSO
 }
 ```
 
-Dentro del arreglo `results`, tenemos 10 ítems. Cada uno de ellos tiene la siguiente estructura:
+En `results` tenemos un arreglo que contiene 10 ítems. Cada uno de éstos tiene la siguiente estructura:
 
 ```
 {
@@ -70,13 +70,13 @@ Dentro del arreglo `results`, tenemos 10 ítems. Cada uno de ellos tiene la sigu
 }
 ``` 
 
-Si necesito exclusivamente los nombres de los 10 items podría aprovechar dos métodos de JavaScript: 
+Si necesito exclusivamente los `name` dentro de cada uno de los 10 items podría aprovechar dos métodos de JavaScript: 
 
 - El método [`forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) que ejecuta la función indicada una vez por cada elemento del array.
 
 - El método [`push()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/push) que añade uno o más elementos al final de un array y devuelve la nueva longitud del array.
 
-Con tales métodos y lo que ofrece la biblioteca de p5.js, podría hacer lo siguiente: 
+Con tales métodos, y lo que ofrece la biblioteca de p5.js, podemos escribir la siguiente instrucción:
 
 ```
 var starWars;
@@ -96,7 +96,7 @@ function draw(){
 }
 ```
 
-Creo una variable global, de nombre `starWars`. Dentro del `preload()` puedo guardar en tal variable la información que está en línea gracias al JSON. Ahora, dentro del `setup()` puedo crear la variable de `lasOpciones` como un arreglo vacío. Luego, tomo la variable `starWars` y le pregunto por los `results` para que cada uno de los `name` en los 10 ítems se sume al arreglo que antes estaba vacío:
+Creo una variable global, de nombre `starWars`. Dentro del `preload()` puedo guardar en tal variable la información que está en línea gracias a [un JSON](https://swapi.dev/api/people/?format=json). Ahora, dentro del `setup()` puedo crear la variable de `lasOpciones` como un arreglo vacío. Luego, tomo la variable `starWars` y dentro de cada ítem dentro de `results` tomo el `name`, para sumarlo al arreglo que antes estaba vacío. Así se obtiene:
 
 ```
 var lasOpciones = ['Luke Skywalker', 'C-3PO', 'R2-D2', 'Darth Vader', 'Leia Organa', 'Owen Lars', 'Beru Whitesun lars', 'R5-D4', 'Biggs Darklighter', 'Obi-Wan Kenobi']
@@ -106,9 +106,7 @@ var lasOpciones = ['Luke Skywalker', 'C-3PO', 'R2-D2', 'Darth Vader', 'Leia Orga
 
 ### Práctica
 
-
-Para darle una vuelta a lo recién presentado y lo que hemos visto hasta esta clase, aprovechemos los contenidos en [esta carpeta](https://github.com/profesorfaco/dno037-2022/blob/main/clase-03).
-
+Para darle una vuelta a lo recién presentado y lo que hemos visto hasta esta clase, aprovechemos los contenidos en [esta carpeta](https://github.com/profesorfaco/dno037-2022/blob/main/clase-03). Una vez comprendida la lógica, podríamos cambiar el JSON que se consulte, para tener distintos desafíos de dibujo.
 
 El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión ajustada del sitio web.
 

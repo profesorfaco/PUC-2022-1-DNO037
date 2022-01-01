@@ -44,9 +44,9 @@ Para familiarizanos con el trabajo con el DOM, podemos aprovechar los documentos
 
 - revisar la [propiedad `Element.classList`](https://developer.mozilla.org/es/docs/Web/API/Element/classList);
 
-- tener a mano la [página de referencias de **p5.js**](https://p5js.org/es/reference/); e
+- tener a mano la [página de referencias de **p5.js**](https://p5js.org/es/reference/); y
 
-- instalar algún "JSON Viewer" en su navegador.
+- contar con una extensión que permita ver JSON de manera más ordenada en su navegador web. Para Chrome: [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/mhimpmpmffogbmmkmajibklelopddmjf?hl=es) o [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=es). Para Firefox: [JSON Lite](https://addons.mozilla.org/es/firefox/addon/json-lite/) o [Basic JSON Formatter](https://addons.mozilla.org/es/firefox/addon/basic-json-formatter/).
 
 Tal como en la clase anterior, y en las que sigan: El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión ajustada del sitio web.
 

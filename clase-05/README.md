@@ -138,4 +138,4 @@ El ejercicio completo puede ser evaluado con:
 
 - - - - - - -
 
-###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2022/tree/main/clase-03) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2022/tree/main/clase-05)
+###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2022/tree/main/clase-04) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2022/tree/main/clase-06)

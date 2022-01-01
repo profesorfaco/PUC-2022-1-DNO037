@@ -40,9 +40,9 @@ new Chart(document.getElementById('nombre').getContext('2d'), {type: '…', data
 
 Ahora, si necesitamos datos, podemos volver a aproevechar aquellos que se ofrecen en línea, a través de JSON. Pero en esta ocasión no estamos trabajando con p5.js, por ello no contamos con [su función loadJSON](https://p5js.org/es/reference/#/p5/loadJSON); ya nos corresponde probar el [uso de Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch), y luego estructurar los datos obtenidos a la manera que convenga al tipo de gráfico que estemos usando en [Chart.js](https://www.chartjs.org/docs/latest/charts/?h=type):
 
-Los datos: indicadores económicos diarios en Chile: https://mindicador.cl/api
+- Los datos de [indicadores económicos diarios](https://mindicador.cl/api)
 
-El tipo de gráfico: [línea](https://www.chartjs.org/docs/latest/charts/line.html)
+- Un [gráfico de líneas](https://www.chartjs.org/docs/latest/charts/line.html)
 
 Habrá algunos ajustes que podremos resolver con los métodos:
 

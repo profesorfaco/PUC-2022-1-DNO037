@@ -112,7 +112,7 @@ Llegando a la variable `h` convendría aprovechar a los octillizos Nahasapeemape
 
 ### Práctica
 
-El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), una versión ajustada del sitio web que está contenido en [esta carpeta del repositorio](https://profesorfaco.github.io/dno037-2022/clase-04/).
+Para avanzar desde lo ya presentado, **es necesario que descarguen lo contenido en la carpeta de esta clase, y hagan algunos ajustes para cumplir con la primera parte del ejercicio; el ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), [su versión ajustada de un sitio web](https://profesorfaco.github.io/dno037-2022/clase-05).**
 
 El ejercicio completo puede ser evaluado con:
 
@@ -121,6 +121,8 @@ El ejercicio completo puede ser evaluado con:
 - **1 punto** → logrado.
 
 - **2 puntos** → logrado con aporte destacado.
+
+El ejercicio incompleto es evaluado con 0 punto.
 
 - - - - - - -
 

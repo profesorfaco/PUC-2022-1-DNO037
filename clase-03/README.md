@@ -106,9 +106,7 @@ var lasOpciones = ['Luke Skywalker', 'C-3PO', 'R2-D2', 'Darth Vader', 'Leia Orga
 
 ### Práctica
 
-Para darle una vuelta a lo recién presentado y lo que hemos visto hasta esta clase, aprovechemos los contenidos en [esta carpeta](https://github.com/profesorfaco/dno037-2022/blob/main/clase-03). Una vez comprendida la lógica, podríamos cambiar el JSON que se consulte, para tener distintos desafíos de dibujo.
-
-El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), [una versión ajustada de este sitio web](https://profesorfaco.github.io/dno037-2022/clase-03/).
+Para darle una vuelta a lo recién presentado **es necesario que descarguen lo contenido en la carpeta de esta clase, y hagan algunos ajustes para cumplir con la primera parte del ejercicio; el ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), [su versión ajustada de un sitio web](https://profesorfaco.github.io/dno037-2022/clase-03).**
 
 El ejercicio completo puede ser evaluado con:
 

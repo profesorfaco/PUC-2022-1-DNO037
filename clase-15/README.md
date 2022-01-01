@@ -45,36 +45,6 @@ Recomendaciones:
 
 - Para agregar otros elementos gráficos, busque UI Style Guides, y sume lo que crea pertinente. 
 
-| Nº   | Estudiante      | GitHub    | StyleGuide | Pto. |
-|:----:|:----------------|:----------|:-------------------|:----:|
-| 1    | MARTÍN BENNETT | https://github.com/bennett-martin/ | — | P |
-| 2    | RODRIGO CAMPUSANO | https://github.com/rodrigocampusano | — | P |
-| 3    | PALOMA CARRASCO | https://github.com/palomacarrasco | https://palomacarrasco.github.io/Rart.Studio/style-guide/ | P |
-| 4    | VICENTE ESPINOSA | https://github.com/vtespinosa | — | P |
-| 5    | FELIPE FUENTEALBA | https://github.com/leocto | https://leocto.github.io/MOCHA/style-guide | P |
-| 6    | VERÓNICA GATICA | https://github.com/verogatica | https://verogatica.github.io/final_dno037/style-guide/ | P |
-| 7    | MIRKO GONZÁLEZ | https://github.com/mirkogonzalez | https://mirkogonzalez.github.io/ProyectoFinal/styleguide/ | P |
-| 8    | RODRIGO GUZMÁN | https://github.com/rodrigo-bot | https://rodrigo-bot.github.io/portafolioFinal/style-guide/ | P |
-| 9    | VALENTINA HERRERA | https://github.com/vale-herrera | https://vale-herrera.github.io/dno037-Proyecto-Final/style-guide/ | P |
-| 10   | BETINA HIP | https://github.com/bbhip | https://bbhip.github.io/portafolio-final/style-guide | P |  
-| 11   | MARÍA HONORATO | https://github.com/elisahonorato | https://elisahonorato.github.io/ProyectoFinal/style-guide/ | P |
-| 12   | MARÍA IBÁÑEZ | https://github.com/franibanezm | https://franibanezm.github.io/examen/style-guide/ | P |
-| 13   | MARGARITA MATTE | https://github.com/mar-garita1 | https://mar-garita1.github.io/Final/style-guide/ | P |
-| 14   | CONSTANZA MONTERO | https://github.com/cpmontero | https://cpmontero.github.io/vivero_kullay/style-guide/ | P |
-| 15   | VALENTINA MORALES | https://github.com/lunalaffx | https://lunalaffx.github.io/DNO037-final/style-guide/ | P |
-| 16   | DANIELA ORELLANA | https://github.com/dacorellana | https://dacorellana.github.io/Biodesign-web/style-guide/ | P |
-| 17   | FRANCISCA PARRA | https://github.com/frnparr | — | P |
-| 18   | YAHAIRA PEREZ | https://github.com/yahairaperez | https://yahairaperez.github.io/baran/style-guide/ | P |
-| 19   | JAVIER RAMÍREZ | https://github.com/rama2432 | https://rama2432.github.io/DNO-final/style-guide/ | P |
-| 20   | MARIO REINIKE | https://github.com/marioreinike | — | P |
-| 21   | VALENTINA REY | https://github.com/valentinarey | https://valentinarey.github.io/sequoia_fruits/style-guide/ | P |
-| 22   | JAVIERA ROBLES | — | — | 0 |
-| 23   | MIRANDA SEPULVEDA | https://github.com/mirandasepulveda-la | https://mirandasepulveda-la.github.io/Portafolio_FINAL/style-guide/ | P |
-| 24   | JOSEFINA TORO | https://github.com/josefinatoro | — | P |
-| 25   | MARGARITA VIAL | https://github.com/margaraitavialm | https://margaraitavialm.github.io/Final/style-guide | P |
-
-
-
 - - - - - - - 
 
 ###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2022/tree/main/clase-14) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2022/tree/main/clase-16)

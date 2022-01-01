@@ -10,50 +10,14 @@ Las [bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript
 
 - [jQuery](https://jquery.com/) - *A fast, small, and feature-rich JavaScript library*.
 
-- [Leaflet.js](https://leafletjs.com/) – *The leading open-source JavaScript library for mobile-friendly interactive maps*.
-
 - [Papa Parse](https://www.papaparse.com/) - *The powerful, in-browser CSV parser for big boys and girls*
 
-- [Vue.js](https://v3.vuejs.org/) - *The Progressive JavaScript Framework.*
+- [Leaflet.js](https://leafletjs.com/) – *The leading open-source JavaScript library for mobile-friendly interactive maps*.
 
-En la clase de hoy revisaremos [Papa Parse](https://www.papaparse.com/) y [Chart.js](https://www.chartjs.org/).
 
-**[Papa Parse](https://www.papaparse.com/) nos permite hacer un análisis sintáctico de una estructura de datos contenidos en un archivo [CSV](https://es.wikipedia.org/wiki/Valores_separados_por_comas) para asignarla a una variable en JavaScript. En inglés, y más breve: CSV parsing.**
+Valores numéricos pueden ser visualizados mediante gráficos de [línea](https://www.chartjs.org/docs/latest/charts/line.html), [barra](https://www.chartjs.org/docs/latest/charts/bar.html), [radar](https://www.chartjs.org/docs/latest/charts/radar.html), [torta](https://www.chartjs.org/docs/latest/charts/doughnut.html), [área polar](https://www.chartjs.org/docs/latest/charts/polar.html), [burbujas](https://www.chartjs.org/docs/latest/charts/bubble.html) y [dispersión](https://www.chartjs.org/docs/latest/charts/scatter.html), que son los tipos de gráficos disponibles en otra biblioteca de JavaScript:
 
-Con [Papa Parse](https://www.papaparse.com/) podemos simplificar la instrucción para tal análisis con:
-
-```
-Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2022/main/clase-05/indice-uso-cobre.csv", {
-download: true,
-header: true,
-dynamicTyping: true,
-complete: function (respuesta) {…}
-})
-```
-
-Paso a paso, la instrucción es:
-
-1. En este script vamos a usar `Papa.parse()`.
-2. Esta biblioteca irá por el CSV en tal dirección `Papa.parse("https://…",{})`.
-3. La misma biblioteca se encargará de descargarlo `download: true,` 
-4. tomando la primera línea de valores separados por coma como encabezado `header: true,`
-5. cuidando el tipo de dato de las líneas siguientes `dynamicTyping: true,` y
-6. cuando se complete corresponde abrir una función `complete: function (respuesta) {…}`.
-7. La variable `respuesta` será reconocida dentro de tal función, conteniendo el resultado del análisis sintáctido de aquél CSV como un objeto:
-
-```
-{
-data: [ ... ],    // parsed data
-errors: [ ... ],  // errors encountered
-meta: {	... }     // extra parse info
-}
-```
-
-Cada línea de valores separado por coma pasa a ser un elemento en un arreglo al que nos podemos referir con un `respuesta.data`
-
-En la *parsed data* podríamos encontrar valores numéricos para visualizar con gráficos de [línea](https://www.chartjs.org/docs/latest/charts/line.html), [barra](https://www.chartjs.org/docs/latest/charts/bar.html), [radar](https://www.chartjs.org/docs/latest/charts/radar.html), [torta](https://www.chartjs.org/docs/latest/charts/doughnut.html), [área polar](https://www.chartjs.org/docs/latest/charts/polar.html), [burbujas](https://www.chartjs.org/docs/latest/charts/bubble.html) y [dispersión](https://www.chartjs.org/docs/latest/charts/scatter.html), que son los tipos de gráficos disponibles en otra biblioteca de JavaScript:
-
-**[Chart.js](https://www.chartjs.org/docs/latest/charts/?h=type) nos permite implementar gráficos desde valores numéricos. Su promesa, en inglés, es *Simple yet flexible JavaScript charting for designers & developers*. Al ubicarse en ese lugar intermedio puede provocar dolores de cabeza en los extremos caricaturizados: muy complejo para *designers* o muy simple para *developers*.** 
+**[Chart.js](https://www.chartjs.org/docs/latest/charts/?h=type) nos permite implementar tales gráficos desde su promesa, en inglés de ser *Simple yet flexible JavaScript charting for designers & developers*. Al ubicarse en ese lugar intermedio puede provocar dolores de cabeza en los extremos caricaturizados: muy complejo para *designers* o muy simple para *developers*.** 
 
 Para poder usarlo corresponde reconocer sus partes: 
 

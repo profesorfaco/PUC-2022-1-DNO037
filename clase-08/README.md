@@ -55,9 +55,11 @@ meta: {	... }     // extra parse info
 
 Cada línea de valores separado por coma pasa a ser un elemento en un arreglo al que nos podemos referir con un `respuesta.data`
 
-Es que no todos los datos estarán en línea en JSON. Algunos podrian estar en CSV, y para ir por ellos sin mayores problemas, podemos usar PapaParse. Y ahora que contamos con tales datos, podríamos hacer algon con ellos.
+Esto resulta útil cuando no todos los datos serán encontrados en línea en JSON. Algunos podrían estar en CSV, y para ir por ellos, podemos usar PapaParse. Luego, si contamos con datos con información georeferenciada, podríamos ponerlos en un mapa, por ejemplo:
 
-**Con los datos podemos pasar a [Leaflet.js](https://leafletjs.com/), una biblioteca de JavasScript que ofrece una alternativa ligera para trabajar con mapas interactivos**. Para usarla necesitamos conocer las coordenadas geográficas de lo que se quiera apuntar para, primero, establecer un centro del mapa y luego hacer las marcas correspondientes. También corresponde decidir por un tipo de mapa a usar: 
+
+
+**Con tales datos podemos pasar a [Leaflet.js](https://leafletjs.com/), una biblioteca de JavasScript que ofrece una alternativa ligera para trabajar con mapas interactivos**. Para usarla necesitamos conocer las coordenadas geográficas de lo que se quiera apuntar para, primero, establecer un centro del mapa y luego hacer las marcas correspondientes. También corresponde decidir por un tipo de mapa a usar: 
 
 - [mapbox/light-v10](https://api.mapbox.com/styles/v1/mapbox/light-v10.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#10/-33.47/-70.64); 
 - [mapbox/dark-v10](https://api.mapbox.com/styles/v1/mapbox/dark-v10.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#10/-33.47/-70.64); 

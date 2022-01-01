@@ -91,13 +91,28 @@ Las variables `f`, `g` y `h` pueden verse como algo que ya hemos usado para inte
 
 - **Una lista ordenada de valores**. En la mayoría de los lenguajes, esto se implementa como arreglos, vectores, listas o sequencias.
 
-Esas dos estructuras son las que encontramos en la notación de objetos de JavaScript; **lo que diferencia a JSON de la redacción de un pedazo de Javascript es un par de comillas: en `var h`, los nombres `mom`, `dad` y `children` no llevan comillas. Pero [en JSON sí deben llevarlos](https://myjson.dit.upm.es/api/bins/1wo6). Y si está bien redactado, podemos usarlo: https://editor.p5js.org/profesorfaco/sketches/611nBVIY2
+Esas dos estructuras son las que encontramos en la notación original de objetos de JavaScript; **lo que diferencia a JSON de la redacción de un pedazo de Javascript es un par de comillas**: en `var h`, los nombres `mom`, `dad` y `children` no llevan comillas. Pero [en JSON los nombres, del par nombre/valor, sí llevan comillas](https://myjson.dit.upm.es/api/bins/1wo6). 
+
+Para cerrar, recordemos que existen servicios que ofrecen datos en línea. Mucho más útiles que los datos de personajes de [StarWars](https://swapi.dev/api/people/?format=json), pueden ser los datos sobre:
+
+- tiempo atmosférico: https://openweathermap.org/current#current_JSON
+- movimientos telúricos: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
+- indicadores económicos diarios en Chile: https://mindicador.cl/api
+- etcétera: https://github.com/juanbrujo/listado-apis-publicas-en-chile
+
+Ustedes pueden practicar la consulta a tales servicios con el [editor de p5.js](https://editor.p5js.org/profesorfaco/sketches/611nBVIY2).
 
 - - - - - - - - - 
 
 ### Práctica
 
-Para avanzar desde lo ya presentado, **es necesario que descarguen lo contenido en la carpeta de esta clase, y hagan algunos ajustes para cumplir con la primera parte del ejercicio; el ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), [su versión ajustada de un sitio web](https://profesorfaco.github.io/dno037-2022/clase-05).**
+Ahora es necesario:
+
+- Crear un usuario en [OpenWeather](https://home.openweathermap.org/users/sign_in) y activar su propia API Key.
+
+- Descargar lo contenido en la carpeta de esta clase, y hagan algunos ajustes para resolver el ejercicio.
+
+Recuerden que el ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), [su versión ajustada de un sitio web](https://profesorfaco.github.io/dno037-2022/clase-05).**
 
 El ejercicio completo puede ser evaluado con:
 

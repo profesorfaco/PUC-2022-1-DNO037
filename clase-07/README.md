@@ -6,7 +6,7 @@
 
 Las [bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript_libraries) que hemos explorado, son:
 
-- [p5.js](https://p5js.org/es/)
+- [p5.js](https://p5js.org/es/) - *Una biblioteca de JavaScript para la programación creativa*.
 
 - [Chart.js](https://www.chartjs.org/) – *Simple, clean and engaging HTML5 based JavaScript charts*.
 

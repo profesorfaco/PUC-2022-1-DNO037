@@ -38,7 +38,9 @@ Nos referimos a tres partes. No se trata de tres pasos. También sería válido 
 new Chart(document.getElementById('nombre').getContext('2d'), {type: '…', data: {…}, options: {…}});
 ```
 
-Ahora, si necesitamos datos, podemos volver a aproevechar aquellos que se ofrecen en línea, a través de JSON. Pero en esta ocasión no estamos trabajando con p5.js, por ello no contamos con [su función loadJSON](https://p5js.org/es/reference/#/p5/loadJSON); ya nos corresponde probar el [uso de Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch), y luego estructurar los datos obtenidos a la manera que convenga al tipo de gráfico que estemos usando en [Chart.js](https://www.chartjs.org/docs/latest/charts/?h=type):
+Ahora, si necesitamos datos, podemos volver a aproevechar aquellos que se ofrecen en línea, a través de JSON. Pero en esta ocasión no estamos trabajando con p5.js, por ello no contamos con [su función loadJSON](https://p5js.org/es/reference/#/p5/loadJSON); ya nos corresponde probar el [uso de Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch), y luego estructurar los datos obtenidos a la manera que convenga al tipo de gráfico que estemos usando en [Chart.js](https://www.chartjs.org/docs/latest/charts/?h=type).
+
+Revisaremos, en la práctica:
 
 - Los datos de [indicadores económicos diarios](https://mindicador.cl/api)
 

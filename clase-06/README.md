@@ -38,7 +38,10 @@ Nos referimos a tres partes. No se trata de tres pasos. También sería válido 
 new Chart(document.getElementById('nombre').getContext('2d'), {type: '…', data: {…}, options: {…}});
 ```
 
-Más arriba mostramos unas líneas de código para resolver algo con [Papa Parse](https://www.papaparse.com/), y tales líneas son todas las que se necesitan. Pero las recién presentadas muestran el inicio del trabajo con [Chart.js](https://www.chartjs.org/docs/latest/charts/?h=type); para aprender más sobre la configuración corresponde hacer algo de exploración.
+Ahora, si necesitamos datos, podemos volver a aproevechar aquellos que se ofrecen en línea, a través de JSON. Pero en esta ocasión ya no trabajamos con p5.js, por ello no contamos con [su función loadJSON](https://p5js.org/es/reference/#/p5/loadJSON). Ahora nos corresponde probar el [uso de Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch), y luego estructurar los datos obtenidos a la manera que convenga al tipo de gráfico que estemos usando en [Chart.js](https://www.chartjs.org/docs/latest/charts/?h=type).
+
+
+
 
 Antes de partir la exploración necesaria para hacer la configuración de [Chart.js](https://www.chartjs.org/docs/latest/charts/?h=type), corresponde:
 

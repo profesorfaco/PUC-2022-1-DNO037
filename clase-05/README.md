@@ -2,7 +2,7 @@
 
 # HTML5 + CSS3 + otras bibliotecas de JS
 
-### Lectura
+### Teoría
 
 Existen [muchas bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript_libraries), además de [p5.js](https://p5js.org/es/). 
 
@@ -90,7 +90,7 @@ Si necesitamos el valor de las variables `a`, `b`, `c` o `d`, basta con pedirlo 
 
 - - - - - - - - - - - 
 
-### Exploración
+### Práctica
 
 Para comprender de mejor manera lo recién expuesto, conviene aprovechar [p5.js Web Editor](https://editor.p5js.org/profesorfaco/sketches/55-yg0wx0) y partir por la variable `e`: 
 
@@ -115,16 +115,6 @@ Llegando a la variable `h` convendría aprovechar a los octillizos Nahasapeemape
 - - - - - - - - - 
 
 ### Práctica
-
-Podríamos preguntarnos: ¿Siempre vamos a tener que asignar a mano los datos de una variable? 
-
-La respuesta: No siempre. También podemos dejar que el programa vaya a buscarlos; ahora conviene aprender algo respecto de [APIs](https://es.wikipedia.org/wiki/Web_API) y [JSON](https://www.json.org/json-es.html).
-
-Para aprenderlo desde la práctica, conviene: 
-
-- contar con una extensión que permita ver JSON de manera más ordenada en su navegador web. Para Chrome: [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/mhimpmpmffogbmmkmajibklelopddmjf?hl=es) o [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=es). Para Firefox: [JSON Lite](https://addons.mozilla.org/es/firefox/addon/json-lite/) o [Basic JSON Formatter](https://addons.mozilla.org/es/firefox/addon/basic-json-formatter/); y
-
-- tener a mano las [referencias de p5.js](https://p5js.org/es/reference/);
 
 El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), una versión ajustada del sitio web que está contenido en [esta carpeta del repositorio](https://profesorfaco.github.io/dno037-2022/clase-04/).
 

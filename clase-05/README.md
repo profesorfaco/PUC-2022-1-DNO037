@@ -109,7 +109,7 @@ Ahora es necesario:
 
 - Crear un usuario en [OpenWeather](https://home.openweathermap.org/users/sign_in) y activar su propia API Key.
 
-- Descargar lo contenido en la carpeta de esta clase, y hagan algunos ajustes para resolver el ejercicio.
+- Descargar lo contenido en la carpeta de esta clase y personalizarlo.
 
 Recuerden que el ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), [su versión ajustada de un sitio web](https://profesorfaco.github.io/dno037-2022/clase-05).**
 

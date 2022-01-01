@@ -32,11 +32,11 @@ A estos dos tipos de datos, podemos agregar:
 
 - **"A"** como un carácter (char: *character*)
 
-Notemos que en el tipo de dato numérico y booleano no se usan comillas, pero en el caso del caracter sí. 
+- **"ALGUNAS PALABRAS"** como una cadena de caracteres (en inglés: *string*)
 
-Mencionamos `int`, `float`, `bool` y `char` porque son palabras que en lenguajes de programación más clásicos se reservan para **declarar que tal variable almacenará tal tipo de dato**. 
+Notemos que en el tipo de dato numérico y booleano no se usan comillas, pero cuando se involucran los caracteres aislados o en cadena, sí. 
 
-**En JavaScript podemos crear toda variables con una única palabra reservada,`var`**. También podemos usar `let` y `const`. Para entender la diferencia, nos conviene consultar el artículo [Var, let y const. ¿Donde, cuando y por qué?](https://medium.com/@tatymolys/var-let-y-const-donde-cuando-y-por-qu%C3%A9-d4a0ee66883b).
+Mencionamos `int`, `float`, `bool`, `char` y `string`, porque son palabras que en lenguajes de programación más clásicos se reservan para **declarar que tal variable almacenará tal tipo de dato. Pero en JavaScript podemos crear toda variables con una única palabra reservada,`var`**. También podemos usar `let` y `const`. Para entender la diferencia, nos conviene consultar el artículo [Var, let y const. ¿Donde, cuando y por qué?](https://medium.com/@tatymolys/var-let-y-const-donde-cuando-y-por-qu%C3%A9-d4a0ee66883b).
 
 Usando únicamente `var`, en JavaScript podemos asignar como contenido de la variable todas las siguientes alternativas:
 
@@ -75,7 +75,6 @@ var h = [
 ];
 
 ```
-
 **Lo que cambia viene después del signo igual `=`, que en este caso está asignando contenido a cada variable.** 
 
 Las variables `a`, `b` y `c` no requieren comillas. La variable `d`, que contiene una cadena de caracteres (*string*) sí usa comillas. 
@@ -86,27 +85,13 @@ La variable `f`, que contiene un objeto, usa paréntesis de llave que en su inte
 
 Las variables `g` y `h` son mezclas de las anteriores.
 
-Si necesitamos el valor de las variables `a`, `b`, `c` o `d`, basta con pedirlo directamente. Pero el caso es distinto si necesitamos un valor específico dentro de las variables  `e`, `f`, `g` o `h`.
+Las variables `f`, `g` y `h` pueden verse como algo que ya hemos usado para intercambiar datos: **JSON (JavaScript Object Notation; Notación de Objetos de JavaScript), un formato ligero de intercambio de datos constituído por dos estructuras**:
 
-Para comprender de mejor manera lo recién expuesto, conviene aprovechar [p5.js Web Editor](https://editor.p5js.org/profesorfaco/sketches/55-yg0wx0) y partir por la variable `e`: 
+- **Una colección de pares de nombre/valor**. En varios lenguajes esto es conocido como un objeto, registro, estructura, diccionario, tabla hash, lista de claves o un arreglo asociativo.
 
-Digamos que necesitamos a `Marge Simpson`. Para solicitarla tenemos que escribir `e[0]`, porque se encuentra en la primera posición del arreglo asignado como valor a la variable `e`. Si escribimos `e[1]` el resultado sería `Homer Simpson`. Corresponde **recordar que la primera posición es cero, no uno**.
+- **Una lista ordenada de valores**. En la mayoría de los lenguajes, esto se implementa como arreglos, vectores, listas o sequencias.
 
-Pasemos a la variable `f`: 
-
-Si necesitamos escribir la frase `Fue Kirk Van Houten quien intentó dibujar la dignidad`, tendríamos que escribir `'Fue ' + f.dad + ' quien intentó dibujar la dignidad'`.
-
-Vamos por la variable `g`: 
-
-Si necesitamos escribir la frase `El chupete de Maggie Simpson`, tendríamos que escribir `'El chupete de ' + g.children[2]`.
-
-Llegando a la variable `h` convendría aprovechar a los octillizos Nahasapeemapetilon para explorar:
-
-- el [método `sort()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/sort);
-
-- el [método `forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach); y
-
-- el [método `includes()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/includes).
+Esas dos estructuras son las que encontramos en la notación de objetos de JavaScript; **lo que diferencia a JSON de la redacción de un pedazo de Javascript es un par de comillas: en `var h`, los nombres `mom`, `dad` y `children` no llevan comillas. Pero [en JSON sí deben llevarlos](https://myjson.dit.upm.es/api/bins/1wo6). 
 
 - - - - - - - - - 
 

@@ -27,6 +27,32 @@
         <label for="chile">Chile</label>
         </form>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-        <script src="script.js"></script>
+        <script>
+            $(document).ready(function () {
+                $.getJSON("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson", function (data) {
+                    console.log(data);
+                    data.features.forEach(function (temblor, i) {
+                        var articuloTipo;
+                        if (temblor.properties.place.includes("Chile")) {
+                            articuloTipo = '<article class="local">';
+                        } else {
+                            articuloTipo = '<article class="global">';
+                        }
+                        $("section").append(articuloTipo + "<h2>" + temblor.properties.mag + "</h2><p>" + temblor.properties.place + "</p><p><a href='"+temblor.properties.url+"' target='_blank'>ver detalles</a></p></article>");
+                    });
+                    var valor;
+                    $('#opciones').change(function(){
+                        valor = $("input[name='paises']:checked").val();
+                        if(valor == "chile"){
+                            $(".local").fadeTo("slow",1);
+                            $(".global").fadeTo("slow",0.1);
+                        } else {
+                            $(".local").fadeTo("slow",1);
+                            $(".global").fadeTo("slow",1);
+                        }
+                    }); 
+                }); // cierro $.getJSON({})
+            }); //cierro ready(function(){})            
+        </script>
     </body>
 </html>

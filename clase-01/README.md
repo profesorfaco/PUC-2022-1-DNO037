@@ -18,7 +18,7 @@ El editor de código fuente nos dará indicaciones para poder escribir:
 
 Los lenguajes de descripción pueden dominarse en un menor tiempo que los lenguajes de programación; HTML puede dominarse tan pronto se memorizan [los elementos HTML](https://developer.mozilla.org/es/docs/Web/HTML/Element) y sus [atributos](https://developer.mozilla.org/es/docs/Web/HTML/Attributes); CSS podría exigir algo más que HTML, por la memorización de todas las propiedades, valores y sus unidades, además de [los selectores](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors) (para seleccionar por tipo, atributo, identidad, clase, pseudoclase y un largo etcétera). 
 
-Pero JavaScript, y la programación en general, puede tomarnos mucho más tiempo. Es que una cosa es aplicar descriptores y otra es estructurar instrucciones ajustadas a circunstancias y objetivos.
+Pero JavaScript, y la programación en general, puede tomarnos mucho más tiempo; una cosa es escribir descriptores y otra es estructurar instrucciones ajustadas a circunstancias y objetivos.
 
 ![meme](https://user-images.githubusercontent.com/7999767/156002975-2dfbf580-f6e2-4bd8-8e40-7110457a4cb4.png)
 

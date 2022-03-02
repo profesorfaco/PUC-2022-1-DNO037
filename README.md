@@ -35,7 +35,7 @@ Cada estudiante en este OPR debe contar con:
 
 ### Clase a clase
 
-**Según [Calendario de Actividades Académicas y Estudiantiles 2022](https://admisionyregistros.uc.cl/noticias-alumnos/1711-calendario-academico-5), las clases del primer período comienzan el día lunes 7 de marzo y finalizan el viernes 24 de junio**. Después viene el período de evaluaciones finales, entre los días mertes 28 de junio y viernes 8 de julio. 
+**Según [Calendario de Actividades Académicas y Estudiantiles 2022](https://admisionyregistros.uc.cl/noticias-alumnos/1711-calendario-academico-5), las clases del primer período comienzan el día lunes 7 de marzo y finalizan el viernes 24 de junio**. Después viene el período de evaluaciones finales, entre los días martes 28 de junio y viernes 8 de julio. 
 
 Considerando los días miércoles entre 9 de marzo y 6 de julio, se plantea el siguiente clase a clase:
 

@@ -6,7 +6,7 @@
 
 Escribir "código fuente" implica describir y/o programar. 
 
-Para reconocer los lenguajes de descripción y programación que son claves para el desarollo de sitios web profesionales o prototipos avanzados de aplicaciones web, trabajaremos con un "editor de código fuente". Puede ser [Atom.io](https://atom.io/) o [Sublime Text](https://www.sublimetext.com/).
+Para reconocer los lenguajes de descripción y programación que son claves para el desarollo de sitios web profesionales o prototipos avanzados de aplicaciones web, trabajaremos con un "editor de código fuente" (puede ser [Atom.io](https://atom.io/) o [Sublime Text](https://www.sublimetext.com/)).
 
 El "editor de código fuente" nos dará indicaciones para poder escribir nuestro "código fuente" con:
 

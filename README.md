@@ -76,7 +76,7 @@ Considerando los días miércoles entre 9 de marzo y 6 de julio, se plantea el s
 
 [Clase 18 → 06/07/2021](https://github.com/profesorfaco/dno037-2022/tree/main/clase-18) → Evaluación Nº4
 
-**Cada clase se basará en modalidad de “aula invertida”**; esto transfiere a cada estudiante la responsabilidad de adelantar la revisión de la "teoría" en el README.md de cada clase, de tal manera, cada miércoles se podría impartir una clase que atienda a dudas y profundice contenidos desde la práctica.
+**Cada clase se basará en modalidad de “aula invertida”**; esto transfiere a cada estudiante la responsabilidad de adelantar la revisión de la "teoría" en el README.md de cada clase; cada miércoles se podría impartir una clase que organice su comprensión, atienda a las dudas y profundice contenidos desde la práctica.
 
 Esta modalidad NO aplica en:
 

@@ -80,8 +80,6 @@ Considerando los días miércoles entre 9 de marzo y 6 de julio, se plantea el s
 
 Esta modalidad NO aplica en:
 
-- [Clase 01](https://github.com/profesorfaco/dno037-2022/tree/main/clase-01) → Por tratarse de primera clase
-
 - [Clase 04](https://github.com/profesorfaco/dno037-2022/tree/main/clase-04) → Evaluación Nº1
 
 - [Clase 09](https://github.com/profesorfaco/dno037-2022/tree/main/clase-09) → Evaluación Nº2

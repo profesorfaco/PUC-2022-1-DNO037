@@ -4,11 +4,11 @@
 
 ### Teoría
 
-Escribir código fuente implica describir y/o programar. 
+Escribir "código fuente" implica describir y/o programar. 
 
-Para reconocer los lenguajes de descripción y programación que son claves para el desarollo de sitios web profesionales o prototipos avanzados de aplicaciones web, trabajaremos con un editor de código fuente. Puede ser [Atom.io](https://atom.io/) o [Sublime Text](https://www.sublimetext.com/).
+Para reconocer los lenguajes de descripción y programación que son claves para el desarollo de sitios web profesionales o prototipos avanzados de aplicaciones web, trabajaremos con un "editor de código fuente". Puede ser [Atom.io](https://atom.io/) o [Sublime Text](https://www.sublimetext.com/).
 
-El editor de código fuente nos dará indicaciones para poder escribir:
+El "editor de código fuente" nos dará indicaciones para poder escribir nuestro "código fuente" con:
 
 - **HTML (HyperText Markup Language)**. Lenguaje estándar que describe la estructura de las páginas web (qué es lo que contiene la página). HTML5 es la versión más reciente de este lenguaje. El bloque constructivo más básico del HTML es el elemento. Cada elemento de HTML se escribe, generalmente, entre etiquetas: `<etiqueta>contenido</etiqueta>` → Podemos complementar esta breve introducción a HTML con una revisión de la página: https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics
 
@@ -16,9 +16,9 @@ El editor de código fuente nos dará indicaciones para poder escribir:
 
 - **JS (JavaScript)**. Lenguaje de programación que controla el comportamiento de las páginas web (qué hace la página). Con JS se pueden escribir secuencias de instrucciones con las que una computadora realizará una tarea determinada. Su estructura puede variar dependiendo de la lógica de cada instrucción, la [versión](https://www.w3schools.com/js/js_versions.asp) en uso, la *library* en la que nos apoyemos, o el *framework* de programación en el que se basa el trabajo; podemos imaginar que una *library* como una selección de ingredientes listos para poder preparar determinado tipo de comida, mientras que el *framework* te permite preparar un banquete si es que ya tienes suficiente experiencia en la cocina → Podemos complementar esta breve introducción a JS con una revisión de la página: https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/What_is_JavaScript
 
-Los lenguajes de descripción pueden dominarse en un menor tiempo que los lenguajes de programación; HTML puede dominarse tan pronto se memorizan [los elementos HTML](https://developer.mozilla.org/es/docs/Web/HTML/Element) y sus [atributos](https://developer.mozilla.org/es/docs/Web/HTML/Attributes); CSS podría exigir algo más que HTML, por la memorización de todas las propiedades, valores y sus unidades, además de [los selectores](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors) (para seleccionar por tipo, atributo, identidad, clase, pseudoclase y un largo etcétera). 
+Los lenguajes de descripción pueden dominarse en un menor tiempo que los lenguajes de programación; HTML puede dominarse tan pronto se memorizan [los elementos HTML](https://developer.mozilla.org/es/docs/Web/HTML/Element) y sus [atributos](https://developer.mozilla.org/es/docs/Web/HTML/Attributes); CSS podría exigir algo más que HTML, porque implica memorizar propiedades, valores y sus unidades, además de [los selectores](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors) (para seleccionar elementos del HTML por tipo, atributo, identidad, clase, pseudoclase y un largo etcétera). 
 
-Pero JavaScript, y la programación en general, puede tomarnos mucho más tiempo; una cosa es escribir descriptores y otra es estructurar instrucciones ajustadas a circunstancias y objetivos.
+Pero JavaScript, y la programación en general, puede tomarnos mucho más tiempo; una cosa es escribir descriptores y otra es estructurar instrucciones ajustadas a circunstancias y objetivos:
 
 ![meme](https://user-images.githubusercontent.com/7999767/156002975-2dfbf580-f6e2-4bd8-8e40-7110457a4cb4.png)
 

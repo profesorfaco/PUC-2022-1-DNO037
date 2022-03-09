@@ -70,7 +70,7 @@ El ejercicio incompleto es evaluado con 0 punto.
 
 | NOMBRE | CUENTA EN GITHUB | EJERCICIO EN GITHUB PAGES |
 |:-------|:------------|:------------|
-| CATALINA | https://github.com/catabrtvls | https://catabrtvls.github.io/dno037/clase-1/ |
+| CATA | https://github.com/catabrtvls | https://catabrtvls.github.io/dno037/clase-1/ |
 | MAGDALENA | https://github.com/manealcalder | https://manealcalder.github.io/dno037-clase-1/ |
 | SOFÍA | https://github.com/sofialvarez4 | https://sofialvarez4.github.io/dno037-clase-1/ |
 | MARÍA EMILIA | Pendiente | Pendiente |

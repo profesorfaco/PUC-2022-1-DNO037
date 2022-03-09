@@ -99,7 +99,7 @@ El ejercicio incompleto es evaluado con 0 punto.
 | CAMILA | https://github.com/cstrauszer | https://cstrauszer.github.io/clase-01/ |
 | SARAH | https://github.com/st4fur | https://st4fur.github.io/Primera-clase/ |
 | JUAN | https://github.com/JUAN21TAPIA | https://juan21tapia.github.io/dno037-clase-1/ |
-| DUSANKA | ttps://github.com/dwvalle | https://dwvalle.github.io/Clase-1-/ |
+| DUSANKA | https://github.com/dwvalle | https://dwvalle.github.io/Clase-1-/ |
 | MARÍA DEL ROSARIO | Pendiente | Pendiente |
 
 - - - - - - - 

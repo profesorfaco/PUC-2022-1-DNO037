@@ -68,6 +68,10 @@ El ejercicio completo puede ser evaluado con:
 
 El ejercicio incompleto es evaluado con 0 punto.
 
+| Nombre | repositorio | github pages|
+|:-------|:------------|:------------|
+| Pendiente | Pendiente | Pendiente |
+
 - - - - - - - 
 
 ###### [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2022/tree/main/clase-02)

@@ -68,9 +68,39 @@ El ejercicio completo puede ser evaluado con:
 
 El ejercicio incompleto es evaluado con 0 punto.
 
-| Nombre | repositorio | github pages|
+| NOMBRE | CUENTA EN GITHUB | EJERCICIO EN GITHUB PAGES |
 |:-------|:------------|:------------|
-| Pendiente | Pendiente | Pendiente |
+| CATALINA | https://github.com/catabrtvls | https://catabrtvls.github.io/dno037/clase-1/ |
+| MAGDALENA | https://github.com/manealcalder | https://manealcalder.github.io/dno037-clase-1/ |
+| SOFÍA | https://github.com/sofialvarez4 | https://sofialvarez4.github.io/dno037-clase-1/ |
+| MARÍA EMILIA | Pendiente | Pendiente |
+| ANTONIA | https://github.com/AntoCvP | https://antocvp.github.io/Clase-01/ |
+| MATÍAS | https://github.com/mcostaa | https://mcostaa.github.io/Clase1-DNO037/ |
+| CATALINA | https://github.com/catalinadiazg | https://catalinadiazg.github.io/dno0037-clase-1/ |
+| PAULA | https://github.com/paulaerrazuriz | https://paulaerrazuriz.github.io/dno037-clase--1 |
+| TRINIDAD | https://github.com/Trinidad-Forster | https://trinidad-forster.github.io/Clase1-09-03/ |
+| NICOLÁS | https://github.com/NicoGaona | https://nicogaona.github.io/clase-1-nuevos-medios/ |
+| FERNANDA | Pendiente | Pendiente |
+| ÁNGELES | https://github.com/angeleshurtado | https://angeleshurtado.github.io/Clase-1/ |
+| REGINA | https://github.com/reginalatife | https://reginalatife.github.io/clase1-regina/ |
+| JOSEFA  | Pendiente | Pendiente |
+| CLEMENTE | https://github.com/clementemackay | https://clementemackay.github.io/clase-1/ |
+| CATALINA | Pendiente | Pendiente |
+| DANIELA | https://github.com/danielamejiiasr | https://danielamejiiasr.github.io/dno037-clase-1/ |
+| CECILIA | Pendiente | Pendiente |
+| ISIDORA | https://github.com/iximillas | https://iximillas.github.io/dno037-clase1/ |
+| VICENTE | https://github.com/vicentemunozenr | https://vicentemunozenr.github.io/Diseno-y-nuevos-medios/clase-01/ |
+| SEBASTIÁN | Pendiente | Pendiente |
+| ANTONIA | https://github.com/antoniariescoc | https://antoniariescoc.github.io/dno037-clase-1/ |
+| CAMILA | Pendiente | Pendiente |
+| DOMINIQUE | https://github.com/domisaezk | https://domisaezk.github.io/dno037-clase-1/ |
+| JACINTA | https://github.com/jacintasanchez | https://jacintasanchez.github.io/dno037-clase-1/ |
+| IGNACIO | https://github.com/ISQUELLA | https://isquella.github.io/clase-1/ |
+| CAMILA | https://github.com/cstrauszer | https://cstrauszer.github.io/clase-01/ |
+| SARAH | https://github.com/st4fur | https://st4fur.github.io/Primera-clase/ |
+| JUAN | https://github.com/JUAN21TAPIA | https://juan21tapia.github.io/dno037-clase-1/ |
+| DUSANKA | ttps://github.com/dwvalle | https://dwvalle.github.io/Clase-1-/ |
+| MARÍA DEL ROSARIO | Pendiente | Pendiente |
 
 - - - - - - - 
 

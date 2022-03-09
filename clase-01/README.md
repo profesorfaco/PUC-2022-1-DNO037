@@ -76,7 +76,7 @@ El ejercicio incompleto es evaluado con 0 punto.
 | MARÍA EMILIA | Pendiente | Pendiente |
 | ANTONIA | https://github.com/AntoCvP | https://antocvp.github.io/Clase-01/ |
 | MATÍAS | https://github.com/mcostaa | https://mcostaa.github.io/Clase1-DNO037/ |
-| CATALINA | https://github.com/catalinadiazg | https://catalinadiazg.github.io/dno0037-clase-1/ |
+| CATA | https://github.com/catalinadiazg | https://catalinadiazg.github.io/dno0037-clase-1/ |
 | PAULA | https://github.com/paulaerrazuriz | https://paulaerrazuriz.github.io/dno037-clase--1 |
 | TRINIDAD | https://github.com/Trinidad-Forster | https://trinidad-forster.github.io/Clase1-09-03/ |
 | NICOLÁS | https://github.com/NicoGaona | https://nicogaona.github.io/clase-1-nuevos-medios/ |

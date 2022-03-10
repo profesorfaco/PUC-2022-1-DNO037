@@ -92,7 +92,7 @@ El ejercicio incompleto es evaluado con 0 punto.
 | VICENTE | https://github.com/vicentemunozenr | https://vicentemunozenr.github.io/Diseno-y-nuevos-medios/clase-01/ |
 | SEBASTIÁN | — | — |
 | ANTONIA | https://github.com/antoniariescoc | https://antoniariescoc.github.io/dno037-clase-1/ |
-| CAMILA | Pendiente | Pendiente |
+| CAMILA | — | — |
 | DOMINIQUE | https://github.com/domisaezk | https://domisaezk.github.io/dno037-clase-1/ |
 | JACINTA | https://github.com/jacintasanchez | https://jacintasanchez.github.io/dno037-clase-1/ |
 | IGNACIO | https://github.com/ISQUELLA | https://isquella.github.io/clase-1/ |

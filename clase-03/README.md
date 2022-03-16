@@ -108,6 +108,11 @@ var lasOpciones = ['Luke Skywalker', 'C-3PO', 'R2-D2', 'Darth Vader', 'Leia Orga
 
 Para darle una vuelta a lo recién presentado **es necesario que descarguen lo contenido en la carpeta de esta clase, y hagan algunos ajustes para cumplir con la primera parte del ejercicio; el ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), [su versión ajustada de un sitio web](https://profesorfaco.github.io/dno037-2022/clase-03).**
 
+Entre los ajustes, conviene considerar el cambio de personajes de StarWars por otros que resulten más familiares, y que estén disponibles en una API como:
+
+- https://pokeapi.co/api/v2/pokemon/
+- https://hp-api.herokuapp.com/api/characters/staff
+
 El ejercicio completo puede ser evaluado con:
 
 - **0 punto** → no logrado.

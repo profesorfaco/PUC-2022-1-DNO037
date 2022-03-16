@@ -89,9 +89,6 @@ function setup() {
     var lasOpciones = [];
     starWars.results.forEach((personaje) => lasOpciones.push(personaje.name));
     console.log(lasOpciones);
-}
-
-function draw(){
     noCanvas();
 }
 ```

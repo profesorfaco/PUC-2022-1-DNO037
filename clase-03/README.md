@@ -111,7 +111,7 @@ Entre los ajustes, conviene considerar el cambio de personajes de StarWars por o
 - https://pokeapi.co/api/v2/pokemon/
 - https://hp-api.herokuapp.com/api/characters/staff
 
-Podrían crear su propio JSN, aprovechando https://my-json-server.typicode.com/
+O podrían crear su propio [JSON](https://www.json.org/json-es.html), aprovechando https://my-json-server.typicode.com/
 
 El ejercicio completo puede ser evaluado con:
 

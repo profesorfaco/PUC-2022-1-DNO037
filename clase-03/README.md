@@ -108,8 +108,8 @@ Para darle una vuelta a lo recién presentado **es necesario que descarguen lo c
 Entre los ajustes, conviene considerar el cambio de personajes de StarWars por otros que resulten más familiares, y que estén disponibles en una API como:
 
 - https://digimon-api.vercel.app/api/digimon
-- https://pokeapi.co/api/v2/pokemon/
 - https://hp-api.herokuapp.com/api/characters/staff
+- https://pokeapi.co/api/v2/pokemon/
 
 O podrían crear su propio [JSON](https://www.json.org/json-es.html), aprovechando https://my-json-server.typicode.com/
 

@@ -36,7 +36,7 @@ En [las referencias de p5.js](https://p5js.org/es/reference/#/p5/preload), esta 
 > La función `preload()` es ejecutada antes de `setup()`, es usada para manejar la carga asíncrona de archivos externos. Si se define una función `preload()`, `setup()` esperará hasta que las llamadas a funciones load hayan terminado. Solo se deben incluir instrucciones de carga dentro de `preload()` (`loadImage`, `loadJSON`, `loadFont`, `loadStrings`, etc).
 
 
-En la clase pasada y en esta también vamos a aprovecharnos de la instrucción de [`loadJSON()`](https://p5js.org/es/reference/#/p5/loadJSON), para obtener [datos de un JSON](https://swapi.dev/api/people/?format=json) que tiene la siguiente estructura:
+En la clase pasada aprovechamos [`loadJSON()`](https://p5js.org/es/reference/#/p5/loadJSON), para obtener [datos de un JSON](https://swapi.dev/api/people/?format=json) que tenía la siguiente estructura:
 
 ```
 {
@@ -47,7 +47,7 @@ En la clase pasada y en esta también vamos a aprovecharnos de la instrucción d
 }
 ```
 
-En `results` tenemos un arreglo que contiene 10 ítems. Cada uno de éstos tiene la siguiente estructura:
+Dentro de `results` tenemos un arreglo que contiene 10 ítems. Cada ítem tiene la siguiente estructura:
 
 ```
 {

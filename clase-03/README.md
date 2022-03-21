@@ -111,7 +111,7 @@ Entre los ajustes, conviene considerar el cambio de personajes de StarWars por o
 - https://hp-api.herokuapp.com/api/characters/staff
 - https://pokeapi.co/api/v2/pokemon/
 
-O podrían crear su propio [JSON](https://www.json.org/json-es.html), aprovechando https://my-json-server.typicode.com/
+¡Pero tengan cuidado con la estructura de cada uno! La estructura del json en la pokeapi es como la de swapi, pero la estructura de digimon es como la de hp, donde podría ser necesaria un ajuste por [lo que siempre devuelve loadJSON](https://github.com/processing/p5.js/issues/2154#issuecomment-578892245).
 
 El ejercicio completo puede ser evaluado con:
 

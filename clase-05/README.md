@@ -99,7 +99,7 @@ Para cerrar, recordemos que existen servicios que ofrecen datos en línea. Mucho
 - movimientos telúricos: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
 - etcétera: https://github.com/juanbrujo/listado-apis-publicas-en-chile
 
-Como recordarán por la clase-03: Es posible hacer pruebas rápidas de consulta a tales servicios con el [editor de p5.js](https://editor.p5js.org/profesorfaco/sketches/611nBVIY2).
+Como recordarán de la [clase-03](https://github.com/profesorfaco/dno037-2022/tree/main/clase-03): Es posible hacer pruebas rápidas de consulta a tales servicios con el [editor de p5.js](https://editor.p5js.org/profesorfaco/sketches/611nBVIY2).
 
 - - - - - - - - - 
 
@@ -114,6 +114,7 @@ Ahora es necesario:
 Personalizarlo implicar decidir tres ciudades distintas y trabajar, en conjunto, en la creación de algunas opciones de "icon" con SVG.
 
 Recuerden que el ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), [su versión ajustada de un sitio web](https://profesorfaco.github.io/dno037-2022/clase-05).
+
 El ejercicio completo puede ser evaluado con:
 
 - **0 punto** → no logrado.

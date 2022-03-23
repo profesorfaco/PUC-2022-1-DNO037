@@ -38,7 +38,21 @@ Nos referimos a tres partes. No se trata de tres pasos. También sería válido 
 new Chart(document.getElementById('nombre').getContext('2d'), {type: '…', data: {…}, options: {…}});
 ```
 
-Ahora, si necesitamos datos, podemos volver a aproevechar aquellos que se ofrecen en línea, a través de JSON. Pero en esta ocasión no estamos trabajando con p5.js, por ello no contamos con [su función loadJSON](https://p5js.org/es/reference/#/p5/loadJSON); ya nos corresponde probar el [uso de Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch), y luego estructurar los datos obtenidos a la manera que convenga al tipo de gráfico que estemos usando en [Chart.js](https://www.chartjs.org/docs/latest/charts/?h=type).
+Ahora, si necesitamos datos, podemos volver a aprovechar aquellos que se ofrecen en línea, a través de JSON. 
+
+Pero en esta ocasión no estamos trabajando con p5.js, sólo con la biblioteca de Charts.js, por ello no contamos con [la función loadJSON](https://p5js.org/es/reference/#/p5/loadJSON); ya nos corresponde avanzar al [uso de Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch).
+
+Para aprender lo necesario respecto del uso de Fetch, es recomedanle ver dos videos de Daniel Shifmann:
+
+- https://youtu.be/tc8DU14qX6I
+
+- https://youtu.be/uxf0--uiX0I
+
+Una vez obtenemos los datos mediante el [uso de Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch), podemos estructurar los datos obtenidos a la manera que convenga al tipo de gráfico que estemos usando en [Chart.js](https://www.chartjs.org/docs/latest/charts/?h=type)
+
+- - - - - - -
+
+### Práctica
 
 Revisaremos, en la práctica:
 
@@ -55,10 +69,6 @@ Habrá algunos ajustes que podremos resolver con los métodos:
 - [`splice()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/splice).
 
 Además, corresponde tener a mano la [documentación de Charts.js](https://www.chartjs.org/docs/latest/).
-
-- - - - - - -
-
-### Práctica
 
 El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), una versión ajustada del sitio web que está contenido en [esta carpeta del repositorio](https://profesorfaco.github.io/dno037-2022/clase-06/).
 

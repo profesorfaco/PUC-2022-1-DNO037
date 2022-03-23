@@ -118,7 +118,9 @@ Tan pronto funcione el ajuste, podemos sumar un desafío para Harry Potter y Dig
 - https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else
 - https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
 
-Una vez hechas las pruebas, es posible cambiar la instrucción del dibujo [preparada en este sitio web](https://profesorfaco.github.io/dno037-2022/clase-03) por alguna que muestre una imagen de un Digimon por dibujar (mostrando una imagen de referencia para el dibujo).
+Una vez hechas las pruebas, es posible cambiar la instrucción del dibujo [preparada en este sitio web](https://profesorfaco.github.io/dno037-2022/clase-03) por alguna que muestre una imagen de un Digimon por dibujar (como referencia para el dibujo).
+
+Y sube algunos dibujos al README.md de tu repositorio. Si lo haces hoy, sabrás como resolver parte de la [prueba de la próxima clase](https://github.com/profesorfaco/dno037-2022/tree/main/clase-04).
 
 El ejercicio completo puede ser evaluado con:
 

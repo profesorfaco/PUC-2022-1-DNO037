@@ -99,7 +99,7 @@ Para cerrar, recordemos que existen servicios que ofrecen datos en línea. Mucho
 - movimientos telúricos: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
 - etcétera: https://github.com/juanbrujo/listado-apis-publicas-en-chile
 
-Ustedes pueden hacer pruebas rápidas de consulta a tales servicios con el [editor de p5.js](https://editor.p5js.org/profesorfaco/sketches/611nBVIY2).
+Como recordarán por la clase-03: Es posible hacer pruebas rápidas de consulta a tales servicios con el [editor de p5.js](https://editor.p5js.org/profesorfaco/sketches/611nBVIY2).
 
 - - - - - - - - - 
 

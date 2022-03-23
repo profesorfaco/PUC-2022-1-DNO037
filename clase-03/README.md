@@ -113,6 +113,10 @@ Entre los ajustes, conviene considerar el cambio de personajes de StarWars por o
 
 ¡Pero tengan cuidado con la estructura de cada uno! La estructura del json en la pokeapi es como la de swapi, pero la estructura de digimon es como la de hp, donde podría ser necesaria un ajuste por [lo que siempre devuelve loadJSON](https://github.com/processing/p5.js/issues/2154#issuecomment-578892245).
 
+Tan pronto funcione el ajuste, podemos sumar un desafío para Harry Potter y Digimon: Hace un arreglo de opciones con un tipo de terminado. Ej. Solo humanos vivos en Harry Potter y un mismo nivel en Digimon. Este desafío implica el uso de un `if`:
+
+- https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else
+
 El ejercicio completo puede ser evaluado con:
 
 - **0 punto** → no logrado.

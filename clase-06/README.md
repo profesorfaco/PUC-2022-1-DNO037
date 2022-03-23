@@ -58,42 +58,30 @@ Así como podemos organizarlos con nombres para el eje X y estaturas para el eje
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"
-            integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <title>Charts.js</title>
     </head>
     <body>
-        <canvas id="myChart" width="400" height="200"></canvas>
+        <canvas id="miGrafico" width="400" height="200"></canvas>
         <script>
-            async function chart() {
-                const response = await fetch("https://swapi.dev/api/people/?page=1&format=json");
-                const data = await response.json();
-                var nombres = [];
-                var estaturas = [];
+            async function todito() {
+                const consulta = await fetch("https://swapi.dev/api/people/?page=1&format=json");
+                const data = await consulta.json();
+                let nombres = [];
+                let estaturas = [];
                 data.results.forEach((s) => {
                     nombres.push(s.name);
                     estaturas.push(s.height);
                 });
-                const ctx = document.getElementById("myChart");
-                const myChart = new Chart(ctx, {
+                new Chart(document.getElementById("miGrafico").getContext('2d'), {
                     type: "bar",
                     data: {
                         labels: nombres,
-                        datasets: [
-                            {
-                                label: "StarWars",
-                                data: estaturas,
-                                backgroundColor: "#778",
-                            }
-                        ]
+                        datasets: [{label: "StarWars", data: estaturas, backgroundColor: "#778"}]
                     }
                 });
             }
-            chart().catch((error) => console.error(error));
+            todito().catch((error) => console.error(error));
         </script>
     </body>
 </html>

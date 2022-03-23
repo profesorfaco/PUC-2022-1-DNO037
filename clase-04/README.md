@@ -17,4 +17,19 @@ Cada estudiante cuenta con el horario de clases para publicar, [con GitHub Pages
 
 - - - - - - - 
 
+El resultado podría verse como sigue:
+
+El `index.html`: 
+
+![index](https://user-images.githubusercontent.com/7999767/159751532-dfd4fc3c-ffb1-4167-93a3-9499227d6fab.png)
+
+La `page.html`:
+
+![page](https://user-images.githubusercontent.com/7999767/159751621-58592f91-ce09-462e-a530-a0b25d7dccc1.png)
+
+Este ejemplo lo hice tomando los archivos de la [clase-01](https://github.com/profesorfaco/dno037-2022/tree/main/clase-01), mezclándolos con algo de la [clase-03](https://github.com/profesorfaco/dno037-2022/tree/main/clase-03), y el propio JSON que subí junto con algunas imágenes a un repositorio de [prueba](https://github.com/profesorfaco/prueba).
+
+
+- - - - - - - 
+
 ###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2022/tree/main/clase-03) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2022/tree/main/clase-05)

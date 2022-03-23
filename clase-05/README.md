@@ -111,7 +111,7 @@ Para hacer su versión de [esta App Web ya preparada](https://profesorfaco.githu
 
 - descargar lo contenido en [la carpeta de esta clase y personalizarlo](https://profesorfaco.github.io/dno037-2022/clase-05).
 
-Personalizarlo implicar decidir tres ciudades distintas y trabajar, en conjunto, en la creación de algunas opciones de "icon" con archivos [SVG](https://developer.mozilla.org/es/docs/Web/SVG/Tutorial/Introduction) de https://icons8.com/icon/pack/weather/dusk
+Personalizarlo implicar decidir tres ciudades distintas y trabajar, en conjunto, en la creación de algunas alternativas de [Weather icons](https://openweathermap.org/weather-conditions) con imágenes en formato [SVG](https://developer.mozilla.org/es/docs/Web/SVG/Tutorial/Introduction) obtenidas de https://icons8.com/icon/pack/weather/dusk
 
 Recuerden que el ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 

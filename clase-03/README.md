@@ -93,19 +93,19 @@ function setup() {
 }
 ```
 
-Creo una variable global, de nombre `starWars`. Dentro del `preload()` puedo guardar en tal variable la información que está en línea gracias a [un JSON](https://swapi.dev/api/people/?format=json). Ahora, dentro del `setup()` puedo crear la variable de `lasOpciones` como un arreglo vacío. Luego, tomo la variable `starWars` y dentro de cada ítem dentro de `results` tomo el `name`, para sumarlo al arreglo que antes estaba vacío. Así se obtiene:
+Puedo copiar y pegar la instrucción completa en https://editor.p5js.org/
+
+En tal instrucción creo una variable global, de nombre `starWars`. Dentro del `preload()` puedo guardar en tal variable la información que está en línea gracias a [un JSON](https://swapi.dev/api/people/?format=json). Ahora, dentro del `setup()` puedo crear la variable de `lasOpciones` como un arreglo vacío. Luego, tomo la variable `starWars` y dentro de cada ítem dentro de `results` tomo el `name`, para sumarlo al arreglo que antes estaba vacío. Así se obtienen `lasOpciones`:
 
 ```
-var lasOpciones = ['Luke Skywalker', 'C-3PO', 'R2-D2', 'Darth Vader', 'Leia Organa', 'Owen Lars', 'Beru Whitesun lars', 'R5-D4', 'Biggs Darklighter', 'Obi-Wan Kenobi']
+['Luke Skywalker', 'C-3PO', 'R2-D2', 'Darth Vader', 'Leia Organa', 'Owen Lars', 'Beru Whitesun lars', 'R5-D4', 'Biggs Darklighter', 'Obi-Wan Kenobi']
 ```
 
 - - - - - - - - - - - - -
 
 ### Práctica
 
-Para darle una vuelta a lo recién presentado **es necesario que descarguen lo contenido en la carpeta de esta clase, y hagan algunos ajustes para cumplir con la primera parte del ejercicio; el ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), [su versión ajustada de un sitio web](https://profesorfaco.github.io/dno037-2022/clase-03).**
-
-Entre los ajustes, conviene considerar el cambio de personajes de StarWars por otros que resulten más familiares, y que estén disponibles en una API como:
+Aprovechemos algún JSON distinto del ya trabajo. Podrían ser los disponibles en:
 
 - https://digimon-api.vercel.app/api/digimon
 - https://hp-api.herokuapp.com/api/characters/staff
@@ -118,7 +118,7 @@ Tan pronto funcione el ajuste, podemos sumar un desafío para Harry Potter y Dig
 - https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else
 - https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
 
-Para resolver el desafío, pueden hacer algunas pruebas con el https://editor.p5js.org/
+Una vez hechas las pruebas, es posible cambiar la instrucción del dibujo [preparada en este sitio web](https://profesorfaco.github.io/dno037-2022/clase-03) por alguna que muestre una imagen de un Digimon por dibujar (mostrando una imagen de referencia para el dibujo).
 
 El ejercicio completo puede ser evaluado con:
 

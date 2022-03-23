@@ -52,52 +52,6 @@ Una vez obtenemos los datos mediante el [uso de Fetch](https://developer.mozilla
 
 Así como podemos organizarlos con nombres para el eje X y estaturas para el eje Y en un gráfico de barras. 
 
-Alternativa A:
-
-```
-<!DOCTYPE html>
-<html lang="es">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <title>Charts.js</title>
-    </head>
-    <body>
-        <canvas id="myChart" width="400" height="200"></canvas>
-        <script>
-            fetch("https://swapi.dev/api/people/?page=1&format=json")
-                .then((response) => response.json())
-                .then((consulta) => {
-                    var nombres = [];
-                    var estaturas = [];
-                    consulta.results.forEach((s) => {
-                        nombres.push(s.name);
-                        estaturas.push(s.height);
-                    });
-                    const ctx = document.getElementById("myChart");
-                    const myChart = new Chart(ctx, {
-                        type: "bar",
-                        data: {
-                            labels: nombres,
-                            datasets: [
-                                {
-                                    label: "StarWars",
-                                    data: estaturas,
-                                    backgroundColor: "#778",
-                                }
-                            ]
-                        }
-                    });
-                })
-                .catch((error) => console.log("Algo está mal.", error));
-        </script>
-    </body>
-</html>
-```
-
-Alternativa B:
-
 ```
 <!DOCTYPE html>
 <html lang="es">
@@ -144,8 +98,6 @@ Alternativa B:
     </body>
 </html>
 ```
-
-La diferencia entre A y B está en la estructura del Fetch.
 
 - - - - - - -
 

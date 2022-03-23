@@ -118,6 +118,8 @@ Tan pronto funcione el ajuste, podemos sumar un desafío para Harry Potter y Dig
 - https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else
 - https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
 
+Para resolver el desafío, pueden hacer algunas pruebas con el https://editor.p5js.org/
+
 El ejercicio completo puede ser evaluado con:
 
 - **0 punto** → no logrado.

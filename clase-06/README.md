@@ -83,9 +83,9 @@ Así como podemos organizarlos con nombres para el eje X y estaturas para el eje
                                     label: "StarWars",
                                     data: estaturas,
                                     backgroundColor: "#778",
-                                },
-                            ],
-                        },
+                                }
+                            ]
+                        }
                     });
                 })
                 .catch((error) => console.log("Algo está mal.", error));

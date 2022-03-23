@@ -48,17 +48,60 @@ Para aprender lo necesario respecto del uso de Fetch, es recomedanle ver dos vid
 
 - https://youtu.be/uxf0--uiX0I
 
-Una vez obtenemos los datos mediante el [uso de Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch), podemos estructurar los datos obtenidos a la manera que convenga al tipo de gráfico que estemos usando en [Chart.js](https://www.chartjs.org/docs/latest/charts/?h=type)
+Una vez obtenemos los datos mediante el [uso de Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch), podemos estructurar los datos obtenidos a la manera que convenga al tipo de gráfico que estemos usando en [Chart.js](https://www.chartjs.org/docs/latest/charts/?h=type).
 
+Así como podemos organizarlos con nombres para el eje X y estaturas para el eje Y en un gráfico de barras:
+
+```
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <title>Charts.js</title>
+    </head>
+    <body>
+        <canvas id="myChart" width="400" height="200"></canvas>
+        <script>
+            fetch("https://swapi.dev/api/people/?page=1&format=json")
+                .then((response) => response.json())
+                .then((consulta) => {
+                    var nombres = [];
+                    var estaturas = [];
+                    consulta.results.forEach((s) => {
+                        nombres.push(s.name);
+                        estaturas.push(s.height);
+                    });
+                    const ctx = document.getElementById("myChart");
+                    const myChart = new Chart(ctx, {
+                        type: "bar",
+                        data: {
+                            labels: nombres,
+                            datasets: [
+                                {
+                                    label: "StarWars",
+                                    data: estaturas,
+                                    backgroundColor: "#778",
+                                },
+                            ],
+                        },
+                    });
+                })
+                .catch((error) => console.log("Algo está mal.", error));
+        </script>
+    </body>
+</html>
+```
 - - - - - - -
 
 ### Práctica
 
-Revisaremos, en la práctica:
+Un gráfico que puede resultar de mayor interés, y actualidad, se puede obtener con
 
-- Los datos de [indicadores económicos diarios](https://mindicador.cl/api)
+- los [indicadores económicos diarios](https://mindicador.cl/api); y
 
-- Un [gráfico de líneas](https://www.chartjs.org/docs/latest/charts/line.html)
+- un [gráfico de líneas](https://www.chartjs.org/docs/latest/charts/line.html)
 
 Habrá algunos ajustes que podremos resolver con los métodos:
 

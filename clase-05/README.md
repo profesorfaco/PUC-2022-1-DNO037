@@ -84,13 +84,7 @@ La variable `f`, que contiene un objeto, usa paréntesis de llave que en su inte
 
 Las variables `g` y `h` son mezclas de las anteriores.
 
-Las variables `f`, `g` y `h` pueden verse como algo que ya hemos usado: **JSON (JavaScript Object Notation; Notación de Objetos de JavaScript), un formato ligero de intercambio de datos constituído por dos estructuras**:
-
-- **Una colección de pares de nombre/valor**. En varios lenguajes esto es conocido como un objeto, registro, estructura, diccionario, tabla hash, lista de claves o un arreglo asociativo.
-
-- **Una lista ordenada de valores**. En la mayoría de los lenguajes, esto se implementa como arreglos, vectores, listas o sequencias.
-
-Esas dos estructuras son las que encontramos en la notación original de objetos de JavaScript; **lo que diferencia a JSON de la redacción de un pedazo de Javascript es un par de comillas**: en `var h`, los nombres `mom`, `dad` y `children` no llevan comillas. Pero [en JSON los nombres, del par nombre/valor, sí llevan comillas](https://myjson.dit.upm.es/api/bins/1wo6). 
+Las variables `f`, `g` y `h` pueden verse como algo que ya hemos usado: **JSON (JavaScript Object Notation; Notación de Objetos de JavaScript), un formato ligero de intercambio de datos. 
 
 Para cerrar, recordemos que existen servicios que ofrecen datos en línea. Mucho más útiles que los datos de personajes de [StarWars](https://swapi.dev/api/people/?format=json), pueden ser los datos sobre:
 

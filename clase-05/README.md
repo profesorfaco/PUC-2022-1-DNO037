@@ -84,7 +84,7 @@ La variable `f`, que contiene un objeto, usa paréntesis de llave que en su inte
 
 Las variables `g` y `h` son mezclas de las anteriores.
 
-Las variables `f`, `g` y `h` pueden verse como algo que ya hemos usado para intercambiar datos: **JSON (JavaScript Object Notation; Notación de Objetos de JavaScript), un formato ligero de intercambio de datos constituído por dos estructuras**:
+Las variables `f`, `g` y `h` pueden verse como algo que ya hemos usado: **JSON (JavaScript Object Notation; Notación de Objetos de JavaScript), un formato ligero de intercambio de datos constituído por dos estructuras**:
 
 - **Una colección de pares de nombre/valor**. En varios lenguajes esto es conocido como un objeto, registro, estructura, diccionario, tabla hash, lista de claves o un arreglo asociativo.
 

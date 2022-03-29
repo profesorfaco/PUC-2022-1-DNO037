@@ -84,7 +84,7 @@ La variable `f`, que contiene un objeto, usa paréntesis de llave que en su inte
 
 Las variables `g` y `h` son mezclas de las anteriores.
 
-Las variables `f`, `g` y `h` pueden verse como algo que ya hemos usado: **JSON (JavaScript Object Notation; Notación de Objetos de JavaScript), un formato ligero de intercambio de datos. 
+Las variables `f`, `g` y `h` pueden verse como algo que ya hemos usado: **JSON** (JavaScript Object Notation; Notación de Objetos de JavaScript), un formato ligero de intercambio de datos.
 
 Para cerrar, recordemos que existen servicios que ofrecen datos en línea. Mucho más útiles que los datos de personajes de [StarWars](https://swapi.dev/api/people/?format=json), pueden ser los datos sobre:
 

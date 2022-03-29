@@ -8,7 +8,7 @@ Cada estudiante cuenta con el horario de clases para publicar, [con GitHub Pages
 
 | Instrucción/descripción |  Puntaje | 
 |:------------------------|:--------:|
-| Una portada, `index.html`, que tenga [un texto](https://www.nngroup.com/videos/biggest-mistake-writing-web/) para presentar un desafío de dibujo aleatorio y un botón para avanzar. | 1.0 |
+| Una portada, `index.html`, que tenga [un texto](https://www.nngroup.com/videos/biggest-mistake-writing-web/) y una imagen de referencia para presentar un desafío de dibujo aleatorio, además de un botón para avanzar. | 1.0 |
 | Una página interior, `page.html`, donde se pueda dibujar, con opciones para borrar y descargar, además de volver atrás. | 1.0 |
 | Un `style.css` con definiciones de presentación que se aplique a la portada y la página interior, donde se respeta el [*contrast ratio*](https://webaim.org/resources/contrastchecker/). | 1.0 |
 | Además, en el `README.md` del repositorio en donde publique su trabajo, debe agregar algunos dibujos desarrollados por usuarios reales, con características similares para quienes redactó el texto del `index.html` (acceso a tecnología, edad, escolaridad, etc.) | 1.0 |

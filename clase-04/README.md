@@ -15,6 +15,12 @@ Cada estudiante cuenta con el horario de clases para publicar, [con GitHub Pages
 | Puntos acumulados por trabajo desarrollado entre las clases 1 y 3 | 3.0 |
 | TOTAL  | 7.0 |
 
+### Para entregar:
+
+**Ingrese respuesta en este foro de Canvas: https://cursos.canvas.uc.cl/courses/39643/discussion_topics/419617**
+
+Es necesario que indique dos direcciones, una de su repositorio (Ej: https://github.com/user/repo) y otra de su página en línea (Ej: https://user.github.io/repo)
+
 - - - - - - - 
 
 El resultado podría verse como sigue:
@@ -28,6 +34,8 @@ La `page.html`:
 ![page](https://user-images.githubusercontent.com/7999767/159751621-58592f91-ce09-462e-a530-a0b25d7dccc1.png)
 
 Este ejemplo lo hice tomando los archivos de la [clase-01](https://github.com/profesorfaco/dno037-2022/tree/main/clase-01), mezclándolos con algo de la [clase-03](https://github.com/profesorfaco/dno037-2022/tree/main/clase-03) y el propio JSON que armé, [revisé](https://jsonlint.com/) y subí, junto con algunas imágenes, a un repositorio de [prueba](https://github.com/profesorfaco/prueba).
+
+Este ejemplo no tendría todo los puntos. Revise la pauta para descubrir el motivo.
 
 
 - - - - - - - 

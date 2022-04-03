@@ -99,7 +99,7 @@ Como recordarán: En la [clase-03](https://github.com/profesorfaco/dno037-2022/t
 
 ### Práctica
 
-Para hacer su versión de [esta App Web ya preparada](https://profesorfaco.github.io/dno037-2022/clase-05), es necesario:
+Para hacer su versión de [esta Web App ya preparada](https://profesorfaco.github.io/dno037-2022/clase-05), es necesario:
 
 - crear un usuario en [OpenWeather](https://home.openweathermap.org/users/sign_in) y activar su propia API Key.
 

@@ -51,8 +51,27 @@
             function setup() {
                 noCanvas();
 
+                var traduce;
+
+                switch (data.weather[0].description) {
+                  case "clear sky":
+                    traduce = "cielo despejado";
+                    break;
+                  case "few clouds":
+                    traduce = "cielo parcialmente despejado";
+                    break;
+                  case "scattered clouds":
+                   traduce = "cielo parcialmente nublado";
+                    break;
+                  case "broken clouds":
+                    traduce = "cielo nublado";
+                    break;
+                  default:
+                    traduce = "otro cielo mi ciela";
+                }
+
                 if (data != "Algo salió mal") {
-                    createElement("p", "La temperatura en " + data.name + " es de " + Math.round(data.main.temp) + "ºC, con <i>" + data.weather[0].description + "</i>.").parent(texto);
+                    createElement("p", "La temperatura en " + data.name + " es de " + Math.round(data.main.temp) + "ºC, con <i>" + traduce + "</i>.").parent(texto);
                     console.log(data);
                     //vamos a buscar un ícono provisorio en https://openweathermap.org/weather-conditions
                     imagen.setAttribute("src", "http://openweathermap.org/img/wn/" + data.weather[0].icon + "@4x.png");

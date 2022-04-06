@@ -48,7 +48,7 @@ Ahora, si necesitamos datos, podemos volver a aprovechar aquellos que ya se ofre
 - https://youtu.be/RfMkdvN-23o
 - https://youtu.be/uxf0--uiX0I
 
-Una vez obtenemos los datos mediante el [uso de Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch), podemos estructurar los datos obtenidos a la manera que convenga al tipo de gráfico que estemos usando en [Chart.js](https://www.chartjs.org/docs/latest/charts/?h=type).
+Una vez sean obtenidos los datos mediante el [uso de Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch), podemos estructurarlos  a la manera que convenga al tipo de gráfico que estemos usando en [Chart.js](https://www.chartjs.org/docs/latest/charts/?h=type).
 
 Podemos, por ejemplo, tomar datos de un JSON y luego organizarlos para definir lo que corresponda a cada eje en un gráfico de barras. 
 
@@ -227,7 +227,7 @@ El CSV en *raw* es el que tenemos que usar para hacer el `fetch()`. Para probarl
 </html>
 ```
 
-Noten la diferencia en la línea que sigue al fetch, esa que traspasa `consulta` a `data`. Ese traspaso ya no se trata como `json()` sino un `txt()`. Ahora, como se trata como un TXT, tenemos que usar varias veces el [método split()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/split) para explicarle cómo tratar a ciertos caracteres.
+Noten la diferencia en la línea que sigue al fetch, esa que traspasa `consulta` a `data`. Ese traspaso ya no se trata como `json()` sino un `txt()`. Ahora, como se trata de un TXT, tenemos que usar varias veces el [método split()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/split) para explicarle cómo tratar a ciertos caracteres.
 
 Lo recién presentado queda mejor explicado en el segundo de los videos de Daniel Shiffman enlistados más arriba.
 

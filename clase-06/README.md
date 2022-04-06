@@ -87,7 +87,7 @@ Podemos tomar datos de un JSON y luego organizarlos para definir lo que correspo
 </html>
 ```
 
-También podemos tomar los datos de un JSON y contarlos bajo alguna condición, así tener números para graficar que resulten del conteo. Por ejemplo, puedo tomar la información de todos los movimientos telúricos 4.5+ registrados y [compartidos por la USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) durante los últimos 7 días. En el JSON no encontramos el detalle de cuántos movimientos telúricos 4.5+ han ocurrido en Chile o Japón, pero podemos encargarle al computador revisar cada registros preguntando si acaso ocurren en un lugar que incluye `Chile` o `Japan` en su nombre:
+También podemos tomar los datos de un JSON y contarlos bajo alguna condición, para luego visualizar los números que resulten del conteo. Por ejemplo, puedo tomar la información de todos los movimientos telúricos 4.5+ registrados y [compartidos por la USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) durante los últimos 7 días. En [el JSON de la USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.geojson) no encontramos el detalle de cuántos movimientos telúricos 4.5+ han ocurrido en Chile o Japón, pero podemos encargarle al computador revisar si en cada registro el nombre del lugar incluye `Chile` o `Japan`:
 
 ```
 <!DOCTYPE html>

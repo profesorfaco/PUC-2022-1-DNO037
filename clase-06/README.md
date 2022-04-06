@@ -38,7 +38,7 @@ Nos referimos a tres partes. No se trata de tres pasos de una secuencia en un ú
 new Chart(document.getElementById('nombre').getContext('2d'), {type: '…', data: {…}, options: {…}});
 ```
 
-Ahora, si necesitamos datos, podemos volver a aprovechar aquellos que se ofrecen en línea, a través de JSON. 
+Ahora, si necesitamos datos, podemos volver a aprovechar aquellos que ya se ofrecen en línea. 
 
 **Pero en esta ocasión no estamos trabajando con p5.js, sólo con la biblioteca de Charts.js, por ello no contamos con [la función loadJSON](https://p5js.org/es/reference/#/p5/loadJSON); ya nos corresponde avanzar al [uso de Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch)**.
 
@@ -50,9 +50,9 @@ Ahora, si necesitamos datos, podemos volver a aprovechar aquellos que se ofrecen
 
 Una vez obtenemos los datos mediante el [uso de Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch), podemos estructurar los datos obtenidos a la manera que convenga al tipo de gráfico que estemos usando en [Chart.js](https://www.chartjs.org/docs/latest/charts/?h=type).
 
-Podemos tomar datos de un JSON y luego organizarlos para definir lo que corresponda a cada eje en un gráfico de barras. 
+Podemos, por ejemplo, tomar datos de un JSON y luego organizarlos para definir lo que corresponda a cada eje en un gráfico de barras. 
 
-Copiemos lo que sigue para luego pegarlo en un documento recién creado en el editor de código fuente, y guardémoslo como `ejemplo-1.html`:
+Copiemos lo que sigue para luego pegarlo en un documento vacío, recién creado en el editor de código fuente, y guardémoslo como `ejemplo-1.html`:
 
 ```
 <!DOCTYPE html>
@@ -89,9 +89,9 @@ Copiemos lo que sigue para luego pegarlo en un documento recién creado en el ed
 </html>
 ```
 
-También podemos tomar los datos de un JSON y contarlos bajo ciertas condiciones, para luego visualizar los números que resulten del conteo. Por ejemplo, puedo tomar la información de todos los movimientos telúricos 4.5+ registrados y [compartidos por la USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) durante los últimos 7 días. En [el JSON de la USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.geojson) no encontramos el detalle de cuántos movimientos telúricos 4.5+ han ocurrido en Chile o Japón, pero podemos encargarle al computador revisar si en cada registro el nombre del lugar incluye `Chile` o `Japan`. 
+También podemos tomar los datos de un JSON y contarlos bajo ciertas condiciones, para luego visualizar los números que resulten del conteo. Por ejemplo, puedo tomar la información de todos los movimientos telúricos 4.5+ registrados e [informados por la USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) durante los últimos 7 días. En [el JSON de la USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.geojson) no encontramos el detalle de cuántos movimientos telúricos 4.5+ han ocurrido en Chile o Japón, pero podemos encargarle al computador revisar si en cada registro el nombre del lugar incluye `Chile` o `Japan`. 
 
-Para probarlo, podemos copiar lo que sigue para luego pegarlo en un documento recién creado en el editor de código fuente, y guardarlo como `ejemplo-2.html`:
+Para probarlo, podemos copiar lo que sigue para luego pegarlo en un documento vacío, recién creado en el editor de código fuente, y guardarlo como `ejemplo-2.html`:
 
 ```
 <!DOCTYPE html>
@@ -147,7 +147,7 @@ Para probarlo, podemos copiar lo que sigue para luego pegarlo en un documento re
 
 Aprovechando el mismo ejemplo de los temblores, podríamos hacer un gráfico del tipo *doughnut* que compare cantidades de [Digimon en cada `level`](https://digimon-api.vercel.app/api/digimon). En este caso ya no tendríamos que preguntar si acaso el *string* [incluye algo](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/includes). Lo que tenemos que preguntar es [si acaso el *string* en cada `level` es igual a `In Training`, `Rookie`, `Champion` u otro](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else). 
 
-Para intentarlo, podemos hacer una copia del `ejemplo-2.html`, guardarlo como `ejemplo-3.html` y hacer las modificaciones correspondientes.
+Para intentarlo, podemos duplicar el `ejemplo-2.html`, guardarlo como `ejemplo-3.html` y hacer las modificaciones correspondientes.
 
 **Hasta aquí hemos tomado datos desde un JSON (JavaScript Objecto Notation). En el primer ejemplo de código tomamos los números desde las mismas opciones de datos ofrecidos y en los otros ejemplos creamos números contando los datos ofrecidos**.
 
@@ -172,13 +172,13 @@ España, 47350000, 505990
 
 ¡Lo que se obtiene es CSV!
 
-Usando CSV, el Ministerio de Ciencia ofrece datos sobre el COVID-19 en Chile: https://github.com/MinCiencia/Datos-COVID19/blob/master/output/producto5/TotalesNacionales.csv
+Usando CSV, el Ministerio de Ciencia ofrece datos actualizados sobre el COVID-19 en Chile: https://github.com/MinCiencia/Datos-COVID19/blob/master/output/producto5/TotalesNacionales.csv
 
 Allí sólo hay 22 filas, pero tantas columnas como días han pasado desde el 2 de marzo de 2020. Dicho de otro modo, tal CSV tiene sólo 22 líneas, pero más de 760 comas por línea.
 
-En el repositorio de GitHub un CSV bien escrito se muestra en tablas, pero en *raw* se ve así: https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto5/TotalesNacionales.csv
+En un repositorio de GitHub un CSV bien escrito se muestra en tablas, pero en *raw* se ve así: https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto5/TotalesNacionales.csv
 
-El CSV en *raw* es el que tenemos que usar para hacer el `fetch()`. Para probarlo, podemos copiar lo que sigue para luego pegarlo en un documento recién creado en el editor de código fuente, y guardarlo como `ejemplo-4.html`:
+El CSV en *raw* es el que tenemos que usar para hacer el `fetch()`. Para probarlo, podemos copiar lo que sigue para luego pegarlo en un documento vacío, recién creado en el editor de código fuente, y guardarlo como `ejemplo-4.html`:
 
 ```
 <!DOCTYPE html>

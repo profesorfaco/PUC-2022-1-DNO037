@@ -87,7 +87,7 @@ Podemos tomar datos de un JSON y luego organizarlos para definir lo que correspo
 </html>
 ```
 
-También podemos tomar los datos de un JSON y contarlos bajo alguna condición, para luego visualizar los números que resulten del conteo. Por ejemplo, puedo tomar la información de todos los movimientos telúricos 4.5+ registrados y [compartidos por la USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) durante los últimos 7 días. En [el JSON de la USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.geojson) no encontramos el detalle de cuántos movimientos telúricos 4.5+ han ocurrido en Chile o Japón, pero podemos encargarle al computador revisar si en cada registro el nombre del lugar incluye `Chile` o `Japan`:
+También podemos tomar los datos de un JSON y contarlos bajo ciertas condiciones, para luego visualizar los números que resulten del conteo. Por ejemplo, puedo tomar la información de todos los movimientos telúricos 4.5+ registrados y [compartidos por la USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) durante los últimos 7 días. En [el JSON de la USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.geojson) no encontramos el detalle de cuántos movimientos telúricos 4.5+ han ocurrido en Chile o Japón, pero podemos encargarle al computador revisar si en cada registro el nombre del lugar incluye `Chile` o `Japan`:
 
 ```
 <!DOCTYPE html>
@@ -141,7 +141,7 @@ También podemos tomar los datos de un JSON y contarlos bajo alguna condición, 
 </html>
 ```
 
-Aprovechando el mismo ejemplo de los temblores, podrías hacer un gráfico del tipo *doughnut* que compare las `nota_titulo` que son igual a "7.0" y las `nota_titulo` que son igual a "4.0" en los registros en https://diseno.uc.cl/memorias/data.json. Obviamente ya no tendrás que preguntar si acaso lo incluye, sino que es igual a…
+Aprovechando el mismo ejemplo de los temblores, podríamos hacer un gráfico del tipo *doughnut* que compare las `nota_titulo` que son iguales a "7.0" y las `nota_titulo` que son iguales a "4.0" en los registros en https://diseno.uc.cl/memorias/data.json. Obviamente ya no tendrás que preguntar si acaso lo [incluye](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/includes), sino que [es igual a](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else) una cadena de caracteres determinada.
 
 - - - - - - - - 
 

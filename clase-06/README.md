@@ -87,7 +87,7 @@ Podemos tomar datos de un JSON y luego organizarlos para definir lo que correspo
 </html>
 ```
 
-También puedo tomar los datos de JSON y contarlos, para que entregue números para graficar que no parecían no estar contenidos en el formato ligero de intercambio de datos:
+También puedo tomar los datos de un JSON y contarlos bajo alguna condición, así tener números para graficar que resulten del conteo:
 
 ```
 <!DOCTYPE html>
@@ -103,40 +103,34 @@ También puedo tomar los datos de JSON y contarlos, para que entregue números p
         <script>
             async function todo() {
                 //Voy por un JSON
-                const consulta = await fetch("https://digimon-api.vercel.app/api/digimon");
+                const consulta = await fetch("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.geojson");
                 const data = await consulta.json();
                 //Hago un contador sencillo
-                let inTraining = 0; 
-                let Rookie = 0; 
-                let Champion = 0;
-                let Ultimate = 0; 
-                let Otro = 0;
-                data.forEach(d => {
-                    if(d.level =="In Training"){
-                        inTraining = inTraining + 1;
-                    } else if(d.level =="Rookie"){
-                        Rookie = Rookie + 1;
-                    } else if(d.level =="Champion"){
-                        Champion = Champion + 1;
-                    } else if(d.level =="Ultimate"){
-                        Ultimate = Ultimate + 1;
+                let chileno = 0; 
+                let japones = 0; 
+                let otro = 0; 
+                data.features.forEach(t => {
+                    if(t.properties.place.includes("Chile")){
+                        chileno = chileno + 1;
+                    } else if(t.properties.place.includes("Japan")){
+                        japones = japones + 1;
                     } else {
-                        Otro = Otro + 1;
+                        otro = otro + 1;
                     }
                 });
                 //Creo una variable como un arreglo vacío
                 var numeros = [];
                 //Empujo a la variable los resultados del contador
-                numeros.push(inTraining,Rookie,Champion,Ultimate);
-                var nombres = ["In Training", "Rookie", "Champion", "Ultimate"];
+                numeros.push(chileno,japones,otro);
+                var nombres = ["En Chile", "En Japón", "En el resto del mundo"];
                 //Los colores los tomé de https://color.adobe.com/es/create/image
-                var colores = ["#F24444", "#F29D35", "#52B3D9", "#8E90BF"]
+                var colores = ["#F24444", "#F29D35", "#52B3D9"]
                 //Ahora puedo armar el gráfico
                 new Chart(document.getElementById("miDona").getContext('2d'), {
                     type: "doughnut",
                     data: {
                         labels: nombres,
-                        datasets: [{label: "Digimon", data: numeros, backgroundColor: colores}]
+                        datasets: [{label: "Earthquakes", data: numeros, backgroundColor: colores}]
                     }
                 });
             }

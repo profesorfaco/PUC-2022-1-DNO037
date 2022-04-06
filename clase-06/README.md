@@ -151,16 +151,16 @@ Podemos ingresamos lo que sigue en un "spreadsheet" de Excel o Google Docs.
 
 | País      |  Población       | Superficie     |
 |:----------|:-----------------|:---------------|
-| Colombia  | 50880000         | 1142000        |
 | Chile     | 18261884         | 756102         |
+| Colombia  | 50880000         | 1142000        |
 | España    | 47350000         | 505990         |
 
 Luego podemos guardarlo o descargarlo como un CSV y obtener algo como lo que sigue:
 
 ```
 País, Población, Superficie
-Colombia, 50880000, 1142000
 Chile, 18261884, 756102
+Colombia, 50880000, 1142000
 España, 47350000, 505990
 ```
 

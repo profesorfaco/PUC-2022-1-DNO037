@@ -229,27 +229,13 @@ El CSV en *raw* es el que tenemos que usar para hacer el `fetch()`. Para probarl
 
 Noten la diferencia en la línea que sigue al fetch, esa que traspasa `consulta` a `data`. Ese traspaso ya no se trata como `json()` sino un `txt()`. Ahora, como se trata como un TXT, tenemos que usar varias veces el [método split()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/split) para explicarle cómo tratar a ciertos caracteres.
 
-Lo recién presentado queda mejor explicado en el tercero de los videos de Daniel Shiffman enlistados más arriba.
+Lo recién presentado queda mejor explicado en el segundo de los videos de Daniel Shiffman enlistados más arriba.
 
 - - - - - - -
 
 ### Práctica
 
-Un gráfico que puede resultar de mayor interés, y actualidad, se puede obtener con
-
-- los [indicadores económicos diarios](https://mindicador.cl/api); y
-
-- un [gráfico de líneas](https://www.chartjs.org/docs/latest/charts/line.html)
-
-Habrá algunos ajustes que podremos resolver con los métodos:
-
-- [`forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach);
-- [`Object.values()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Object/values);
-- [`push()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/push); 
-- [`reverse()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse); y 
-- [`splice()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/splice).
-
-Además, corresponde tener a mano la [documentación de Charts.js](https://www.chartjs.org/docs/latest/).
+\*Debido a los problemas de [indicadores económicos diarios](https://mindicador.cl/api) modificaré el ejercicio, probablemente termine de modificarlo a las 09.59 hrs. del miércoles 13 de abril.\*
 
 El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), una versión ajustada del sitio web que está contenido en [esta carpeta del repositorio](https://profesorfaco.github.io/dno037-2022/clase-06/).
 

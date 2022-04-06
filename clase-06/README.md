@@ -50,7 +50,7 @@ Ahora, si necesitamos datos, podemos volver a aprovechar aquellos que se ofrecen
 
 Una vez obtenemos los datos mediante el [uso de Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch), podemos estructurar los datos obtenidos a la manera que convenga al tipo de gráfico que estemos usando en [Chart.js](https://www.chartjs.org/docs/latest/charts/?h=type).
 
-Así como podemos organizarlos con nombres para el eje X y estaturas para el eje Y en un gráfico de barras. 
+Podemos tomar datos de un JSON y luego organizarlos para definir lo que corresponda a cada eje en un gráfico de barras. 
 
 ```
 <!DOCTYPE html>
@@ -87,7 +87,7 @@ Así como podemos organizarlos con nombres para el eje X y estaturas para el eje
 </html>
 ```
 
-Así como tomamos datos de un JSON, también podemos tomarlo desde un CSV:
+Así como tomamos datos de un JSON (JavaScript Objecto Notation), también podemos tomarlos desde un CSV (Comma Separated Values) y repetir el proceso de organización para los ejes del gráfico de barras:
 
 ```
 <!DOCTYPE html>

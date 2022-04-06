@@ -125,7 +125,7 @@ También podemos tomar los datos de un JSON y contarlos bajo alguna condición, 
                 numeros.push(chileno,japones,otro);
                 var nombres = ["En Chile", "En Japón", "En el resto del mundo"];
                 //Los colores los tomé de https://color.adobe.com/es/create/image
-                var colores = ["#F24444", "#F29D35", "#52B3D9"]
+                var colores = ["#098FE3", "#0208FA", "#8F02F0"]
                 //Ahora puedo armar el gráfico
                 new Chart(document.getElementById("miDona").getContext('2d'), {
                     type: "doughnut",

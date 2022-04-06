@@ -235,7 +235,7 @@ Lo recién presentado queda mejor explicado en el segundo de los videos de Danie
 
 ### Práctica
 
-\*Debido a los problemas de [indicadores económicos diarios](https://mindicador.cl/api) modificaré el ejercicio, probablemente termine de modificarlo a las 09.59 hrs. del miércoles 13 de abril.\*
+**\*Debido a los problemas de [indicadores económicos diarios](https://mindicador.cl/api) modificaré el ejercicio, probablemente termine de modificarlo a las 09.59 hrs. del miércoles 13 de abril.\***
 
 El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), una versión ajustada del sitio web que está contenido en [esta carpeta del repositorio](https://profesorfaco.github.io/dno037-2022/clase-06/).
 

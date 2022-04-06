@@ -40,12 +40,12 @@ new Chart(document.getElementById('nombre').getContext('2d'), {type: '…', data
 
 Ahora, si necesitamos datos, podemos volver a aprovechar aquellos que se ofrecen en línea, a través de JSON. 
 
-Pero en esta ocasión no estamos trabajando con p5.js, sólo con la biblioteca de Charts.js, por ello no contamos con [la función loadJSON](https://p5js.org/es/reference/#/p5/loadJSON); ya nos corresponde avanzar al [uso de Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch).
+**Pero en esta ocasión no estamos trabajando con p5.js, sólo con la biblioteca de Charts.js, por ello no contamos con [la función loadJSON](https://p5js.org/es/reference/#/p5/loadJSON); ya nos corresponde avanzar al [uso de Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch)**.
 
-Para aprender lo necesario respecto del uso de Fetch, es recomedanle ver dos videos de Daniel Shifmann:
+**Para aprender lo necesario respecto del uso de Fetch, es recomedable tomarse 47 minutos para ver tres videos de Daniel Shifmann**:
 
 - https://youtu.be/tc8DU14qX6I
-
+- https://youtu.be/RfMkdvN-23o
 - https://youtu.be/uxf0--uiX0I
 
 Una vez obtenemos los datos mediante el [uso de Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch), podemos estructurar los datos obtenidos a la manera que convenga al tipo de gráfico que estemos usando en [Chart.js](https://www.chartjs.org/docs/latest/charts/?h=type).
@@ -86,6 +86,53 @@ Así como podemos organizarlos con nombres para el eje X y estaturas para el eje
     </body>
 </html>
 ```
+
+Así como tomamos datos de un JSON, también podemos tomarlo desde un CSV:
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <title>Charts.js</title>
+    </head>
+    <body>
+       <canvas id="muchasBarritas" class="my-4"></canvas>
+        <script>
+            async function visualizacion() {
+                const consulta = await fetch("https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto5/TotalesNacionales.csv");
+                const data = await consulta.text();
+                const filas = data.split("\n");
+                const fechas = filas[0].split(",").slice(1);
+                const activos = filas[5].split(",").slice(1);
+                new Chart(document.querySelector("#muchasBarritas").getContext("2d"), {
+                    type: "bar",
+                    data: {
+                        labels: fechas,
+                        datasets: [{ data: activos,  backgroundColor: "#d00" }]
+                    },
+                    options: {
+                        scales: {
+                            y: {
+                                ticks: {
+                                    callback: function (numero) {
+                                        return numero.toLocaleString("es-CL");
+                                    }
+                                }
+                            }
+                        },
+                        plugins: {
+                            legend: { display: false },
+                            title: { display: true, text: "CASOS ACTIVOS DE COVID-19 EN CHILE" },
+                        }
+                    }
+                })
+            }
+            visualizacion().cath((error) => console.error(error));
+        </script>
+    </body>
+</html>
 
 - - - - - - -
 

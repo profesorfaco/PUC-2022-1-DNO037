@@ -229,7 +229,7 @@ El CSV en *raw* es el que tenemos que usar para hacer el `fetch()`. Para probarl
 
 Noten la diferencia en la línea que sigue al fetch, esa que traspasa `consulta` a `data`. Ese traspaso ya no se trata como `json()` sino un `txt()`. Ahora, como se trata de un TXT, tenemos que usar varias veces el [método split()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/split) para explicarle cómo tratar a ciertos caracteres.
 
-Lo recién presentado queda mejor explicado en el segundo de los videos de Daniel Shiffman enlistados más arriba.
+Lo recién presentado queda mejor explicado en [el segundo de los videos de Daniel Shiffman](https://youtu.be/RfMkdvN-23o?t=172) enlistados más arriba.
 
 - - - - - - -
 

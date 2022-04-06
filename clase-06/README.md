@@ -219,7 +219,7 @@ El CSV en *raw* es el que tenemos que usar para hacer el `fetch()`.
 </html>
 ```
 
-Noten la diferencia en la línea que sigue al fetch. Antes indicábamos JSON. Ahora indicamos TXT, y para interpretar correctamente al este TXT es que tenemos que usar varias veces el [método split()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/split).
+Noten la diferencia en la línea que sigue al fetch. Antes indicábamos JSON. Ahora necesitamo que trata a eso que agarró como un `txt()`, ya no lo trata como un `json()`. Ahora, como se trata como un TXT, tenemos que usar varias veces el [método split()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/split) para explicarle cómo tratar a ciertos caracteres.
 
 - - - - - - -
 

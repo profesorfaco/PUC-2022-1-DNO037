@@ -163,9 +163,9 @@ País, Población, Superficie
 Chile, 18261884, 756102
 México, 128900000, 1973000
 ```
-¡Cuidado con algo! Esa primera línea nos podría traer problemas porque la `í` y la `ó` en País y Población son caracteres extraños. Si vamos a preparar un documento 
+¡Cuidado con algo! Esa primera línea nos podría traer problemas porque la `í` y la `ó` en País y Población son "caracteres extraños".
 
-Una CSV con el que podemos trabajar, que no tiene problemas de "caracteres extraños", es el que ofrece el Ministerio de Ciencia con datos producidos por el Ministerio de Salud, en: https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto5
+Una CSV que no tiene problemas de "caracteres extraños" es el que ofrece el Ministerio de Ciencia con datos producidos por el Ministerio de Salud, en: https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto5
 
 ```
 <!DOCTYPE html>

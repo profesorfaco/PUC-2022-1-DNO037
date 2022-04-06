@@ -145,7 +145,7 @@ Para probarlo, podemos copiar lo que sigue para luego pegarlo en un documento va
 </html>
 ```
 
-Aprovechando el mismo ejemplo de los temblores, podríamos hacer un gráfico del tipo *doughnut* que compare cantidades de [Digimon en cada `level`](https://digimon-api.vercel.app/api/digimon). En este caso ya no tendríamos que preguntar si acaso el *string* [incluye algo](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/includes). Lo que tenemos que preguntar es [si acaso el *string* en cada `level` es igual a `In Training`, `Rookie`, `Champion` u otro](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else). 
+Aprovechando el mismo ejemplo de los temblores, podríamos hacer un gráfico del tipo *doughnut* que compare cantidades de [Digimon en cada `level`](https://digimon-api.vercel.app/api/digimon). En este caso ya no tendríamos que preguntar si acaso el *string* [incluye algo](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/includes). Lo que tenemos que preguntar es [si acaso el *string* en cada `level` es igual a `In Training`, `Rookie` u otro](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else). 
 
 Para intentarlo, podemos duplicar el `ejemplo-2.html`, guardarlo como `ejemplo-3.html` y hacer las modificaciones correspondientes.
 

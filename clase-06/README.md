@@ -87,6 +87,65 @@ Podemos tomar datos de un JSON y luego organizarlos para definir lo que correspo
 </html>
 ```
 
+También puedo tomar los datos de JSON y contarlos, para que entregue números para graficar que no parecían no estar contenidos en el formato ligero de intercambio de datos:
+
+```
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <title>Charts.js</title>
+    </head>
+    <body>
+        <canvas id="miDona" width="100" height="100"></canvas>
+        <script>
+            async function todo() {
+                //Voy por un JSON
+                const consulta = await fetch("https://digimon-api.vercel.app/api/digimon");
+                const data = await consulta.json();
+                //Hago un contador sencillo
+                let inTraining = 0; 
+                let Rookie = 0; 
+                let Champion = 0;
+                let Ultimate = 0; 
+                let Otro = 0;
+                data.forEach(d => {
+                    if(d.level =="In Training"){
+                        inTraining = inTraining + 1;
+                    } else if(d.level =="Rookie"){
+                        Rookie = Rookie + 1;
+                    } else if(d.level =="Champion"){
+                        Champion = Champion + 1;
+                    } else if(d.level =="Ultimate"){
+                        Ultimate = Ultimate + 1;
+                    } else {
+                        Otro = Otro + 1;
+                    }
+                });
+                //Creo una variable como un arreglo vacío
+                var numeros = [];
+                //Empujo a la variable los resultados del contador
+                numeros.push(inTraining,Rookie,Champion,Ultimate);
+                var nombres = ["In Training", "Rookie", "Champion", "Ultimate"];
+                //Los colores los tomé de https://color.adobe.com/es/create/image
+                var colores = ["#F24444", "#F29D35", "#52B3D9", "#8E90BF"]
+                //Ahora puedo armar el gráfico
+                new Chart(document.getElementById("miDona").getContext('2d'), {
+                    type: "doughnut",
+                    data: {
+                        labels: nombres,
+                        datasets: [{label: "Digimon", data: numeros, backgroundColor: colores}]
+                    }
+                });
+            }
+            todo().catch((error) => console.error(error));
+        </script>
+    </body>
+</html>
+```
+
 Así como tomamos datos de un JSON (JavaScript Objecto Notation), también podemos tomarlos desde un CSV (Comma Separated Values) y repetir el proceso de organización para los ejes del gráfico de barras:
 
 ```

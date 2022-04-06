@@ -141,11 +141,9 @@ También podemos tomar los datos de un JSON y contarlos bajo ciertas condiciones
 </html>
 ```
 
-Aprovechando el mismo ejemplo de los temblores, podríamos hacer un gráfico del tipo *doughnut* que compare las `nota_titulo` que son iguales a "7.0" y las `nota_titulo` que son iguales a "4.0" en los registros en https://diseno.uc.cl/memorias/data.json. Obviamente ya no tendrás que preguntar si acaso lo [incluye](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/includes), sino que [es igual a](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else) una cadena de caracteres determinada.
+Aprovechando el mismo ejemplo de los temblores, podríamos hacer un gráfico del tipo *doughnut* que compare cantidades de [Digimon en cada `level`](https://digimon-api.vercel.app/api/digimon). En este caso ya no tendríamos que preguntar si acaso el *string* [incluye algo](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/includes). Lo que tenemos que preguntar es [si acaso el *string* del nivel igual a `In Training`, `Rookie`, `Champion` u otro](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else).
 
-- - - - - - - - 
-
-Hasta aquí hemos tomado datos desde un JSON (JavaScript Objecto Notation). En el primer ejemplo de código tomamos los números desde las mismas opciones de datos ofrecidos y en el segundo ejemplo creamos número de contar los datos ofrecidos.
+**Hasta aquí hemos tomado datos desde un JSON (JavaScript Objecto Notation). En el primer ejemplo de código tomamos los números desde las mismas opciones de datos ofrecidos y en el segundo ejemplo creamos número de contar los datos ofrecidos**.
 
 JSON no es la única forma de intercambiar datos. También podemos usar CSV (Comma Separated Values) que no es más que una plantilla muy simplificada. 
 

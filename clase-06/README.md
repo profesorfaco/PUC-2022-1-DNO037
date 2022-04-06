@@ -164,10 +164,10 @@ Podemos poner lo que sigue en un *spreadsheet* de Excel o Google Docs.
 Luego podemos guardarlo o descargarlo como un CSV y obtener algo como lo que sigue:
 
 ```
-País, Población, Superficie
-Chile, 18261884, 756102
-Colombia, 50880000, 1142000
-España, 47350000, 505990
+País,Población,Superficie
+Chile,18261884,756102
+Colombia,50880000,1142000
+España,47350000,505990
 ```
 
 ¡Lo que se obtiene es CSV!

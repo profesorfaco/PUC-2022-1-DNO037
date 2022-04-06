@@ -164,7 +164,7 @@ Colombia, 50880000, 1142000
 España, 47350000, 505990
 ```
 
-Con la misma lógica el Ministerio de Ciencia ofrece datos producidos por el Ministerio de Salud, en: https://github.com/MinCiencia/Datos-COVID19/blob/master/output/producto5/TotalesNacionales.csv
+Usando CSV, el Ministerio de Ciencia ofrece datos producidos por el Ministerio de Salud, en: https://github.com/MinCiencia/Datos-COVID19/blob/master/output/producto5/TotalesNacionales.csv
 
 Allí sólo hay 22 filas, pero tantas columnas como días han pasado desde el 2 de marzo de 2020. Dicho de otro modo, este CSV tiene sólo 22 líneas, pero más de 760 comas por línea.
 

@@ -147,23 +147,30 @@ Aprovechando el mismo ejemplo de los temblores, podríamos hacer un gráfico del
 
 JSON no es la única forma de intercambiar datos. También podemos usar CSV (Comma Separated Values) que no es más que una plantilla muy simplificada. 
 
-Si ingresamos lo que sigue en un "spreadsheet" de Excel o Google Docs, lo podemos guardar como CSV.
+Podemos ingresamos lo que sigue en un "spreadsheet" de Excel o Google Docs.
 
 | País      |  Población       | Superficie     |
 |:----------|:-----------------|:---------------|
+| Colombia  | 50880000         | 1142000        |
 | Chile     | 18261884         | 756102         |
-| México    | 128900000        | 1973000        |
+| España    | 47350000         | 505990         |
 
-Si usamos tal alternativa, tendremos algo como lo que sigue:
+Luego podemos guardarlo o descargarlo como un CSV y obtener algo como lo que sigue:
 
 ```
 País, Población, Superficie
+Colombia, 50880000, 1142000
 Chile, 18261884, 756102
-México, 128900000, 1973000
+España, 47350000, 505990
 ```
-¡Cuidado con algo! Esa primera línea nos podría traer problemas porque la `í` y la `ó` en País y Población son "caracteres extraños".
 
-Una CSV que no tiene problemas de "caracteres extraños" es el que ofrece el Ministerio de Ciencia con datos producidos por el Ministerio de Salud, en: https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto5
+Con la misma lógica el Ministerio de Ciencia ofrece datos producidos por el Ministerio de Salud, en: https://github.com/MinCiencia/Datos-COVID19/blob/master/output/producto5/TotalesNacionales.csv
+
+Allí sólo hay 22 filas, pero tantas columnas como días han pasado desde el 2 de marzo de 2020. Este CSV tiene sólo 22 líneas, pero más de 760 comas por línea.
+
+En el repositorio de GitHub un CSV bien escrito se muestra en tablas, pero en *raw* se ve así: https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto5/TotalesNacionales.csv
+
+El CSV en *raw* es el que tenemos que usar para hacer el `fetch()`.
 
 ```
 <!DOCTYPE html>

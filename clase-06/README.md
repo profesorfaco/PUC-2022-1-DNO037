@@ -153,7 +153,7 @@ Para intentarlo, podemos duplicar el `ejemplo-2.html`, guardarlo como `ejemplo-3
 
 **Pero JSON no es la única forma de intercambiar datos. También podemos usar CSV (Comma Separated Values), que no es más que una tabla de datos muy simplificada.** 
 
-Podemos ingresamos lo que sigue en un *spreadsheet* de Excel o Google Docs.
+Podemos poner lo que sigue en un *spreadsheet* de Excel o Google Docs.
 
 | País      |  Población       | Superficie     |
 |:----------|:-----------------|:---------------|

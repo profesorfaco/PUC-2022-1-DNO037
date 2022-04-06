@@ -87,7 +87,7 @@ Podemos tomar datos de un JSON y luego organizarlos para definir lo que correspo
 </html>
 ```
 
-También puedo tomar los datos de un JSON y contarlos bajo alguna condición, así tener números para graficar que resulten del conteo:
+También puedo tomar los datos de un JSON y contarlos bajo alguna condición, así tener números para graficar que resulten del conteo. Por ejemplo, puedo tomar la información de todos los movimientos telúricos 4.5+ registrados y compartidos por [la USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) durante la última semana. En el JSON no encontramos el detalle de cuántos movimientos telúricos 4.5+ han ocurrido en Chile o Japón, pero podemos encargarle al navegador revisar cada registros preguntando si acaso ocurren en un lugar que incluye `Chile` o `Japan` en su nombre:
 
 ```
 <!DOCTYPE html>
@@ -105,10 +105,11 @@ También puedo tomar los datos de un JSON y contarlos bajo alguna condición, as
                 //Voy por un JSON
                 const consulta = await fetch("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.geojson");
                 const data = await consulta.json();
-                //Hago un contador sencillo
+                //Declaro variables que parten en cero;
                 let chileno = 0; 
                 let japones = 0; 
                 let otro = 0; 
+                //Con un forEach reviso todo el contenido con algunas condiciones
                 data.features.forEach(t => {
                     if(t.properties.place.includes("Chile")){
                         chileno = chileno + 1;

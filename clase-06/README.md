@@ -32,7 +32,7 @@ var chart = new Chart(contexto, configuracion);
 2. Requiere la configuración de tipo, datos y opciones para el gráfico 
 3. Contexto y configuración permiten indicar que en este script vamos a crear un `new Chart()`.
 
-Nos referimos a tres partes. No se trata de tres pasos. También sería válido escribir:
+Nos referimos a tres partes. No se trata de tres pasos de una secuencia en un único sentido; también sería válido escribir:
 
 ```
 new Chart(document.getElementById('nombre').getContext('2d'), {type: '…', data: {…}, options: {…}});

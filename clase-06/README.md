@@ -52,6 +52,8 @@ Una vez obtenemos los datos mediante el [uso de Fetch](https://developer.mozilla
 
 Podemos tomar datos de un JSON y luego organizarlos para definir lo que corresponda a cada eje en un gráfico de barras. 
 
+Copiemos lo que sigue para luego pegarlo en un documento recién creado en el editor de código fuente, y guardémoslo como `ejemplo-1.html`:
+
 ```
 <!DOCTYPE html>
 <html lang="es">
@@ -87,7 +89,9 @@ Podemos tomar datos de un JSON y luego organizarlos para definir lo que correspo
 </html>
 ```
 
-También podemos tomar los datos de un JSON y contarlos bajo ciertas condiciones, para luego visualizar los números que resulten del conteo. Por ejemplo, puedo tomar la información de todos los movimientos telúricos 4.5+ registrados y [compartidos por la USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) durante los últimos 7 días. En [el JSON de la USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.geojson) no encontramos el detalle de cuántos movimientos telúricos 4.5+ han ocurrido en Chile o Japón, pero podemos encargarle al computador revisar si en cada registro el nombre del lugar incluye `Chile` o `Japan`:
+También podemos tomar los datos de un JSON y contarlos bajo ciertas condiciones, para luego visualizar los números que resulten del conteo. Por ejemplo, puedo tomar la información de todos los movimientos telúricos 4.5+ registrados y [compartidos por la USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) durante los últimos 7 días. En [el JSON de la USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.geojson) no encontramos el detalle de cuántos movimientos telúricos 4.5+ han ocurrido en Chile o Japón, pero podemos encargarle al computador revisar si en cada registro el nombre del lugar incluye `Chile` o `Japan`. 
+
+Para probarlo, podemos copiar lo que sigue para luego pegarlo en un documento recién creado en el editor de código fuente, y guardarlo como `ejemplo-2.html`:
 
 ```
 <!DOCTYPE html>
@@ -141,13 +145,15 @@ También podemos tomar los datos de un JSON y contarlos bajo ciertas condiciones
 </html>
 ```
 
-Aprovechando el mismo ejemplo de los temblores, podríamos hacer un gráfico del tipo *doughnut* que compare cantidades de [Digimon en cada `level`](https://digimon-api.vercel.app/api/digimon). En este caso ya no tendríamos que preguntar si acaso el *string* [incluye algo](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/includes). Lo que tenemos que preguntar es [si acaso el *string* en cada `level` es igual a `In Training`, `Rookie`, `Champion` u otro](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else).
+Aprovechando el mismo ejemplo de los temblores, podríamos hacer un gráfico del tipo *doughnut* que compare cantidades de [Digimon en cada `level`](https://digimon-api.vercel.app/api/digimon). En este caso ya no tendríamos que preguntar si acaso el *string* [incluye algo](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/includes). Lo que tenemos que preguntar es [si acaso el *string* en cada `level` es igual a `In Training`, `Rookie`, `Champion` u otro](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else). 
 
-**Hasta aquí hemos tomado datos desde un JSON (JavaScript Objecto Notation). En el primer ejemplo de código tomamos los números desde las mismas opciones de datos ofrecidos y en el segundo ejemplo creamos número de contar los datos ofrecidos**.
+Para intentarlo, podemos hacer una copia del `ejemplo-2.html`, guardarlo como `ejemplo-3.html` y hacer las modificaciones correspondientes.
 
-JSON no es la única forma de intercambiar datos. También podemos usar CSV (Comma Separated Values) que no es más que una plantilla muy simplificada. 
+**Hasta aquí hemos tomado datos desde un JSON (JavaScript Objecto Notation). En el primer ejemplo de código tomamos los números desde las mismas opciones de datos ofrecidos y en los otros ejemplos creamos números contando los datos ofrecidos**.
 
-Podemos ingresamos lo que sigue en un "spreadsheet" de Excel o Google Docs.
+Pero JSON no es la única forma de intercambiar datos. También podemos usar CSV (Comma Separated Values), que no es más que una tabla de datos muy simplificada. 
+
+Podemos ingresamos lo que sigue en un *spreadsheet* de Excel o Google Docs.
 
 | País      |  Población       | Superficie     |
 |:----------|:-----------------|:---------------|
@@ -164,13 +170,15 @@ Colombia, 50880000, 1142000
 España, 47350000, 505990
 ```
 
-Usando CSV, el Ministerio de Ciencia ofrece datos sobre el COVID-10 en Chile: https://github.com/MinCiencia/Datos-COVID19/blob/master/output/producto5/TotalesNacionales.csv
+¡Lo que se obtiene es CSV!
 
-Allí sólo hay 22 filas, pero tantas columnas como días han pasado desde el 2 de marzo de 2020. Dicho de otro modo, este CSV tiene sólo 22 líneas, pero más de 760 comas por línea.
+Usando CSV, el Ministerio de Ciencia ofrece datos sobre el COVID-19 en Chile: https://github.com/MinCiencia/Datos-COVID19/blob/master/output/producto5/TotalesNacionales.csv
+
+Allí sólo hay 22 filas, pero tantas columnas como días han pasado desde el 2 de marzo de 2020. Dicho de otro modo, tal CSV tiene sólo 22 líneas, pero más de 760 comas por línea.
 
 En el repositorio de GitHub un CSV bien escrito se muestra en tablas, pero en *raw* se ve así: https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto5/TotalesNacionales.csv
 
-El CSV en *raw* es el que tenemos que usar para hacer el `fetch()`:
+El CSV en *raw* es el que tenemos que usar para hacer el `fetch()`. Para probarlo, podemos copiar lo que sigue para luego pegarlo en un documento recién creado en el editor de código fuente, y guardarlo como `ejemplo-4.html`:
 
 ```
 <!DOCTYPE html>
@@ -219,7 +227,9 @@ El CSV en *raw* es el que tenemos que usar para hacer el `fetch()`:
 </html>
 ```
 
-Noten la diferencia en la línea que sigue al fetch. Antes indicábamos JSON. Ahora necesitamo que trata a eso que agarró como un `txt()`, ya no lo trata como un `json()`. Ahora, como se trata como un TXT, tenemos que usar varias veces el [método split()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/split) para explicarle cómo tratar a ciertos caracteres.
+Noten la diferencia en la línea que sigue al fetch, esa que traspasa `consulta` a `data`. Ese traspaso ya no se trata como `json()` sino un `txt()`. Ahora, como se trata como un TXT, tenemos que usar varias veces el [método split()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/split) para explicarle cómo tratar a ciertos caracteres.
+
+Lo recién presentado queda mejor explicado en el tercero de los videos de Daniel Shiffman enlistados más arriba.
 
 - - - - - - -
 

@@ -151,7 +151,7 @@ Para intentarlo, podemos duplicar el `ejemplo-2.html`, guardarlo como `ejemplo-3
 
 **Hasta aquí hemos tomado datos desde un JSON (JavaScript Objecto Notation). En el primer ejemplo de código tomamos los números desde las mismas opciones de datos ofrecidos y en los otros ejemplos creamos números contando los datos ofrecidos**.
 
-Pero JSON no es la única forma de intercambiar datos. También podemos usar CSV (Comma Separated Values), que no es más que una tabla de datos muy simplificada. 
+**Pero JSON no es la única forma de intercambiar datos. También podemos usar CSV (Comma Separated Values), que no es más que una tabla de datos muy simplificada.** 
 
 Podemos ingresamos lo que sigue en un *spreadsheet* de Excel o Google Docs.
 

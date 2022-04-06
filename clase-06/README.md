@@ -141,7 +141,31 @@ También podemos tomar los datos de un JSON y contarlos bajo alguna condición, 
 </html>
 ```
 
-Así como tomamos datos de un JSON (JavaScript Objecto Notation), también podemos tomarlos desde un CSV (Comma Separated Values) y repetir el proceso de organización para los ejes del gráfico de barras:
+Aprovechando el mismo ejemplo de los temblores, podrías hacer un gráfico del tipo *doughnut* que compare las `nota_titulo` que son igual a "7.0" y las `nota_titulo` que son igual a "4.0" en los registros en https://diseno.uc.cl/memorias/data.json. Obviamente ya no tendrás que preguntar si acaso lo incluye, sino que es igual a…
+
+- - - - - - - - 
+
+Hasta aquí hemos tomado datos desde un JSON (JavaScript Objecto Notation). En el primer ejemplo de código tomamos los números desde las mismas opciones de datos ofrecidos y en el segundo ejemplo creamos número de contar los datos ofrecidos.
+
+JSON no es la única forma de intercambiar datos. También podemos usar CSV (Comma Separated Values) que no es más que una plantilla muy simplificada. 
+
+Si ingresamos lo que sigue en un "spreadsheet" de Excel o Google Docs, lo podemos guardar como CSV.
+
+| País      |  Población       | Superficie     |
+|:----------|:-----------------|:---------------|
+| Chile     | 18261884         | 756102         |
+| México    | 128900000        | 1973000        |
+
+Si usamos tal alternativa, tendremos algo como lo que sigue:
+
+```
+País, Población, Superficie
+Chile, 18261884, 756102
+México, 128900000, 1973000
+```
+¡Cuidado con algo! Esa primera línea nos podría traer problemas porque la `í` y la `ó` en País y Población son caracteres extraños. Si vamos a preparar un documento 
+
+Una CSV con el que podemos trabajar, que no tiene problemas de "caracteres extraños", es el que ofrece el Ministerio de Ciencia con datos producidos por el Ministerio de Salud, en: https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto5
 
 ```
 <!DOCTYPE html>
@@ -189,6 +213,8 @@ Así como tomamos datos de un JSON (JavaScript Objecto Notation), también podem
     </body>
 </html>
 ```
+
+Noten la diferencia en la línea que sigue al fetch. Antes indicábamos JSON. Ahora indicamos TXT, y para interpretar correctamente al este TXT es que tenemos que usar varias veces el [método split()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/split).
 
 - - - - - - -
 

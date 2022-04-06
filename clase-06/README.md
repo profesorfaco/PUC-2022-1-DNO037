@@ -64,7 +64,7 @@ Podemos tomar datos de un JSON y luego organizarlos para definir lo que correspo
     <body>
         <canvas id="miGrafico" width="400" height="200"></canvas>
         <script>
-            async function todito() {
+            async function todo() {
                 const consulta = await fetch("https://swapi.dev/api/people/?page=1&format=json");
                 const data = await consulta.json();
                 let nombres = [];
@@ -81,7 +81,7 @@ Podemos tomar datos de un JSON y luego organizarlos para definir lo que correspo
                     }
                 });
             }
-            todito().catch((error) => console.error(error));
+            todo().catch((error) => console.error(error));
         </script>
     </body>
 </html>

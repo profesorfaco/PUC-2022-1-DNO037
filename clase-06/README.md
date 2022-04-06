@@ -89,6 +89,7 @@ Así como podemos organizarlos con nombres para el eje X y estaturas para el eje
 
 Así como tomamos datos de un JSON, también podemos tomarlo desde un CSV:
 
+```
 <!DOCTYPE html>
 <html lang="es">
     <head>
@@ -133,6 +134,7 @@ Así como tomamos datos de un JSON, también podemos tomarlo desde un CSV:
         </script>
     </body>
 </html>
+```
 
 - - - - - - -
 

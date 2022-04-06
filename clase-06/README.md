@@ -166,11 +166,11 @@ España, 47350000, 505990
 
 Con la misma lógica el Ministerio de Ciencia ofrece datos producidos por el Ministerio de Salud, en: https://github.com/MinCiencia/Datos-COVID19/blob/master/output/producto5/TotalesNacionales.csv
 
-Allí sólo hay 22 filas, pero tantas columnas como días han pasado desde el 2 de marzo de 2020. Este CSV tiene sólo 22 líneas, pero más de 760 comas por línea.
+Allí sólo hay 22 filas, pero tantas columnas como días han pasado desde el 2 de marzo de 2020. Dicho de otro modo, este CSV tiene sólo 22 líneas, pero más de 760 comas por línea.
 
 En el repositorio de GitHub un CSV bien escrito se muestra en tablas, pero en *raw* se ve así: https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto5/TotalesNacionales.csv
 
-El CSV en *raw* es el que tenemos que usar para hacer el `fetch()`.
+El CSV en *raw* es el que tenemos que usar para hacer el `fetch()`:
 
 ```
 <!DOCTYPE html>

@@ -221,7 +221,7 @@ El CSV en *raw* es el que tenemos que usar para hacer el `fetch()`. Para probarl
                     }
                 })
             }
-            visualizacion().cath((error) => console.error(error));
+            visualizacion().catch((error) => console.error(error));
         </script>
     </body>
 </html>

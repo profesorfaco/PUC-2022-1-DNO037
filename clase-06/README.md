@@ -235,9 +235,11 @@ Parte de lo recién presentado queda mejor explicado en [el segundo de los video
 
 ### Práctica
 
-**Debido a los problemas de [indicadores económicos diarios](https://mindicador.cl/api), los ejercicios preparados para usar tal servicio [quedan escondidos](https://profesorfaco.github.io/dno037-2022/clase-06/mindicador) y no serán usados. Lo que usaremos será un dato obtenido de uno de los videos de Daniel Shiffman y los ejemplos que ya pudieron desarrollar (mientras revisaban la TEORÍA).**
+**Debido a los problemas de [indicadores económicos diarios](https://mindicador.cl/api), los ejercicios preparados para usar tal servicio [quedan escondidos](https://profesorfaco.github.io/dno037-2022/clase-06/mindicador) y no serán usados**. 
 
-El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), una versión ajustada del sitio web que está contenido en [esta carpeta del repositorio](https://profesorfaco.github.io/dno037-2022/clase-06/).
+**Lo que sí usaremos será [un dato en CSV obtenido de uno de los videos de Daniel Shiffman](https://profesorfaco.github.io/dno037-2022/clase-06/) y los ejemplos que ya pudieron implementar (mientras revisaban la TEORÍA).**
+
+Como siempre, el ejercicio se completa cuando cada estudiante publica su resultado [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
 El ejercicio completo puede ser evaluado con:
 

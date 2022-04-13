@@ -1,7 +1,3 @@
-@charset "UTF-8";
-
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +8,7 @@ html, body{
 }
 
 body {
-    font-family: 'Work Sans', sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     color: #556;
     background: linear-gradient(#eee,#bbb);
     font-weight: 400;

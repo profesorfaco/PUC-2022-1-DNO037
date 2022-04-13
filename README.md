@@ -50,7 +50,7 @@ Considerando los días miércoles entre 9 de marzo y 6 de julio, se plantea el s
 
 [Clase 05 → 06/04/2021](https://github.com/profesorfaco/dno037-2022/tree/main/clase-05) → HTML5 + CSS3 + otras bibliotecas de JS ✓
 
-[Clase 06 → 13/04/2021](https://github.com/profesorfaco/dno037-2022/tree/main/clase-06) → HTML5 + CSS3 + otras bibliotecas de JS
+[Clase 06 → 13/04/2021](https://github.com/profesorfaco/dno037-2022/tree/main/clase-06) → HTML5 + CSS3 + otras bibliotecas de JS ✓
 
 [Clase 07 → 20/04/2021](https://github.com/profesorfaco/dno037-2022/tree/main/clase-07) → HTML5 + CSS3 + otras bibliotecas de JS
 

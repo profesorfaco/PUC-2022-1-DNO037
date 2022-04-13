@@ -55,7 +55,7 @@ meta: {	... }     // extra parse info
 
 Cada línea de valores separado por coma pasa a ser un elemento en un arreglo al que nos podemos referir con un `respuesta.data`
 
-Esto resulta útil cuando no todos los datos serán encontrados en línea en JSON. Algunos podrían estar en CSV, y para ir por ellos, podemos usar PapaParse. Luego, si contamos con datos con información georeferenciada, podríamos ponerlos en un mapa, por ejemplo:
+Esto resulta útil cuando no tenemos tantos tiempo como para estructurar [el Fetch correspondiente](https://youtu.be/RfMkdvN-23o). Algunos podrían estar en CSV, y para ir por ellos, podemos usar PapaParse. Luego, si contamos con datos con información georeferenciada, podríamos ponerlos en un mapa, por ejemplo:
 
 ```
 region,lat,lon,boric,kast

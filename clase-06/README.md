@@ -237,7 +237,7 @@ Parte de lo recién presentado queda mejor explicado en [el segundo de los video
 
 Debido a los problemas de [indicadores económicos diarios](https://mindicador.cl/api), los ejercicios preparados para usar tal servicio [quedan escondidos](https://profesorfaco.github.io/dno037-2022/clase-06/mindicador) y no serán usados.
 
-**Lo que sí usaremos será [un dato en CSV al que llegamos gracias a uno de los videos de Daniel Shiffman](https://profesorfaco.github.io/dno037-2022/clase-06/). También usaremos los ejemplos que ya pudieron implementar (mientras revisaban la TEORÍA).**
+**Lo que sí usaremos será [un dato en CSV al que llegamos gracias a uno de los videos de Daniel Shiffman](https://data.giss.nasa.gov/gistemp/). También usaremos los ejemplos que pudieron implementar mientras revisaban la TEORÍA.**
 
 Como siempre, el ejercicio se completa cuando cada estudiante publica su resultado [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 

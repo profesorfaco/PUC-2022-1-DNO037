@@ -20,39 +20,58 @@
                 <p><a href="#">Nombre Apellido</a> <a href="#">DNO037</a></p>
             </footer>
         </div>
-        <form id="opciones">
-        <input type="radio" name="paises" value="todos" checked>
-        <label for="todos">All &nbsp;</label>
-        <input type="radio" name="paises" value="chile">
-        <label for="chile">Chile</label>
-        </form>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+        <select name="select" id="opciones">
+            <option>All</option>
+            <option value="Chile">Chile</option>
+            <option value="Japan">Japan</option>
+            <option value="Indonesia">Indonesia</option>
+        </select>
+        <!--Primero vamos a buscar la versión más reciente de jQuery-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script>
-            $(document).ready(function () {
+            $(function() {
                 $.getJSON("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson", function (data) {
                     console.log(data);
+                    //una pequeña función para convertir un dato de más abajo
+                    function t(unix_timestamp) {
+                        var date = new Date(unix_timestamp);
+                        return date;
+                    }
+                    //un forEach para construir cada temblor
                     data.features.forEach(function (temblor, i) {
                         var articuloTipo;
+                        //algunas alternativas de contenido para la variable articuloTipo
                         if (temblor.properties.place.includes("Chile")) {
-                            articuloTipo = '<article class="local">';
+                            articuloTipo = '<article class="cl">';
+                        } else if (temblor.properties.place.includes("Japan")) {
+                            articuloTipo = '<article class="jp">';
+                        } else if (temblor.properties.place.includes("Indonesia")) {
+                            articuloTipo = '<article class="id">';
                         } else {
-                            articuloTipo = '<article class="global">';
+                            articuloTipo = '<article class="etc">';
                         }
-                        $("section").append(articuloTipo + "<h2>" + temblor.properties.mag + "</h2><p>" + temblor.properties.place + "</p><p><a href='"+temblor.properties.url+"' target='_blank'>ver detalles</a></p></article>");
+                        //aplicación del articuloTipo y la pequeña función
+                        $("section").append(articuloTipo + "<h2>" + temblor.properties.mag.toFixed(1) + "</h2><p>" + temblor.properties.place + "</p><p><a href='" + temblor.properties.url + "' target='_blank'>" + t(temblor.properties.time) + "</a></p></article>");
                     });
+                    //algo más para operar con el menú
                     var valor;
-                    $('#opciones').change(function(){
-                        valor = $("input[name='paises']:checked").val();
-                        if(valor == "chile"){
-                            $(".local").fadeTo("slow",1);
-                            $(".global").fadeTo("slow",0.1);
+                    $("#opciones").change(function () {
+                        valor = $("select").val();
+                        if (valor == "Chile") {
+                            $(".cl").fadeTo("slow", 1);
+                            $(".jp, .id, .etc").fadeTo("slow", 0.1);
+                        } else if (valor == "Japan") {
+                            $(".jp").fadeTo("slow", 1);
+                            $(".cl, .id, .etc").fadeTo("slow", 0.1);
+                        } else if (valor == "Indonesia") {
+                            $(".id").fadeTo("slow", 1);
+                            $(".cl, .jp, .etc").fadeTo("slow", 0.1);
                         } else {
-                            $(".local").fadeTo("slow",1);
-                            $(".global").fadeTo("slow",1);
+                            $(".cl, .jp, .etc, .id").fadeTo("slow", 1);
                         }
-                    }); 
+                    });
                 }); // cierro $.getJSON({})
-            }); //cierro ready(function(){})            
+            }); //cierro ready(function(){})
         </script>
     </body>
 </html>

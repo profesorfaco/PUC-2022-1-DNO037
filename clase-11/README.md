@@ -2,6 +2,8 @@
 
 # Bootstrap v5
 
+### Teoría
+
 Recordemos que partimos la exploración de Boostrap con una adaptación de la [Starter template](https://getbootstrap.com/docs/5.0/getting-started/introduction/#starter-template): 
 
 ```

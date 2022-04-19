@@ -4,7 +4,7 @@
 
 ### Evaluación Nº3
 
-Cada estudiante cuenta con el horario de clases para publicar, con GitHub Pages, su versión ajustada de [**Album example**](https://getbootstrap.com/docs/5.1/examples/album/) disponible entre los ejemplos de la página oficial de [Boostrap](https://getbootstrap.com/docs/5.1/examples/)
+Cada estudiante cuenta con el horario de clases para publicar, con GitHub Pages, su versión ajustada de ???.
 
 Cada versión debe ajustarse con atención a la siguiente pauta de cotejo:
 

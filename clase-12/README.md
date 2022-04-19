@@ -1,6 +1,6 @@
 ### Diseño y Nuevos Medios → Clase 12 → 25/05/2021
 
-# Bootstrap v5
+# Bootstrap v5.1
 
 Repitamos el mantra de Bootstrap: una o varias `col` pueden ir dentro de una `row` que, a su vez, va dentro de un `container`… aunque algunas veces podríamos meter una `row` dentro de una `col` para subdividirla. 
 

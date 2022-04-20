@@ -53,9 +53,62 @@ meta: {	... }     // extra parse info
 }
 ```
 
-Cada línea de valores separado por coma pasa a ser un elemento en un arreglo al que nos podemos referir con un `respuesta.data`
+Cada línea de valores separado por coma pasa a ser un elemento en un arreglo al que nos podemos referir con un `respuesta.data` para comenzar a construir desde allí, como en siguiente ejemplo que pueden copiar, pegar y guardar como `ejemplo-con-chart.html`:
 
-Esto resulta útil cuando no tenemos tanto tiempo como para estructurar [el Fetch correspondiente](https://youtu.be/RfMkdvN-23o). Luego, si contamos con datos con información georeferenciada, podríamos ponerlos en un mapa, por ejemplo:
+```
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Ejemplar</title>
+    </head>
+    <body>
+        <canvas id="unaDona" width="100" height="100"></canvas>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js" integrity="sha512-rKFvwjvE4liWPlFnvH4ZhRDfNZ9FOpdkD/BU5gAIA3VS3vOQrQ5BjKgbO3kxebKhHdHcNUHLqxQYSoxee9UwgA==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            Papa.parse("https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv", {
+                download: true,
+                header: true,
+                dynamicTyping: true,
+                complete: function (respuesta) {
+                    console.log(respuesta.data);
+                    var primeraClase = 0;
+                    var segundaClase = 0;
+                    var terceraClase = 0;
+                    respuesta.data.forEach((d) => {
+                        if (d.Pclass == 3 && d.Survived == 0) {
+                            terceraClase = terceraClase + 1;
+                        } else if (d.Pclass == 2 && d.Survived == 0) {
+                            segundaClase = segundaClase + 1;
+                        } else if (d.Pclass == 1 && d.Survived == 0) {
+                            primeraClase = primeraClase + 1;
+                        }
+                    });
+                    new Chart(document.getElementById("unaDona").getContext("2d"), {
+                        type: "doughnut",
+                        data: {
+                            labels: ["Fallecidos de primera clase", "Fallecidos de segunda clase", "Fallecidos de tercera clase"],
+                            datasets: [{ label: "Fallecidos", data: [primeraClase, segundaClase, terceraClase], backgroundColor: ["#fed98e", "#d95f0e", "#993404"] }],
+                        },
+                        options: {
+                            plugins: {
+                                title: { display: true, text: "CLASISMO TITÁNICO" }
+                            }
+                        }
+                    });
+                },
+            });
+        </script>
+    </body>
+</html>
+```
+[Papa Parse](https://www.papaparse.com/) nos resultará de mucha utilidad cada vez que podamos usar un CSV estructurado como el del [Titanic](https://github.com/datasciencedojo/datasets/blob/master/titanic.csv), donde sólo tenemos a la primera fila dando indicaciones respecto de lo que puede cambiar en las que siguen. 
+
+[Papa Parse](https://www.papaparse.com/) **no** sería la major opción si es que contamos con un CSV donde la primera columna es tanto o más relevante que la primera fila; así como en el CSV ofrecido por el del Ministerio de Ciencia con los datos actualizados sobre el COVID-19 en Chile: https://github.com/MinCiencia/Datos-COVID19/blob/master/output/producto5/TotalesNacionales.csv
+
+Para lo ofrecido por el Ministerio de Ciencia, conviene seguir usando [el Fetch](https://youtu.be/RfMkdvN-23o) con "ajustes a manos". Pero en casos como el siguiente [Papa Parse](https://www.papaparse.com/) funciona bien:
 
 ```
 region,lat,lon,boric,kast
@@ -77,7 +130,36 @@ region,lat,lon,boric,kast
 "Magallanes",-53.1625,-70.9225,61.29,38.71
 ```
 
-**Con tales, tomados desde un [CSV en línea](https://raw.githubusercontent.com/profesorfaco/dno037-2022/main/clase-08/segunda-vuelta-presidencial.csv) y ya dentro dentro una variable de JavaScript, datos podemos pasar a [Leaflet.js](https://leafletjs.com/): Una biblioteca de JavasScript que ofrece una alternativa ligera para trabajar con mapas interactivos**. Para usarla necesitamos conocer las coordenadas geográficas de lo que se quiera apuntar para, primero, establecer un centro del mapa y luego hacer las marcas correspondientes. También corresponde decidir por un tipo de mapa a usar: 
+**Allí tenemos a la primera línea definiendo lo que será contenido en las siguientes: Región de Chile, latitut y longitud para la capital de la región, porcentaje de votos para Boric y porcentajes de votos para Kast.**. 
+
+Podemos ver la misma estructura con un [CSV en línea](https://raw.githubusercontent.com/profesorfaco/dno037-2022/main/clase-08/segunda-vuelta-presidencial.csv) y tomar los datos con el siguiente ejemplo, que pueden copiar y guardar como `mira-la-consola.html`:
+
+```
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Vea la consola</title>
+    </head>
+    <body>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js" integrity="sha512-rKFvwjvE4liWPlFnvH4ZhRDfNZ9FOpdkD/BU5gAIA3VS3vOQrQ5BjKgbO3kxebKhHdHcNUHLqxQYSoxee9UwgA==" crossorigin="anonymous"></script>
+        <script>
+            Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2022/main/clase-08/segunda-vuelta-presidencial.csv", {
+                download: true,
+                header: true,
+                dynamicTyping: true,
+                complete: function (respuesta) {
+                    var datos = respuesta.data;
+                    console.log(datos);
+                   },
+            });
+        </script>
+    </body>
+</html>
+```
+
+En tales datos tenemos latitud y longitud; con ellos podemos pasar a [Leaflet.js](https://leafletjs.com/): Una biblioteca de JavasScript que ofrece una alternativa ligera para trabajar con mapas interactivos**. Para usarla necesitamos conocer las coordenadas geográficas de lo que se quiera apuntar para, primero, establecer un centro del mapa y luego hacer las marcas correspondientes. También corresponde decidir por un tipo de mapa a usar: 
 
 - [mapbox/light-v10](https://api.mapbox.com/styles/v1/mapbox/light-v10.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#10/-33.47/-70.64); 
 - [mapbox/dark-v10](https://api.mapbox.com/styles/v1/mapbox/dark-v10.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#10/-33.47/-70.64); 

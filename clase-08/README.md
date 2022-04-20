@@ -53,7 +53,7 @@ meta: {	... }     // extra parse info
 }
 ```
 
-Cada línea de valores separado por coma pasa a ser un elemento en un arreglo al que nos podemos referir con un `respuesta.data` para comenzar a construir desde allí, como en siguiente ejemplo que pueden copiar, pegar y guardar como `ejemplo-con-chart.html`:
+Cada línea de valores separado por coma pasa a ser un elemento en un arreglo al que nos podemos referir con un `respuesta.data` para comenzar a construir desde allí, como en siguiente ejemplo que pueden copiar, pegar y guardar como `ejemplo-con-chartjs.html`:
 
 ```
 <!DOCTYPE html>

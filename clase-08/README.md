@@ -104,11 +104,44 @@ Cada línea de valores separado por coma pasa a ser un elemento en un arreglo al
     </body>
 </html>
 ```
-[Papa Parse](https://www.papaparse.com/) nos resultará de mucha utilidad cada vez que podamos usar un CSV estructurado como el del [Titanic](https://github.com/datasciencedojo/datasets/blob/master/titanic.csv), donde sólo tenemos a la primera fila dando indicaciones respecto de lo que puede cambiar en las que siguen. 
+[Papa Parse](https://www.papaparse.com/) nos resultará de mucha utilidad cada vez que podamos usar un CSV estructurado como el del [Titanic](https://github.com/datasciencedojo/datasets/blob/master/titanic.csv), donde sólo tenemos en la primera fila las indicaciones respecto de lo que sigue.
+
+Para comprender mejor este punto, conviene echarle un vistazo a otros datos que pueden encontrar en la carpeta Drive del Curso: https://docs.google.com/spreadsheets/d/10NT4bLORgxB14kcRa1md4iRa3JnqoOZYkjsH1TGj2Rg/edit?usp=sharing
+
+Sin la primera fila en aquel documento, no podrían interpretar lo que sigue. También notarán que todo nombre en la primera fila podría convertirse, sin problemas, en el índice dentro de un objeto: Porque no parte con un número, no se usan "caracteres extraños" ni hay espacios.
+
+Pueden hacer la prueba de bajar los `datos_para_un_csv` con formato CSV. Luego subir el CSV a un repositorio en GitHub. Cuando esté en GitHub, vayan por el vínculo a su versión *Raw*. Y con ese vínculo completen lo que sigue: 
+
+```
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Vea la consola</title>
+    </head>
+    <body>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js" integrity="sha512-rKFvwjvE4liWPlFnvH4ZhRDfNZ9FOpdkD/BU5gAIA3VS3vOQrQ5BjKgbO3kxebKhHdHcNUHLqxQYSoxee9UwgA==" crossorigin="anonymous"></script>
+        <script>
+            Papa.parse("para completarlo debes reemplazando esto con el vínculo al CSV", {
+                download: true,
+                header: true,
+                dynamicTyping: true,
+                complete: function (respuesta) {
+                    var datos = respuesta.data;
+                    console.log(datos);
+                   },
+            });
+        </script>
+    </body>
+</html>
+```
+
+Podrían guardar el ejemplo como `mira-la-consola.html`, porque el resultado de la consulta se verá sólo en la consola. 
 
 [Papa Parse](https://www.papaparse.com/) **no** sería la mejor opción si es que contamos con un CSV donde la primera columna es tanto o más relevante que la primera fila; así como en el CSV ofrecido por el del Ministerio de Ciencia con los datos actualizados sobre el COVID-19 en Chile: https://github.com/MinCiencia/Datos-COVID19/blob/master/output/producto5/TotalesNacionales.csv
 
-Para lo ofrecido por el Ministerio de Ciencia, conviene seguir usando [el Fetch](https://youtu.be/RfMkdvN-23o) con "ajustes a manos". Pero en casos como el siguiente [Papa Parse](https://www.papaparse.com/) funciona bien:
+Cerremos con la siguiente idea: Para lo ofrecido por el Ministerio de Ciencia, conviene seguir usando [el Fetch](https://youtu.be/RfMkdvN-23o) con nuestros "ajustes a manos". Pero en casos como el siguiente [Papa Parse](https://www.papaparse.com/) funciona bien:
 
 ```
 region,lat,lon,boric,kast
@@ -132,34 +165,7 @@ region,lat,lon,boric,kast
 
 **Allí tenemos a la primera línea definiendo lo que será contenido en las siguientes: Región de Chile, latitut y longitud para la capital de la región, porcentaje de votos para Boric y porcentajes de votos para Kast.**. 
 
-Podemos ver la misma estructura con un [CSV en línea](https://raw.githubusercontent.com/profesorfaco/dno037-2022/main/clase-08/segunda-vuelta-presidencial.csv) y tomar los datos con el siguiente ejemplo, que pueden copiar y guardar como `mira-la-consola.html`:
-
-```
-<!DOCTYPE html>
-<html lang="es">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Vea la consola</title>
-    </head>
-    <body>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js" integrity="sha512-rKFvwjvE4liWPlFnvH4ZhRDfNZ9FOpdkD/BU5gAIA3VS3vOQrQ5BjKgbO3kxebKhHdHcNUHLqxQYSoxee9UwgA==" crossorigin="anonymous"></script>
-        <script>
-            Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2022/main/clase-08/segunda-vuelta-presidencial.csv", {
-                download: true,
-                header: true,
-                dynamicTyping: true,
-                complete: function (respuesta) {
-                    var datos = respuesta.data;
-                    console.log(datos);
-                   },
-            });
-        </script>
-    </body>
-</html>
-```
-
-En tales datos tenemos latitud y longitud; con ellos podemos pasar a [Leaflet.js](https://leafletjs.com/): Una biblioteca de JavasScript que ofrece una alternativa ligera para trabajar con mapas interactivos**. Para usarla necesitamos conocer las coordenadas geográficas de lo que se quiera apuntar para, primero, establecer un centro del mapa y luego hacer las marcas correspondientes. También corresponde decidir por un tipo de mapa a usar: 
+Con datos de latitud y longitud podemos pasar a [Leaflet.js](https://leafletjs.com/): Una biblioteca de JavasScript que ofrece una alternativa ligera para trabajar con mapas interactivos**. Para usarla necesitamos conocer las coordenadas geográficas de lo que se quiera apuntar para, primero, establecer un centro del mapa y luego hacer las marcas correspondientes. También corresponde decidir por un tipo de mapa a usar: 
 
 - [mapbox/light-v10](https://api.mapbox.com/styles/v1/mapbox/light-v10.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#10/-33.47/-70.64); 
 - [mapbox/dark-v10](https://api.mapbox.com/styles/v1/mapbox/dark-v10.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#10/-33.47/-70.64); 

@@ -106,7 +106,7 @@ Cada línea de valores separado por coma pasa a ser un elemento en un arreglo al
 ```
 [Papa Parse](https://www.papaparse.com/) nos resultará de mucha utilidad cada vez que podamos usar un CSV estructurado como el del [Titanic](https://github.com/datasciencedojo/datasets/blob/master/titanic.csv), donde sólo tenemos a la primera fila dando indicaciones respecto de lo que puede cambiar en las que siguen. 
 
-[Papa Parse](https://www.papaparse.com/) **no** sería la major opción si es que contamos con un CSV donde la primera columna es tanto o más relevante que la primera fila; así como en el CSV ofrecido por el del Ministerio de Ciencia con los datos actualizados sobre el COVID-19 en Chile: https://github.com/MinCiencia/Datos-COVID19/blob/master/output/producto5/TotalesNacionales.csv
+[Papa Parse](https://www.papaparse.com/) **no** sería la mejor opción si es que contamos con un CSV donde la primera columna es tanto o más relevante que la primera fila; así como en el CSV ofrecido por el del Ministerio de Ciencia con los datos actualizados sobre el COVID-19 en Chile: https://github.com/MinCiencia/Datos-COVID19/blob/master/output/producto5/TotalesNacionales.csv
 
 Para lo ofrecido por el Ministerio de Ciencia, conviene seguir usando [el Fetch](https://youtu.be/RfMkdvN-23o) con "ajustes a manos". Pero en casos como el siguiente [Papa Parse](https://www.papaparse.com/) funciona bien:
 

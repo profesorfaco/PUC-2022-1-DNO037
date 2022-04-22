@@ -157,7 +157,7 @@ function guiatura(profesor) {
 guiatura("APELLIDO, N.");
 ```
 
-El código recién presentado tendría que pegarse justo debajo de `console.log(datos);` y antes del cierre del paréntesis de llave `}`. En el lugar de `"APELLIDO, N."` cada uno debe escribir el nombre de la profesora o profesor guía, tal como aparece en el CSV.
+El código recién presentado tendría que pegarse justo debajo de `console.log(datos);` y antes del cierre del paréntesis de llave `}`. En el lugar de `"APELLIDO, N."` se tendría que escribir el nombre de la profesora o profesor guía, tal como aparece en el CSV.
 
 [Papa Parse](https://www.papaparse.com/) **no** sería la mejor opción si es que contamos con un CSV donde la primera columna es tanto o más relevante que la primera fila; así como en el CSV ofrecido por el del Ministerio de Ciencia con los datos actualizados sobre el COVID-19 en Chile: https://github.com/MinCiencia/Datos-COVID19/blob/master/output/producto5/TotalesNacionales.csv
 

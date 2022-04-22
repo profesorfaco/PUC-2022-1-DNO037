@@ -137,7 +137,27 @@ Pueden hacer la prueba de bajar los `datos_para_un_csv` con formato CSV. Luego s
 </html>
 ```
 
-Podrían guardar el ejemplo como `mira-la-consola.html`, porque el resultado de la consulta se verá sólo en la consola. 
+Podrían guardar el ejemplo como `mira-la-consola.html`, porque el resultado de la consulta se verá sólo en allí: [Cómo abrir la consola de desarrollador](https://support.monday.com/hc/es/articles/360002197259-C%C3%B3mo-abrir-la-consola-de-desarrollador)
+
+Para que el resultado en consola sea más útil, podríamos aprovechar una función:
+
+```
+function guiatura(profesor) {
+    let notas = [];
+    datos.forEach((t) => {
+        if (t.nombre_guia == profesor) {
+            notas.push(Number(t.nota_titulo.replace(/,/g, ".")));
+        }
+    });
+    console.log(notas);
+    let promedio = notas.reduce((a, b) => a + b, 0) / notas.length;
+    let frase = promedio.toFixed(2) + " fue el promedio de notas finales para estudiantes guiados por " + profesor;
+    return console.log(frase);
+}
+guiatura("APELLIDO, N.");
+```
+
+El código recién presentado tendría que pegarse justo debajo de `console.log(datos);` y antes del cierre del paréntesis de llave `}`. En el lugar de `"APELLIDO, N."` cada uno debe escribir el nombre de la profesora o profesor guía, tal como aparece en el CSV.
 
 [Papa Parse](https://www.papaparse.com/) **no** sería la mejor opción si es que contamos con un CSV donde la primera columna es tanto o más relevante que la primera fila; así como en el CSV ofrecido por el del Ministerio de Ciencia con los datos actualizados sobre el COVID-19 en Chile: https://github.com/MinCiencia/Datos-COVID19/blob/master/output/producto5/TotalesNacionales.csv
 

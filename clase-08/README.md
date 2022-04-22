@@ -157,11 +157,12 @@ function guiatura(profesor) {
 guiatura("APELLIDO, N.");
 ```
 
-El código recién presentado tendría que pegarse justo debajo de `console.log(datos);` y antes del cierre del paréntesis de llave `}`. En el lugar de `"APELLIDO, N."` se tendría que escribir el nombre de la profesora o profesor guía, tal como aparece en el CSV.
+El código recién presentado tendría que pegarse justo debajo de `console.log(datos);` y antes del cierre del paréntesis de llave `}`. En el lugar de `"APELLIDO, N."` se tendría que escribir el nombre de la profesora o profesor guía, tal como aparece en la correspondiente columna del CSV.
 
-[Papa Parse](https://www.papaparse.com/) **no** sería la mejor opción si es que contamos con un CSV donde la primera columna es tanto o más relevante que la primera fila; así como en el CSV ofrecido por el del Ministerio de Ciencia con los datos actualizados sobre el COVID-19 en Chile: https://github.com/MinCiencia/Datos-COVID19/blob/master/output/producto5/TotalesNacionales.csv
 
-Cerremos con la siguiente idea: Para lo ofrecido por el Ministerio de Ciencia, conviene seguir usando [el Fetch](https://youtu.be/RfMkdvN-23o) con nuestros "ajustes a manos". Pero en casos como el siguiente [Papa Parse](https://www.papaparse.com/) funciona bien:
+Cerremos con una recomendación: Para lo ofrecido por el Ministerio de Ciencia, conviene seguir usando [el Fetch](https://youtu.be/RfMkdvN-23o) con nuestros "ajustes a manos". [Papa Parse](https://www.papaparse.com/) **no** sería la mejor opción si es que contamos con un CSV donde la primera columna es tanto o más relevante que la primera fila; así como en el CSV ofrecido por el del Ministerio de Ciencia con los datos actualizados sobre el COVID-19 en Chile: https://github.com/MinCiencia/Datos-COVID19/blob/master/output/producto5/TotalesNacionales.csv
+
+Pero en casos como el siguiente, [Papa Parse](https://www.papaparse.com/) funciona bien:
 
 ```
 region,lat,lon,boric,kast

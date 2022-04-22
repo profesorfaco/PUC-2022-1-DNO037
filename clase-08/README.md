@@ -130,7 +130,7 @@ Pueden hacer la prueba de bajar los `datos_para_un_csv` con formato CSV. Luego s
                 complete: function (respuesta) {
                     var datos = respuesta.data;
                     console.log(datos);
-                   },
+                }
             });
         </script>
     </body>

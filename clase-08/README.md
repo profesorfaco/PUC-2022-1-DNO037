@@ -137,7 +137,7 @@ Pueden hacer la prueba de bajar los `datos_para_un_csv` con formato CSV. Luego s
 </html>
 ```
 
-Podrían guardar el ejemplo como `mira-la-consola.html`, porque el resultado de la consulta se verá sólo en allí: [Cómo abrir la consola de desarrollador](https://support.monday.com/hc/es/articles/360002197259-C%C3%B3mo-abrir-la-consola-de-desarrollador)
+Podrían guardar el ejemplo como `ejemplo-con-consola.html`, porque el resultado de la consulta se verá sólo en allí: [Cómo abrir la consola de desarrollador](https://support.monday.com/hc/es/articles/360002197259-C%C3%B3mo-abrir-la-consola-de-desarrollador)
 
 Para que el resultado en consola sea más útil, podríamos aprovechar una función:
 
@@ -159,8 +159,68 @@ guiatura("APELLIDO, N.");
 
 El código recién presentado tendría que pegarse justo debajo de `console.log(datos);` y antes del cierre del paréntesis de llave `}`. En el lugar de `"APELLIDO, N."` se tendría que escribir el nombre de la profesora o profesor guía, tal como aparece en la correspondiente columna del CSV.
 
+Si recordamos el ejercicio de la clase recién pasada, donde las opciones de un `<selector></selector>` ofrecían interactividad para la página, podríamos intentar avanzar en la utilidad del código con lo siguiente, que pueden copiar y pegar en un documento nuevo, de nombre `ejemplo-sin-consola.html`:
 
-Cerremos con una recomendación: Para lo ofrecido por el Ministerio de Ciencia, conviene seguir usando [el Fetch](https://youtu.be/RfMkdvN-23o) con nuestros "ajustes a manos". [Papa Parse](https://www.papaparse.com/) **no** sería la mejor opción si es que contamos con un CSV donde la primera columna es tanto o más relevante que la primera fila; así como en el CSV ofrecido por el del Ministerio de Ciencia con los datos actualizados sobre el COVID-19 en Chile: https://github.com/MinCiencia/Datos-COVID19/blob/master/output/producto5/TotalesNacionales.csv
+```
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Salgamos de la consola</title>
+    </head>
+    <body>
+        <select id="profes" style="margin-bottom: 1rem;">
+            <option value="">Guiaturas</option>
+            <option value="HERNÁNDEZ, R.">Ricardo Hernández</option>
+            <option value="MANNS, P.">Patricia Manns</option>
+            <option value="PARADA, M.">Marcela Parada</option>
+            <option value="MOLLENHAUER, K.">Katherine Mollenhauer</option>
+            <option value="TIRONI, M.">Martín Tironi</option>
+        </select>
+
+        <div class="promedio" style="margin-left: 0.5rem;"></div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js" integrity="sha512-rKFvwjvE4liWPlFnvH4ZhRDfNZ9FOpdkD/BU5gAIA3VS3vOQrQ5BjKgbO3kxebKhHdHcNUHLqxQYSoxee9UwgA==" crossorigin="anonymous"></script>
+        <script>
+            Papa.parse("para completarlo debes reemplazando esto con el vínculo al CSV", {
+                download: true,
+                header: true,
+                dynamicTyping: true,
+                complete: function (respuesta) {
+                    var datos = respuesta.data;
+                    console.log(datos);
+                    // mantengamos la función, con un pequeño cambio en el return
+                    function guiatura(profesor) {
+                        let notas = [];
+                        datos.forEach((t) => {
+                            if (t.nombre_guia == profesor) {
+                                notas.push(Number(t.nota_titulo.replace(/,/g, ".")));
+                            }
+                        });
+                        const promedio = notas.reduce((a, b) => a + b, 0) / notas.length;
+                        let frase = promedio.toFixed(2) + " fue el promedio de notas finales de estudiantes guiados por " + profesor;
+                        return frase;
+                    }
+                    // sumemos esto para el selector
+                    document.querySelector("#profes").addEventListener("change", function () {
+                        var x = this.value;
+                        const resultado = document.querySelector(".promedio");
+                        if (x !== "") {
+                            resultado.textContent = guiatura(x);
+                        } else {
+                            resultado.textContent = "Seleccione una guiatura…";
+                        }
+                    });
+                },
+            });
+        </script>
+    </body>
+</html>
+```
+Podríamos seguir creciendo desde el `ejemplo-sin-consola.html`. Podríamos, por ejemplo, hacer un listado que muestre nombres de los estudiantes con cada guiatura, acompañada del nombre de su proyecto. Ambos nombres podrían vincular a una página aparte en que se desplieguen *qué* y *para qué* del proyecto.
+
+Aquí habría que sumar una recomendación: Para lo ofrecido por el Ministerio de Ciencia, conviene seguir usando [el Fetch](https://youtu.be/RfMkdvN-23o) con nuestros "ajustes a manos". [Papa Parse](https://www.papaparse.com/) **no** sería la mejor opción si es que contamos con un CSV donde la primera columna es tanto o más relevante que la primera fila; así como en el CSV ofrecido por el del Ministerio de Ciencia con los datos actualizados sobre el COVID-19 en Chile: https://github.com/MinCiencia/Datos-COVID19/blob/master/output/producto5/TotalesNacionales.csv
 
 Pero en casos como el siguiente, [Papa Parse](https://www.papaparse.com/) funciona bien:
 

@@ -220,9 +220,13 @@ Si recordamos el ejercicio de la clase recién pasada, donde las opciones de un 
 ```
 Podríamos seguir creciendo desde el `ejemplo-sin-consola.html`. Podríamos, por ejemplo, hacer un listado que muestre nombres de los estudiantes con cada guiatura, acompañada del nombre de su proyecto. Ambos nombres podrían vincular a una página aparte en que se desplieguen *qué* y *para qué* del proyecto.
 
-Dedíquenle un tiempo a pensarlo. Pueden pensarlo grupalmente.
+Dedíquenle un tiempo a pensarlo. Pueden pensarlo grupalmente. Recuerden:
 
 ![meme](https://user-images.githubusercontent.com/7999767/156002975-2dfbf580-f6e2-4bd8-8e40-7110457a4cb4.png)
+
+Meme que podríamos complementar con: 
+
+![mr. bean](https://i.redd.it/s2n41qn1wuu11.jpg)
 
 Aquí habría que insistir: [Papa Parse](https://www.papaparse.com/) nos resultará de mucha utilidad cada vez que podamos usar un CSV estructurado como el del [Titanic](https://github.com/datasciencedojo/datasets/blob/master/titanic.csv) o estos datos sobre los proyectos de título entregados el segundo semestre de 2021, donde sólo tenemos en la primera fila las indicaciones respecto de lo que sigue.
 

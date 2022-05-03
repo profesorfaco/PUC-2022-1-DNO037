@@ -10,11 +10,11 @@ Hoy trabajaremos con dos "themes":
 
 Tomaremos partes de ambos para generar uno "propio", con:
 
-- la mayoría de las <section>…</section> del Theme de StartBootstrap, sólo descartaremos la que tiene identidad `signup`.
+- la mayoría de las `<section>…</section>` del Theme de StartBootstrap (sólo descartaremos la que tiene identidad `signup`).
 
 - los `<header>…</header>` y `<footer>…</footer>` del ejemplo de Bootstrap.
 
-Noten que en esta carpeta del repositorio están disponibles los documentos del Theme de StartBootstrap, porque hay una modificación en la `<section>…</section>` de clase `showcase`.
+Noten que en esta carpeta del repositorio están disponibles los documentos del *Theme* de StartBootstrap, donde adelanto una modificación en la `<section>…</section>` de clase `showcase`.
 
 - - - - - - - 
 

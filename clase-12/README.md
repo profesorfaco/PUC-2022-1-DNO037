@@ -14,7 +14,7 @@ Tomaremos partes de ambos para generar uno "propio", con:
 
 - los `<header>…</header>` y `<footer>…</footer>` del ejemplo de Bootstrap.
 
-Noten que en esta carpeta del repositorio están disponibles los documentos del *Theme* de StartBootstrap, donde adelanto una modificación en la `<section>…</section>` de clase `showcase`.
+Noten que en esta carpeta del repositorio están disponibles los documentos del [*Theme* de StartBootstrap](https://profesorfaco.github.io/dno037-2022/clase-12/). En estos documentos adelanté una modificación en la `<section>…</section>` de clase `showcase`.
 
 - - - - - - - 
 

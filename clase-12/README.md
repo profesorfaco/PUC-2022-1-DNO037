@@ -2,13 +2,13 @@
 
 # Bootstrap v5.1
 
-Hoy trabajaremos con dos ejemplos:
+Hoy trabajaremos con dos "themes":
 
-Primero --> https://getbootstrap.com/docs/5.1/examples/album/
+Theme de StartBoostrap --> https://startbootstrap.com/theme/landing-page
 
-Luego --> https://startbootstrap.com/theme/landing-page
+Ejemplo de Bootstrap --> https://getbootstrap.com/docs/5.1/examples/album/
 
-El `index.html` en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2022/clase-12/) tiene avanzado el primer ejemplo.
+Tomaremos partes de ambos, para generar uno "propio".
 
 - - - - - - - 
 

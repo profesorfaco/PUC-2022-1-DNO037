@@ -25,7 +25,9 @@ Hay distintas maneras de comenzar a trabajar con Boostrap v5.1.3. Nosotros podem
 </html>
 ```
 
-En el cuerpo de tal documento HTML (`<body></body>`) podemos comenzar a utilizar las clases del CSS de Bootstrap, que nos permiten tomar de 1 a 12 columnas (`class="col"`) en cada fila (`class="row"`) que esté dentro de un contenedor (`class="container"`).
+Pueden copiar y pegar el código en un documento nuevo, credo por su editor de código fuente. Pueden guardar tal documento como `bootstrap.html`.
+
+En el cuerpo del mismo documento HTML (`<body></body>`) podemos comenzar a utilizar las clases del CSS de Bootstrap, las que nos permiten tomar de 1 a 12 columnas (`class="col"`) en cada fila (`class="row"`) que esté dentro de un contenedor (`class="container"`).
 
 Puesto de otro modo, podemos incluir, entre etiquetas `<body>…</body>`, algo como: 
 
@@ -39,15 +41,26 @@ Puesto de otro modo, podemos incluir, entre etiquetas `<body>…</body>`, algo c
 </div>
 ```
 
-El código recién escrito indica que lo ancho se divide en 3 desde 0 pixeles de ancho. Sería distinto si usara las clases: `col-sm-4`, `col-md-4`, `col-lg-4`, `col-xl-4` o `col-xxl-4`. En todas estoy tomando la misma porción de columnas disponibles, pero lo haría desde distintos tamaños de pantalla: https://getbootstrap.com/docs/5.1/layout/grid/#grid-options
+El código recién escrito indica que lo ancho se divide en 3 desde 0 pixeles de ancho. Sería distinto si usara las clases: `col-sm-4`, `col-md-4`, `col-lg-4`, `col-xl-4` o `col-xxl-4`. Por ejemplo, dentro de la división de clase `row`, podrían incluir:
 
-Después de revisar la página recién vinculada, conviene revisar los archivos contenidos en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2022/clase-10/index.html), que servirán de base para un "remake" de su prueba. 
+```
+<div class="col-lg-4"><img src="https://picsum.photos/300/500?random=1" class="w-100 shadow"></div>
+<div class="col-lg-4"><img src="https://picsum.photos/300/500?random=2" class="w-100 shadow"></div>
+<div class="col-lg-4"><img src="https://picsum.photos/300/500?random=3" class="w-100 shadow"></div>
+```
 
-Para completar este "remake" conviene tener a mano la [documentación de Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/).
+Nuevamente tomo 3 veces 4 columnas de las 12 disponibles; por ello tengo 3 imágenes en una misma fila en pantallas grandes (`-lg-`, de *large*), esto exige un ancho de la ventana del navegador mayor o igual a 992px.
+
+Para más detalles sobre tamaños, conviene consultar directamente a la documentación de Bootstrap: https://getbootstrap.com/docs/5.1/layout/grid/#grid-options
+
 
 - - - - - - - 
 
 ### Práctica
+
+Los archivos contenidos en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2022/clase-10/index.html) servirán de base para un "remake" de su prueba. 
+
+Para completar este "remake" conviene tener a mano la [documentación de Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/).
 
 El ejercicio se completa cuando cada estudiante publique, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), lo preparado en https://profesorfaco.github.io/dno037-2022/clase-10/
 

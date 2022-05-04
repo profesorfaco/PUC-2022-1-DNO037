@@ -44,9 +44,9 @@ Puesto de otro modo, podemos incluir, entre etiquetas `<body>…</body>`, algo c
 El código recién escrito indica que lo ancho se divide en 3 desde 0 pixeles de ancho. Sería distinto si usara las clases: `col-sm-4`, `col-md-4`, `col-lg-4`, `col-xl-4` o `col-xxl-4`. Por ejemplo, dentro de la división de clase `row`, podrían incluir:
 
 ```
-<div class="col-lg-4"><img src="https://picsum.photos/300/500?random=1" class="w-100 shadow"></div>
-<div class="col-lg-4"><img src="https://picsum.photos/300/500?random=2" class="w-100 shadow"></div>
-<div class="col-lg-4"><img src="https://picsum.photos/300/500?random=3" class="w-100 shadow"></div>
+<div class="col-lg-4"><img src="https://picsum.photos/300/300?random=1" class="w-100 my-2 shadow" /></div>
+<div class="col-lg-4"><img src="https://picsum.photos/300/300?random=2" class="w-100 my-2 shadow" /></div>
+<div class="col-lg-4"><img src="https://picsum.photos/300/300?random=3" class="w-100 my-2 shadow" /></div>
 ```
 
 Nuevamente tomo 3 veces 4 columnas de las 12 disponibles; por ello tengo 3 imágenes en una misma fila en pantallas grandes (`-lg-`, de *large*), esto exige un ancho de la ventana del navegador mayor o igual a 992px.

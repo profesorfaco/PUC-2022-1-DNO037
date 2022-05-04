@@ -49,7 +49,7 @@ El código recién escrito indica que lo ancho se divide en 3 desde 0 pixeles de
 <div class="col-lg-4"><img src="https://picsum.photos/300/300?random=3" class="w-100 my-2 shadow" /></div>
 ```
 
-Nuevamente tomo 3 veces 4 columnas de las 12 disponibles; por ello tengo 3 imágenes en una misma fila en pantallas grandes (`-lg-`, de *large*), esto exige un ancho de la ventana del navegador mayor o igual a 992px.
+Nuevamente tomo 3 veces 4 columnas de las 12 disponibles; por ello tengo 3 imágenes en una misma fila en pantallas grandes (`-lg-`, de *large*), esto exige un ancho de la ventana del navegador igual o mayor a 992px.
 
 Para más detalles sobre tamaños, conviene consultar directamente a la documentación de Bootstrap: https://getbootstrap.com/docs/5.1/layout/grid/#grid-options
 

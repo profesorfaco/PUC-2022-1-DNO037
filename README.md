@@ -56,7 +56,7 @@ Considerando los días miércoles entre 9 de marzo y 6 de julio, se plantea el s
 
 [Clase 08 → 27/04/2021](https://github.com/profesorfaco/dno037-2022/tree/main/clase-08) → HTML5 + CSS3 + otras bibliotecas de JS ✓
 
-[Clase 09 → 04/05/2021](https://github.com/profesorfaco/dno037-2022/tree/main/clase-09) → Evaluación Nº2
+[Clase 09 → 04/05/2021](https://github.com/profesorfaco/dno037-2022/tree/main/clase-09) → Evaluación Nº2 ✓
 
 [Clase 10 → 11/05/2021](https://github.com/profesorfaco/dno037-2022/tree/main/clase-10) → Bootstrap v5.1
 

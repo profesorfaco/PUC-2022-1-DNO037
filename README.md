@@ -60,7 +60,7 @@ Considerando los días miércoles entre 9 de marzo y 6 de julio, se plantea el s
 
 [Clase 10 → 11/05/2021](https://github.com/profesorfaco/dno037-2022/tree/main/clase-10) → Bootstrap v5.1 ✓
 
-[Clase 11 → 18/05/2021](https://github.com/profesorfaco/dno037-2022/tree/main/clase-11) → Bootstrap v5.1
+[Clase 11 → 18/05/2021](https://github.com/profesorfaco/dno037-2022/tree/main/clase-11) → Bootstrap v5.1 ✓
 
 [Clase 12 → 25/05/2021](https://github.com/profesorfaco/dno037-2022/tree/main/clase-12) → Bootstrap v5.1
 

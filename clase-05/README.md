@@ -1,4 +1,4 @@
-### Diseño y Nuevos Medios → Clase 05 → 06/04/2021
+### Diseño y Nuevos Medios → Clase 05 → 06/04/2022
 
 # HTML5 + CSS3 + otras bibliotecas de JS
 

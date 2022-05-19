@@ -1,4 +1,4 @@
-### Diseño y Nuevos Medios → Clase 16 → 22/06/2020
+### Diseño y Nuevos Medios → Clase 16 → 22/06/2022
 
 # Diseño y desarrollo
 

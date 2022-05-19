@@ -10,7 +10,7 @@ Continúe con las modificaciones atendiendo a la siguiente pauta de evaluación:
 
 | criterio | descripción             | pts. |
 |:----:|:----------------------------|:----:|
-| A    | Cambiar la imagen de la cabecera por una que [adelante el tono de su página](https://www.youtube.com/watch?v=X0FG0jCqLYQ); cuide la relación de resolución y peso de la imagen para que la primera impresión no sea la demora en cargar. | 3,0 |
+| A    | Cambiar la imagen de la cabecera por una que [adelante el tono de su página](https://www.youtube.com/watch?v=X0FG0jCqLYQ); cuide la relación de resolución, extensión y peso de la imagen para que la primera impresión **no** sea la demora en cargar un [PNG24](https://helpx.adobe.com/cl/photoshop-elements/using/optimizing-images-png-24-format.html) que debió haber sido JPG o [WEPB](https://imagen.online-convert.com/es/convertir-a-webp). | 3,0 |
 | B    | Pendiente hasta el 01/06/2022 |  1,0 |
 | C    | Pendiente hasta el 01/06/2022 |  1,0 |
 | D    | Pendiente hasta el 01/06/2022 |  1,0 |

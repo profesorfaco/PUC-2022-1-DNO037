@@ -70,7 +70,7 @@ De los resultados aprovechemos los datos de `picture.large`, `name.first`, `name
 
 Una vez tengamos nuesta mezcla de *themes* funcionando, comencemos a simplificar la carpeta: 
 
-> La manera más sencilla de alcanzar la simplicidad es mediante la reducción razonada —Maeda
+> El proceso para alcanzar un estado idóneo de simplicidad puede llegar a ser realmente complejo; permítame, por tanto, que se lo simplifique. *La manera más sencilla de alcanzar la simplicidad es mediante la reducción razonada*. En caso de duda, elimínelo. Pero cuidado con aquello que se elimina (Maeda, 2006:1).
 
 Ideal sería reducir hasta la purificación :pray: https://purifycss.online/
 

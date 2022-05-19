@@ -82,9 +82,9 @@ Podemos revisar los [Bootstrap Icons](https://icons.getbootstrap.com/). Con ello
 
 Revisemos dos modos de uso: 
 
-- Fuente tipográfica (Icon Font) → *Include the icon web fonts in your page via CSS, then reference the class names as needed…*
-
 - Código fuente (SVG) → *Embed your icons within the HTML of your page (as opposed to an external image file)…*
+
+- Fuente tipográfica (Icon Font) → *Include the icon web fonts in your page via CSS, then reference the class names as needed…*
 
 Tan pronto cada estudiante esté conforme con el resultado, tendrá que comenzar a simplificar la carpeta descargada al comienzo: 
 

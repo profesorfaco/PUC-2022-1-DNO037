@@ -1,21 +1,24 @@
-### Diseño y Nuevos Medios → Clase 13 → 01/06/2021
+### Diseño y Nuevos Medios → Clase 13 → 01/06/2022
 
 # Bootstrap v5
 
 ### Evaluación Nº3
 
-Cada estudiante cuenta con el horario de clases para publicar, con GitHub Pages, su versión ajustada de ???.
+Descargue el [Stylish Portfolio](https://startbootstrap.com/theme/stylish-portfolio). Elimine las secciones que en el `index.html` están marcadas con los comentarios: *About*, *Callout* y *Call to Action*. Elimine también todos los vínculos que se hacen inútiles con el descarte de tales secciones.
 
-Cada versión debe ajustarse con atención a la siguiente pauta de cotejo:
+Continúe con las modificaciones atendiendo a la siguiente pauta de evaluación:
 
 | criterio | descripción             | pts. |
 |:----:|:----------------------------|:----:|
-| A    | Cambiar colores, textos y mapa, dándole sentido único a toda la página: sea un portafolio, una empresa, una campaña, etc. |  3,0 |
-| B    | Cambiar tipografías con Google Fonts, vinculando, al menos tres estilos, en `index.html` (pueden ser 2 familias distintas, con 2 variantes de la primera y 1 de la segunda) |  3,0 |
-| C    | Cambiar fotografías de fondo en `.masthead` y `.callout` por otras de significación pertinente, buena resolución y peso inferior a 200 KB para c/u  | 3,0 |
-| D    | Cambiar íconos en sección #services y footer por código SVG de [íconos de Bootstrap](https://icons.getbootstrap.com/), y elimine los vínculos a otras opciones de íconos |  3,0 |
-| E    | Cambiar fotografías en sección #portfolio con [Picsum.photos](https://picsum.photos/)  |  3,0 |
+| A    | Cambiar la imagen de la cabecera por una que [adelante el tono de su página](https://www.youtube.com/watch?v=X0FG0jCqLYQ); cuide la relación de resolución y peso de la imagen para que la primera impresión no sea la demora en cargar. | 3,0 |
+| B    | Pendiente hasta el 01/06/2022 |  1,0 |
+| C    | Pendiente hasta el 01/06/2022 |  1,0 |
+| D    | Pendiente hasta el 01/06/2022 |  1,0 |
+| E    | Pendiente hasta el 01/06/2022 |  3,0 |
 
+Puede ganar un punto extra con una reducción razonada de la carpeta del tema descargado.
+
+Tiene hasta las 12.50 hrs. para dejar las direcciones de página y repositorio en el foro que se abrirá al comienzo de la clase.
 
 - - - - - - - 
 

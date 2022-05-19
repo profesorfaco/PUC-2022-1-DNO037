@@ -14,7 +14,7 @@ Antes de seguir, conviene leer:
 
 - [Reglamentación para el funcionamiento del Registro de Nombres del Dominio .CL](https://www.nic.cl/normativa/reglamentacion.html)
 
-Y puedes ver parte de estos videos: 
+Y conviene ver parte de estos videos: 
 
 - [Hosteando tu sitio en Github Pages](https://www.youtube.com/watch?v=wyRfN5oLzx4&t=155s)
 
@@ -22,23 +22,23 @@ Y puedes ver parte de estos videos:
 
 **El sitio web profesional o prototipo avanzado de aplicación web puede ser un autoencargo o un encargo. Generalmente el autoencargo es un portafolio de diseño, y el encargo atiende las necesidades comunicacionales de una empresa**.
 
-:rotating_light:	**RECOMENDACIÓN IMPORTANTE**  :rotating_light:	Pueden enfrentar el (auto)encargo de tienda en línea sólo como prototipo avanzado de aplicación web; para resolverlo como sitio web prefieran otra instancia, distinta de este trabajo. En otra instancia podrían explorar y aprovechar las herramientas que apoyan a éstas tiendas con sistemas de catálogo, transacción, distribución, entre otros.
+:rotating_light:	**RECOMENDACIÓN IMPORTANTE**  :rotating_light:	Pueden enfrentar el (auto)encargo de tienda en línea como vitrina de producos o como prototipo avanzado de aplicación web; para resolverlo como tienda en línea prefieran otra instancia, distinta de este trabajo. En otra instancia usted podrá explorar y aprovechar las herramientas que apoyan a éstas tiendas con sistemas de catálogo, transacción, distribución, etc.
 
 - - - - - - - - - - 
 
 #### Ejercicio
 
-Sólo tendrán que usar el **`README.md` de un repositorio final, donde tienen que publicar las siguientes definiciones**: 
+Sólo tendrá que usar el **`README.md` de un repositorio final. Allí debe publicar sus respuestas a las siguientes preguntas**: 
 
-- **¿Para qué? → objetivo general** → describa, con una frase que comience con un verbo, el beneficio práctico que aportará el resultado de su trabajo
+- **¿Para qué es esta propuesta? → objetivo general** → describa, con una frase que comience con un verbo, el beneficio práctico que aportará el resultado de su trabajo.
 
-- **¿Para quiénes? → usuarios extremos y usuarios promedio** → describa, con formato [Protopersona](https://openpracticelibrary.com/practice/proto-persona/) o [Mapa de Usuario 3C (p.67)](http://www.dsuc.cl/pdf/Creando-valor-a-traves-del-Diseno-de-Servicios-DSUC.pdf), a 3 arquetipos de personas que harán uso del resultado de su trabajo, 2 de ellas a los extremos de lo menos probable y 1 en lo más probable.
+- **¿Para quiénes es esta propuesta? → usuarios extremos y usuarios promedio** → describa, con formato [Protopersona](https://openpracticelibrary.com/practice/proto-persona/) o [Mapa de Usuario 3C (p.67)](http://www.dsuc.cl/pdf/Creando-valor-a-traves-del-Diseno-de-Servicios-DSUC.pdf), a 2 usuarias/os ubicadas/os en los extremos de lo menos probable y 1 en lo más probable.
 
-- **¿Qué existe que es similar a la propuesta? → antecedentes** → seleccione y describa 6 sitios o aplicaciones web. Se recomienda buscarlos en https://www.awwwards.com/websites/bootstrap/, https://www.instagram.com/webuistylist/ y https://www.instagram.com/web.inspirations/. Se recomienda usar la [ficha de clasificación de antecedentes de DSUC (p.80)](http://www.dsuc.cl/pdf/Creando-valor-a-traves-del-Diseno-de-Servicios-DSUC.pdf)
+- **¿Qué existe que es similar a la propuesta? → antecedentes** → seleccione y describa 6 sitios o aplicaciones web. Se recomienda buscarlos en https://www.awwwards.com/websites/bootstrap/, https://www.instagram.com/webuistylist/ y https://www.instagram.com/web.inspirations/. Se recomienda replicar la [ficha de clasificación de antecedentes de DSUC (p.80)](http://www.dsuc.cl/pdf/Creando-valor-a-traves-del-Diseno-de-Servicios-DSUC.pdf) para presentarlos.
 
 - **¿Qué existe que puede inspirar la propuesta? → referentes** → recolecte elementos visuales, distintos de sitios y aplicaciones web, que puedan aportar novedad a su diseño. Se recomienda presentar lo recolectado en un moodboard. Ej: https://create.vista.com/es/templates/mood-board/, https://www.canva.com/es_mx/crear/mood-boards/, https://www.adobe.com/es/express/create/mood-board
 
-Para publicar sus definiciones **utilizando el `README.md`**, aprovechen las siguientes referencias:
+Para sacarle provecho al **uso de `README.md`**, apóyense en:
 
 - https://devhints.io/markdown
 

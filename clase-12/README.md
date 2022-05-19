@@ -2,19 +2,19 @@
 
 # Bootstrap v5.1
 
-Hoy trabajaremos con dos "themes":
+Hoy trabajaremos con dos *themes* basados en Bootstrap. Partiremos:
 
-- Ejemplo de Bootstrap --> https://getbootstrap.com/docs/5.1/examples/album/
+- descargando un theme de StartBoostrap --> https://startbootstrap.com/theme/landing-page
 
-- Theme de StartBoostrap --> https://startbootstrap.com/theme/landing-page
+- copiando código fuente de un ejemplo de Bootstrap --> https://getbootstrap.com/docs/5.1/examples/album/
 
-Tomaremos partes de ambos para generar uno "propio", con:
+Utilizaremos:
 
-- el `<header>…</header>` y el `<footer>…</footer>` del ejemplo de Bootstrap.
+- los elementos `<header>…</header>` y `<footer>…</footer>` del ejemplo de Bootstrap.
 
 - las `<section>…</section>` del Theme de StartBootstrap, descartando la que tiene identidad `signup` y modificando las que tienen clase `showcase` y `testimonials`.
 
-**Para la modificación del `showcase` utilizaremos una variable que contendrá un arreglo con los datos a desplegar.**
+**Para la modificación del *showcase* utilizaremos una variable que contendrá un arreglo con los datos a desplegar.**
 
 Descartemos las imágenes que vienen con el tema y aprovechemos las imágenas aleatorias de *[Lorem Picsum](https://picsum.photos/). The Lorem Ipsum for photos*:
 
@@ -55,7 +55,7 @@ La condición `(i % 2 == 0)` pregunta si acaso el residuo o resto de dividir `i`
 
 Por lo definido en el `forEach()` ofrecido para copiar, `i` se usa para contar el elemento del arreglo referido como `d` cada vez. Cuando se tiene un arreglo con tres `d`, el valor de `i` es primero `0`, luego `1` y finalmente `2`. En la división de 0 y 2 por 2, el residuo es 0. Por ese residuo 0 sabemos que es par. El número que no cumpla la condición, es impar.
 
-**Para la modificación del `testimonials` haremos `fetch()` de una *free, open-source API for generating random user data. Like Lorem Ipsum, but for people*:**
+**Para la modificación del *testimonials* haremos `fetch()` de una *free, open-source API for generating random user data. Like Lorem Ipsum, but for people*:**
 
 ```
 async function users() {
@@ -66,13 +66,15 @@ async function users() {
 }
 users().catch((error) => console.error(error));
 ```
-De los resultados aprovechemos los datos de `picture.large`, `name.first`, `name.last`, `location.city`, `location.country`, `email`. Con tales datos, la sección cambiará de un *What people are saying...* a un *Contact us*.
+De los `resultados` aprovechemos los datos de `picture.large`, `name.first`, `name.last`, `location.city`, `location.country`, `email`. 
 
-Una vez tengamos nuesta mezcla de *themes* funcionando, comencemos a simplificar la carpeta: 
+Con tales datos, la sección cambiará de un *What people are saying...* a un *Contact us*.
+
+**Una vez tengamos nuesta mezcla de *themes* funcionando, comencemos a simplificar la carpeta descargada al comienzo**: 
 
 > El proceso para alcanzar un estado idóneo de simplicidad puede llegar a ser realmente complejo; permítame, por tanto, que se lo simplifique. *La manera más sencilla de alcanzar la simplicidad es mediante la reducción razonada*. En caso de duda, elimínelo. Pero cuidado con aquello que se elimina (Maeda, 2006:1).
 
-Ideal sería reducir hasta la purificación :pray: https://purifycss.online/
+Ideal sería simplicar hasta la purificación :pray: https://purifycss.online/
 
 - - - - - - - 
 

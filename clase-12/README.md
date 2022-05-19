@@ -51,11 +51,20 @@ datos.forEach((d,i) => {
 
 La condición `(i % 2 == 0)` pregunta si acaso el residuo o resto de la división de `i` por 2 es igual a cero. 
 
-Por lo definido en el `forEach()` ofrecido para copiar, `i` se usa para contar el elemento del arreglo referido como `d` cada vez. Cuando se tiene un arreglo con tres `d`, el valor de `i` es primero `0`, luego `1` y finalmente `2`. En la división de 0 y 2 por 2, el residuo es 0. Por ese residuo cero sabemos que es par. Y el número que no cumpla la condición es impar.
+Por lo definido en el `forEach()` ofrecido para copiar, `i` se usa para contar el elemento del arreglo referido como `d` cada vez. Cuando se tiene un arreglo con tres `d`, el valor de `i` es primero `0`, luego `1` y finalmente `2`. En la división de 0 y 2 por 2, el residuo es 0. Por ese residuo 0 sabemos que es par. Y el número que no cumpla la condición es impar.
 
-**Para la modificación del `testimonials` haremos `fetch()` de una *free, open-source API for generating random user data. Like Lorem Ipsum, but for people*.**
+**Para la modificación del `testimonials` haremos `fetch()` de una *free, open-source API for generating random user data. Like Lorem Ipsum, but for people*:**
 
-https://randomuser.me/api/?results=3
+```
+async function users() {
+    const consulta = await fetch("https://randomuser.me/api/?results=3");
+    const data = await consulta.json();
+    var resultados = data.results;
+    console.log(resultados);
+}
+users().catch((error) => console.error(error));
+```
+Aprovechemos `picture`, `name` (`first` & `last`), `location`(`city` & `country`) e `email`. Con tales datos, la sección cambiará de un *What people are saying...* a algo como *Contact us*.
 
 
 - - - - - - - 

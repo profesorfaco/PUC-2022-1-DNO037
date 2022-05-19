@@ -1,4 +1,4 @@
-### Diseño y Nuevos Medios → Clase 15 → 15/06/2021
+### Diseño y Nuevos Medios → Clase 15 → 15/06/2022
 
 # Diseño y desarrollo
 

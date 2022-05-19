@@ -51,7 +51,7 @@ datos.forEach((d,i) => {
 });
 ```
 
-La condición `(i % 2 == 0)` pregunta si acaso el residuo o resto de la división de `i` por 2 es igual a cero. 
+La condición `(i % 2 == 0)` pregunta si acaso el residuo o resto de dividir `i` en `2` es igual a `0`. 
 
 Por lo definido en el `forEach()` ofrecido para copiar, `i` se usa para contar el elemento del arreglo referido como `d` cada vez. Cuando se tiene un arreglo con tres `d`, el valor de `i` es primero `0`, luego `1` y finalmente `2`. En la división de 0 y 2 por 2, el residuo es 0. Por ese residuo 0 sabemos que es par. Y el número que no cumpla la condición es impar.
 

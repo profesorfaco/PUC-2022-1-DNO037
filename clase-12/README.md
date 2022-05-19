@@ -84,7 +84,7 @@ Ideal sería simplicar hasta la purificación :pray: https://purifycss.online/
 
 Recuerden que para poder usar [PurifyCSS Online](https://purifycss.online/) es necesario tener publicado su trabajo [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
-Un asunto que dejaremos para la última parte de la clase será la revisión de los [Bootstrap Icons](https://icons.getbootstrap.com/). Con ellos podría acompañar de mejor manera algunos cambios de los textos en la parte superior de la página.
+Un asunto que dejaremos para la última parte de la clase será la revisión de los [Bootstrap Icons](https://icons.getbootstrap.com/). Con ellos podríamos acompañar de mejor manera algunos cambios en los textos de la parte superior de nuestra página.
 
 Como en cada clase, obtendremos un ejercicio que puede ser evaluado con:
 

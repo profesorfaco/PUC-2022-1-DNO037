@@ -10,7 +10,7 @@ Hoy trabajaremos con dos *themes* basados en Bootstrap. Partiremos:
 
 Utilizaremos:
 
-- los elementos `<header>…</header>` y `<footer>…</footer>` del ejemplo de Bootstrap.
+- el `<header>…</header>` y el `<footer>…</footer>` del ejemplo de Bootstrap.
 
 - las `<section>…</section>` del Theme de StartBootstrap, descartando la que tiene identidad `signup` y modificando las que tienen clase `showcase` y `testimonials`.
 

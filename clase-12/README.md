@@ -64,7 +64,7 @@ async function users() {
 }
 users().catch((error) => console.error(error));
 ```
-Aprovechemos los datos de `picture.large`, `name.first`, `name.last`, `location.city`, `location.country`, `email`. Con tales datos, la sección cambiará de un *What people are saying...* a un *Contact us*.
+Entre los resultados aprovechemos los datos de `picture.large`, `name.first`, `name.last`, `location.city`, `location.country`, `email`. Con tales datos, la sección cambiará de un *What people are saying...* a un *Contact us*.
 
 
 - - - - - - - 

@@ -12,9 +12,11 @@ Tomaremos partes de ambos para generar uno "propio", con:
 
 - el `<header>…</header>` y el `<footer>…</footer>` del ejemplo de Bootstrap.
 
-- las `<section>…</section>` del Theme de StartBootstrap, descartando la que tiene identidad `signup` y modificando la que tiene clase `showcase` y `testimonials`.
+- las `<section>…</section>` del Theme de StartBootstrap, descartando la que tiene identidad `signup` y modificando las que tienen clase `showcase` y `testimonials`.
 
 **Para la modificación del `showcase` utilizaremos una variable que contendrá un arreglo con los datos a desplegar.**
+
+Descartamos las imágenes que vienen con el tema y aprovechemos las imágenas aleatorias de *Lorem Picsum. The Lorem Ipsum for photos*:
 
 ```
 var datos = [
@@ -64,8 +66,11 @@ async function users() {
 }
 users().catch((error) => console.error(error));
 ```
-Entre los resultados aprovechemos los datos de `picture.large`, `name.first`, `name.last`, `location.city`, `location.country`, `email`. Con tales datos, la sección cambiará de un *What people are saying...* a un *Contact us*.
+De los resultados aprovechemos los datos de `picture.large`, `name.first`, `name.last`, `location.city`, `location.country`, `email`. Con tales datos, la sección cambiará de un *What people are saying...* a un *Contact us*.
 
+Una vez tengamos nuesta mezcla de *themes* funcionando, con contenidos distintos, comencemos a reorganizar la carpeta, eliminando todo aquello que ya no estemos usando.
+
+Ideal sería reorganizar hasta la purificación :pray: https://purifycss.online/
 
 - - - - - - - 
 

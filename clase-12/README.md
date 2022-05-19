@@ -45,7 +45,7 @@ var datos = [
 Con un [`forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) y un [`if...else`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else) construiremos la sección:
 
 ```
-datos.forEach((d) => {
+datos.forEach((d,i) => {
     if (i % 2 == 0) {
       // par
     } else {

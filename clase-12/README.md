@@ -4,9 +4,9 @@
 
 Hoy trabajaremos con dos *themes* basados en Bootstrap. Partiremos:
 
-- descargando un theme de StartBoostrap --> https://startbootstrap.com/theme/landing-page
+- descargando un theme de StartBoostrap → https://startbootstrap.com/theme/landing-page
 
-- copiando código fuente de un ejemplo de Bootstrap --> https://getbootstrap.com/docs/5.1/examples/album/
+- copiando código fuente de un ejemplo de Bootstrap → https://getbootstrap.com/docs/5.1/examples/album/
 
 Utilizaremos:
 
@@ -80,9 +80,9 @@ Con tales datos, la sección cambiará de un *What people are saying...* a un *C
 
 Podemos revisar los [Bootstrap Icons](https://icons.getbootstrap.com/). Con ellos podríamos acompañar de mejor manera algunos cambios en los textos de la parte superior de nuestra página. Probaremos dos modos de uso: 
 
-- fuente tipográfica (Icon Font): *Include the icon web fonts in your page via CSS, then reference the class names as needed in your HTML*
+- Fuente tipográfica (Icon Font) → *Include the icon web fonts in your page via CSS, then reference the class names as needed in your HTML*
 
-- código fuente (SVG): *Embed your icons within the HTML of your page (as opposed to an external image file)…*
+- Código fuente (SVG) → *Embed your icons within the HTML of your page (as opposed to an external image file)…*
 
 Tan pronto estés conforme con el resultado, comienza a simplificar la carpeta descargada al comienzo: 
 

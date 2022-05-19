@@ -32,11 +32,6 @@ var datos = [
         picsum: "https://picsum.photos/900/600?random=3",
         title: "Easy to Use & Customize",
         text: "Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!",
-    },
-    {
-        picsum: "https://picsum.photos/900/600?random=4",
-        title: "Lorem ipsum dolor sit amet",
-        text: "Phasellus tempus eros massa, in bibendum felis posuere ac. Nullam vestibulum erat metus, vel semper magna congue non. Ut placerat accumsan eros, commodo tempor ante sollicitudin sit amet.",
     }
 ];
 

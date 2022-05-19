@@ -1,4 +1,4 @@
-### Diseño y Nuevos Medios → Clase 17 → 29/06/2021
+### Diseño y Nuevos Medios → Clase 17 → 29/06/2022
 
 # Pre-evaluación Nº4
 

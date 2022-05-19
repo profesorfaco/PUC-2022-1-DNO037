@@ -65,12 +65,12 @@ Por lo definido en el `forEach()` ofrecido para copiar, `i` se usa para contar e
 async function users() {
     const consulta = await fetch("https://randomuser.me/api/?results=3");
     const data = await consulta.json();
-    var resultados = data.results;
+    const resultados = data.results;
     console.log(resultados);
 }
 users().catch((error) => console.error(error));
 ```
-De los `resultados` aprovechemos los datos de `picture.large`, `name.first`, `name.last`, `location.city`, `location.country`, `email`. 
+De los `resultados` aprovechemos: `picture.large`, `name.first`, `name.last`, `location.city`, `location.country`, `email`. 
 
 Con tales datos, la sección cambiará de un *What people are saying...* a un *Contact us*.
 
@@ -78,7 +78,7 @@ Con tales datos, la sección cambiará de un *What people are saying...* a un *C
 
 **Una vez tengamos nuesta mezcla de *themes* funcionando, comencemos a simplificar la carpeta descargada al comienzo**: 
 
-> El proceso para alcanzar un estado idóneo de simplicidad puede llegar a ser realmente complejo; permítame, por tanto, que se lo simplifique. *La manera más sencilla de alcanzar la simplicidad es mediante la reducción razonada*. En caso de duda, elimínelo. Pero cuidado con aquello que se elimina (Maeda, 2006:1).
+> El proceso para alcanzar un estado idóneo de simplicidad puede llegar a ser realmente complejo; permítame, por tanto, que se lo simplifique. *La manera más sencilla de alcanzar la simplicidad es mediante la reducción razonada*. En caso de duda, elimínelo. Pero cuidado con aquello que se elimina ([Maeda, 2006:1](https://es.cl1lib.org/book/837058/6200d6)).
 
 Ideal sería simplicar hasta la purificación :pray: https://purifycss.online/
 

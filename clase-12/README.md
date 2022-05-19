@@ -76,15 +76,17 @@ Con tales datos, la sección cambiará de un *What people are saying...* a un *C
 
 - - - - - - - 
 
-**Una vez tengamos nuesta mezcla de *themes* funcionando, comencemos a simplificar la carpeta descargada al comienzo**: 
+**Una vez tengamos nuesta mezcla de *themes* funcionando:**
+
+Podemos revisar los [Bootstrap Icons](https://icons.getbootstrap.com/). Con ellos podríamos acompañar de mejor manera algunos cambios en los textos de la parte superior de nuestra página.
+
+Una vez "todo funcione", podemos comenzar a simplificar la carpeta descargada al comienzo**: 
 
 > El proceso para alcanzar un estado idóneo de simplicidad puede llegar a ser realmente complejo; permítame, por tanto, que se lo simplifique. *La manera más sencilla de alcanzar la simplicidad es mediante la reducción razonada*. En caso de duda, elimínelo. Pero cuidado con aquello que se elimina ([Maeda, 2006:1](https://es.cl1lib.org/book/837058/6200d6)).
 
 Ideal sería simplicar hasta la purificación :pray: https://purifycss.online/
 
 Recuerden que para poder usar [PurifyCSS Online](https://purifycss.online/) es necesario tener publicado su trabajo [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
-
-Un asunto que dejaremos para la última parte de la clase será la revisión de los [Bootstrap Icons](https://icons.getbootstrap.com/). Con ellos podríamos acompañar de mejor manera algunos cambios en los textos de la parte superior de nuestra página.
 
 Como en cada clase, obtendremos un ejercicio que puede ser evaluado con:
 

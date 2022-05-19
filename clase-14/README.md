@@ -32,7 +32,7 @@ Sólo tendrá que usar el **`README.md` de un repositorio final. Allí debe publ
 
 - **¿Para qué es esta propuesta? → objetivo general** → describa, con una frase que comience con un verbo, el beneficio práctico que aportará el resultado de su trabajo.
 
-- **¿Para quiénes es esta propuesta? → usuarios extremos y usuarios promedio** → describa, con formato [Protopersona](https://openpracticelibrary.com/practice/proto-persona/) o [Mapa de Usuario 3C (p.67)](http://www.dsuc.cl/pdf/Creando-valor-a-traves-del-Diseno-de-Servicios-DSUC.pdf), a 2 usuarias/os ubicadas/os en los extremos de lo menos probable y 1 en lo más probable.
+- **¿Para quiénes es esta propuesta? → usuarios extremos y usuarios promedio** → describa a 2 usuarias/os ubicadas/os en los extremos de lo menos probable y 1 en lo más probable, complemente el formato de [Protopersona](https://openpracticelibrary.com/practice/proto-persona/) con parte de este [*template* de persona y escenario](https://github.com/profesorfaco/dno037-2022/blob/main/clase-14/fragmento-sazerac-book.pdf).
 
 - **¿Qué existe que es similar a la propuesta? → antecedentes** → seleccione y describa 6 sitios o aplicaciones web. Se recomienda buscarlos en https://www.awwwards.com/websites/bootstrap/, https://www.instagram.com/webuistylist/ y https://www.instagram.com/web.inspirations/. Se recomienda replicar la [ficha de clasificación de antecedentes de DSUC (p.80)](http://www.dsuc.cl/pdf/Creando-valor-a-traves-del-Diseno-de-Servicios-DSUC.pdf) para presentarlos.
 

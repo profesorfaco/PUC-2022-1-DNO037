@@ -12,9 +12,9 @@ Tomaremos partes de ambos para generar uno "propio", con:
 
 - el `<header>…</header>` y el `<footer>…</footer>` del ejemplo de Bootstrap.
 
-- las `<section>…</section>` del Theme de StartBootstrap, descartando la que tiene identidad `signup` y modificando la que tiene clase `showcase`.
+- las `<section>…</section>` del Theme de StartBootstrap, descartando la que tiene identidad `signup` y modificando la que tiene clase `showcase` y `testimonials`.
 
-Para la modificación utilizaremos una variable que contendrá un arreglo con los datos a desplegar.
+**Para la modificación del `showcase` utilizaremos una variable que contendrá un arreglo con los datos a desplegar.**
 
 ```
 var datos = [
@@ -49,7 +49,14 @@ datos.forEach((d,i) => {
 });
 ```
 
-Tan pronto la sección esté operativa, puede agregar más elementos al arreglo.
+La condición `(i % 2 == 0)` pregunta si acaso el residuo o resto de la división de `i` por 2 es igual a cero. 
+
+Por lo definido en el `forEach()` ofrecido para copiar, `i` se usa para contar el elemento del arreglo referido como `d` cada vez. Cuando se tiene un arreglo con tres `d`, el valor de `i` es primero `0`, luego `1` y finalmente `2`. En la división de 0 y 2 por 2, el residuo es 0. Por ese residuo cero sabemos que es par. Y el número que no cumpla la condición es impar.
+
+**Para la modificación del `testimonials` haremos `fetch()` de una *free, open-source API for generating random user data. Like Lorem Ipsum, but for people*.**
+
+https://randomuser.me/api/?results=3
+
 
 - - - - - - - 
 

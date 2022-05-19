@@ -19,22 +19,22 @@ Para la modificación utilizaremos una variable que contendrá un arreglo con lo
 ```
 var datos = [
     {
-        picsum: "https://picsum.photos/800/400?random=1",
+        picsum: "https://picsum.photos/900/600?random=1",
         title: "Fully Responsive Design",
         text: "When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!",
     },
     {
-        picsum: "https://picsum.photos/800/400?random=2",
+        picsum: "https://picsum.photos/900/600?random=2",
         title: "Updated For Bootstrap 5",
         text: "Newly improved, and full of great utility classes, Bootstrap 5 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 5!",
     },
     {
-        picsum: "https://picsum.photos/800/400?random=3",
+        picsum: "https://picsum.photos/900/600?random=3",
         title: "Easy to Use & Customize",
         text: "Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!",
     },
     {
-        picsum: "https://picsum.photos/800/400?random=4",
+        picsum: "https://picsum.photos/900/600?random=4",
         title: "Lorem ipsum dolor sit amet",
         text: "Phasellus tempus eros massa, in bibendum felis posuere ac. Nullam vestibulum erat metus, vel semper magna congue non. Ut placerat accumsan eros, commodo tempor ante sollicitudin sit amet.",
     }
@@ -42,7 +42,7 @@ var datos = [
 
 ```
 
-Con un [`forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) y un [`if...else`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else) construiremos la sección:
+Con un [`forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) y un [`if...else`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else) reconstruiremos la sección:
 
 ```
 datos.forEach((d,i) => {
@@ -54,7 +54,7 @@ datos.forEach((d,i) => {
 });
 ```
 
-Tan pronto funcione la sección, puede agregar más elementos al arreglo.
+Tan pronto la sección esté operativa, puede agregar más elementos al arreglo.
 
 - - - - - - - 
 

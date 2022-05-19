@@ -68,9 +68,11 @@ users().catch((error) => console.error(error));
 ```
 De los resultados aprovechemos los datos de `picture.large`, `name.first`, `name.last`, `location.city`, `location.country`, `email`. Con tales datos, la sección cambiará de un *What people are saying...* a un *Contact us*.
 
-Una vez tengamos nuesta mezcla de *themes* funcionando, con contenidos distintos, comencemos a reorganizar la carpeta, eliminando todo aquello que ya no estemos usando.
+Una vez tengamos nuesta mezcla de *themes* funcionando, comencemos a simplificar la carpeta: 
 
-Ideal sería reorganizar hasta la purificación :pray: https://purifycss.online/
+> La manera más sencilla de alcanzar la simplicidad es mediante la reducción razonada —Maeda
+
+Ideal sería reducir hasta la purificación :pray: https://purifycss.online/
 
 - - - - - - - 
 

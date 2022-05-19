@@ -78,13 +78,15 @@ Con tales datos, la sección cambiará de un *What people are saying...* a un *C
 
 **Una vez tengamos nuesta mezcla de *themes* funcionando:**
 
-Podemos revisar los [Bootstrap Icons](https://icons.getbootstrap.com/). Con ellos podríamos acompañar de mejor manera algunos cambios en los textos de la parte superior de nuestra página. Probaremos dos modos de uso: 
+Podemos revisar los [Bootstrap Icons](https://icons.getbootstrap.com/). Con ellos podríamos acompañar de mejor manera algunos cambios en los textos de la parte superior de nuestra página. 
+
+Revisemos dos modos de uso: 
 
 - Fuente tipográfica (Icon Font) → *Include the icon web fonts in your page via CSS, then reference the class names as needed…*
 
 - Código fuente (SVG) → *Embed your icons within the HTML of your page (as opposed to an external image file)…*
 
-Tan pronto estés conforme con el resultado, comienza a simplificar la carpeta descargada al comienzo: 
+Tan pronto cada estudiante esté conforme con el resultado, tendrá que comenzar a simplificar la carpeta descargada al comienzo: 
 
 > El proceso para alcanzar un estado idóneo de simplicidad puede llegar a ser realmente complejo; permítame, por tanto, que se lo simplifique. *La manera más sencilla de alcanzar la simplicidad es mediante la reducción razonada*. En caso de duda, elimínelo. Pero cuidado con aquello que se elimina ([Maeda, 2006:1](https://es.cl1lib.org/book/837058/6200d6)).
 

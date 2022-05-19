@@ -22,7 +22,7 @@ Y conviene ver parte de estos videos:
 
 **El sitio web profesional o prototipo avanzado de aplicación web puede ser un autoencargo o un encargo. Generalmente el autoencargo es un portafolio de diseño, y el encargo atiende las necesidades comunicacionales de una empresa**.
 
-:rotating_light:	**RECOMENDACIÓN IMPORTANTE**  :rotating_light:	Pueden enfrentar el (auto)encargo de tienda en línea como vitrina de producos o como prototipo avanzado de aplicación web; para resolverlo como tienda en línea prefieran otra instancia, distinta de este trabajo. En otra instancia usted podrá explorar y aprovechar las herramientas que apoyan a éstas tiendas con sistemas de catálogo, transacción, distribución, etc.
+:rotating_light:	**RECOMENDACIÓN IMPORTANTE**  :rotating_light:	Pueden enfrentar el (auto)encargo de tienda en línea como vitrina de productos o como prototipo avanzado de aplicación web; para resolverlo como tienda en línea prefieran otra instancia, distinta de este trabajo. En otra instancia usted podrá explorar y aprovechar las herramientas que apoyan a éstas tiendas con sistemas de catálogo, transacción, distribución, etc.
 
 - - - - - - - - - - 
 

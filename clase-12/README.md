@@ -16,7 +16,7 @@ Tomaremos partes de ambos para generar uno "propio", con:
 
 **Para la modificación del `showcase` utilizaremos una variable que contendrá un arreglo con los datos a desplegar.**
 
-Descartamos las imágenes que vienen con el tema y aprovechemos las imágenas aleatorias de *Lorem Picsum. The Lorem Ipsum for photos*:
+Descartemos las imágenes que vienen con el tema y aprovechemos las imágenas aleatorias de *Lorem Picsum. The Lorem Ipsum for photos*:
 
 ```
 var datos = [

@@ -42,7 +42,7 @@ var datos = [
 
 ```
 
-Luego con un `forEach()` y un `if...else` construiremos la sección:
+Con un [`forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) y un [`if...else`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else) construiremos la sección:
 
 ```
 datos.forEach((d) => {
@@ -52,9 +52,9 @@ datos.forEach((d) => {
       // impar
     }
 });
+```
 
-
-
+Tan pronto funcione la sección, puede agregar más elementos al arreglo.
 
 - - - - - - - 
 

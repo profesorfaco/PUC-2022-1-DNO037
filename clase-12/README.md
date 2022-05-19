@@ -82,13 +82,11 @@ Con tales datos, la sección cambiará de un *What people are saying...* a un *C
 
 Ideal sería simplicar hasta la purificación :pray: https://purifycss.online/
 
-- - - - - - - 
+Recuerden que para poder usar [PurifyCSS Online](https://purifycss.online/) es necesario tener publicado su trabajo [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
-#### Ejercicio
+Un asunto que dejaremos para la última parte de la clase será la revisión de los [Bootstrap Icons](https://icons.getbootstrap.com/). Con ellos podría acompañar de mejor manera algunos cambios de los textos en la parte superior de la página.
 
-El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
-
-El ejercicio completo puede ser evaluado con:
+Como en cada clase, obtendremos un ejercicio que puede ser evaluado con:
 
 - **0 punto** → no logrado.
 

@@ -16,7 +16,7 @@ Utilizaremos:
 
 - - - - - - - 
 
-**Para la modificación del *showcase*, utilizaremos Javascript, partiendo con una variable que contendrá un arreglo con los datos a desplegar.**
+**Para la modificación del *showcase*, utilizaremos Javascript, desde una variable que contendrá un arreglo con los datos a desplegar.**
 
 Descartemos las imágenes que vienen con el tema y aprovechemos las imágenas aleatorias de *[Lorem Picsum](https://picsum.photos/). The Lorem Ipsum for photos*:
 

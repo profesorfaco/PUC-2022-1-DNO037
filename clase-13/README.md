@@ -16,7 +16,7 @@ Continúe con las modificaciones atendiendo a la siguiente pauta de evaluación:
 | D    | Pendiente hasta el 01/06/2022 |  1,0 |
 | E    | Pendiente hasta el 01/06/2022 |  3,0 |
 
-Puede ganar un punto extra con una reducción razonada de la carpeta del tema descargado.
+Puede hacerse de un punto extra con una reducción razonada de la carpeta del tema descargado.
 
 Tiene hasta las 12.50 hrs. para dejar las direcciones de página y repositorio en el foro que se abrirá al comienzo de la clase.
 

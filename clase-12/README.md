@@ -44,11 +44,15 @@ const datos = [
 Con un [`forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) y un [`if...else`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else) reconstruiremos la sección:
 
 ```
-datos.forEach((d,i) => {
+datos.forEach((d, i) => {
     if (i % 2 == 0) {
-      // par
+        // par
+        document.getElementById("trabajos").innerHTML +=
+            '<div class="row g-0"><div class="col-md-6 order-md-2 text-white showcase-img" style="background-image: url(assets/img/bg-showcase-1.jpg);"></div><div class="col-md-6 order-md-1 my-auto showcase-text"><h2>Uno</h2><p class="lead mb-0">Párrafo de uno</p></div></div>';
     } else {
-      // impar
+        // impar
+        document.querySelector("#trabajos").innerHTML +=
+            '<div class="row g-0"><div class="col-md-6 text-white showcase-img" style="background-image: url(assets/img/bg-showcase-2.jpg);"></div><div class="col-md-6 my-auto showcase-text"><h2>Otro</h2><p class="lead mb-0">Párrafo de otro</p></div></div>';
     }
 });
 ```

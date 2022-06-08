@@ -6,20 +6,6 @@
 
 Copio/pego un texto escrito para otro curso, al que ya me había referido: :rotating_light:  En lo publicado, varios cometen el mismo error: **Descuidan el peso de las imágenes** :rotating_light: 
 
-Para no repetirlo, por favor revisen: 
-
-- https://helpx.adobe.com/es/photoshop-elements/using/optimizing-images.html
-
-- https://nbadiola.com/peso-ideal-fotografia-para-web/
-
-- https://www.espacios.media/guia-definir-optimizar-imagenes/ 
-
-- https://bluekea.com/blog/fotografia/cual-es-la-resolucion-correcta-para-fotografia-en-web 
-
-- https://www.targetinternet.com/a-complete-guide-to-squoosh-what-is-it-and-how-to-use-it/
-
-En la última referencia mencionada, se describe cómo usar https://squoosh.app/
-
 **Si ustedes construyen algo para la Web con imágenes de peso excesivo: Están abusando de la transferencia de datos en la conexión a Internet de cada visitante**. Esta transferencia puede demorar, y en la demora la imagen no se carga. Luego, quien visita lo construído se decepciona porque no ve nada y en cosa de segundos puede retirarse a otro lugar:
 
 - [Tienes 5 segundos](http://www.tienes5segundos.cl/) se llama un viejo clásico local sobre gestión de contenidos digitales. 

@@ -20,6 +20,9 @@ Recomendaciones:
 
 - Para agregar otros elementos gráficos, busque UI Style Guides, y sume lo que crea pertinente. 
 
+Lo que aquí trabajaremos sería el primer paso de un https://www.nngroup.com/videos/design-systems/
+
+
 - - - - - - - 
 
 ###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2022/tree/main/clase-14) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2022/tree/main/clase-16)

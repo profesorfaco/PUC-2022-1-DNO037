@@ -68,7 +68,7 @@ Considerando los días miércoles entre 9 de marzo y 6 de julio, se plantea el s
 
 [Clase 14 → 08/06/2021](https://github.com/profesorfaco/dno037-2022/tree/main/clase-14) → Diseño y desarrollo ✓
 
-[Clase 15 → 15/06/2021](https://github.com/profesorfaco/dno037-2022/tree/main/clase-15) → Diseño y desarrollo
+[Clase 15 → 15/06/2021](https://github.com/profesorfaco/dno037-2022/tree/main/clase-15) → Diseño y desarrollo ✓
 
 [Clase 16 → 22/06/2020](https://github.com/profesorfaco/dno037-2022/tree/main/clase-16) → Diseño y desarrollo
 

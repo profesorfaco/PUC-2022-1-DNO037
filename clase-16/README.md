@@ -43,10 +43,10 @@ Y puedes ver parte de estos videos:
 
 La haré con una auditoría de [Google Lighthouse](https://developers.google.com/web/tools/lighthouse?hl=es), lo que implica revisar 4 dimensiones:
 
-- Performance (2 puntos en verde, 1 en amarillo, 0 en rojo)
-- Accessibility (2 puntos en verde, 1 en amarillo, 0 en rojo)
-- Best Practices (1 punto en verde, 0.75 en amarillo, 0.5 en rojo)
-- SEO (1 punto en verde, 0.75 en amarillo, 0.5 en rojo)
+- Performance → 2 puntos en verde | 1 en amarillo | 0 en rojo
+- Accessibility → 2 puntos en verde | 1 en amarillo | 0 en rojo
+- Best Practices → 1 punto en verde | 0.75 en amarillo | 0.5 en rojo con 25 o más puntos | 0 en rojo con 24 o menos puntos
+- SEO → 1 punto en verde | 0.75 en amarillo | 0.5 en rojo con 25 o más puntos | 0 en rojo con 24 o menos puntos
 
 A tales puntos se le suma un punto base y se obtiene el 7.
 

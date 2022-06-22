@@ -2,16 +2,14 @@
 
 # Pre-evaluación Nº4
 
-Ya se completaron 3 puntos de 7 para la calificación final, [cuyos detalles encontrarán en Google Drive](https://docs.google.com/spreadsheets/d/1Jq_JWwmwsCHphn6ObXPPuwVcePRhkDPyd5IeEVATWO8/edit?usp=sharing). 
+La cuarto evaluación depende de una auditoría con [Google Lighthouse](https://developers.google.com/web/tools/lighthouse?hl=es), lo que implica revisar 4 dimensiones:
 
-Los 4 puntos pendientes se obtienen con resultado de auditoría con [Google Lighthouse](https://developers.google.com/web/tools/lighthouse?hl=es), lo que implica revisar 4 dimensiones:
+- Performance → 2 puntos en verde | 1 en amarillo | 0 en rojo
+- Accessibility → 2 puntos en verde | 1 en amarillo | 0 en rojo
+- Best Practices → 1 punto en verde | 0.75 en amarillo | 0.5 en rojo con 25 o más puntos | 0 en rojo con 24 o menos puntos
+- SEO → 1 punto en verde | 0.75 en amarillo | 0.5 en rojo con 25 o más puntos | 0 en rojo con 24 o menos puntos
 
-- Performance
-- Accessibility
-- Best Practices
-- SEO
-
-Cada dimension en verde significará 1 punto. Cada dimensión en amarillo es 0.75 y cada dimensión en rojo es 0.5 
+A tales puntos se le suma un punto base y se obtiene el 7.
 
 **Con su pre-evaluación, cada estudiante tendrá la posibilidad de hacer modificaciones dentro de una semana y volver a presentar al comienzo de la próxima clase (10.00 hrs. del miércoles 14 de julio) para una evaluación definitiva**. También tendrá la posibilidad de quedarse con la nota de pre-evaluación y solicitar cierre de promedio.
 

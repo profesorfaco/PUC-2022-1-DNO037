@@ -2,6 +2,10 @@
 
 # Diseño y desarrollo
 
+**Esta es la última clase antes de la pre-entrega. Recuerden que le llamo pre-entrega, pero pueden considerarla entrega con opción de re-entrega**.
+
+En esta clase me dedicaré a resolver sus dudas respecto de la implementación de lo que ya han definido en clases recién pasadas, pero antes: Tres cosas.
+
 **Lo primero** será revisar pesos de imágenes que están usando en REAME.md y style guide. 
 
 Copio/pego un texto escrito para otro curso, al que ya me había referido: :rotating_light:  En lo publicado, varios cometen el mismo error: **Descuidan el peso de las imágenes** :rotating_light: 
@@ -35,16 +39,16 @@ Y puedes ver parte de estos videos:
 
 - - - - - - - - - - - - - - - - - - - -
 
-Teniendo listo lo primero, segundo y tercero, completan 3 puntos para la calificación final, [cuyos detalles encontrarán en Google Drive](https://docs.google.com/spreadsheets/d/1Jq_JWwmwsCHphn6ObXPPuwVcePRhkDPyd5IeEVATWO8/edit?usp=sharing). 
+**Y lo tercero** es adelantar el "criterio" de evaluación de su sitio web profesional o prototipo avanzado de aplicación web. 
 
-Recuerden que los puntos pendientes se obtienen de una auditoria de la portada de su sitio web profesional o prototipo avanzado de aplicación web. Haré la auditoría con [Google Lighthouse](https://developers.google.com/web/tools/lighthouse?hl=es), lo que implica revisar 4 dimensiones:
+La haré con una auditoría de [Google Lighthouse](https://developers.google.com/web/tools/lighthouse?hl=es), lo que implica revisar 4 dimensiones:
 
-- Performance
-- Accessibility
-- Best Practices
-- SEO
+- Performance (2 puntos en verde, 1 en amarillo, 0 en rojo)
+- Accessibility (2 puntos en verde, 1 en amarillo, 0 en rojo)
+- Best Practices (1 punto en verde, 0.75 en amarillo, 0.5 en rojo)
+- SEO (1 punto en verde, 0.75 en amarillo, 0.5 en rojo)
 
-Cada dimension en verde es 1 punto. Cada dimensión en amarillo es 0.75 y cada dimensión en rojo es 0.5 
+A tales puntos se le suma un punto base y se obtiene el 7.
 
 - - - - - - - 
 
